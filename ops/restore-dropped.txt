@@ -1,0 +1,20 @@
+.github/workflows/pages.yml
+third_party/indic_transliteration/indic_transliteration/font_converter/__init__.py
+third_party/indic_transliteration/indic_transliteration/font_converter/gaudiya.py
+third_party/indic_transliteration/indic_transliteration/font_converter/krutidev2unicode.py
+third_party/indic_transliteration/indic_transliteration/font_converter/tech_hindi/__init__.py
+third_party/indic_transliteration/indic_transliteration/font_converter/tech_hindi/data/DV-TTVedicNormal ==_ αñ»αÑéαñ¿αñ┐αñòαÑïαñí αñ¬αñ░αñ┐αñ╡αñ░αÑìαññαñ┐αññαÑìαñ░.html
+third_party/wikipedia-corpus/sa/अप__च_दस__प_प_भ_य_....txt
+third_party/wikipedia-corpus/sa/अभ_य_ग_सनम_.txt
+third_party/wikipedia-corpus/sa/अष_ट_ध_य_य_.txt
+third_party/wikipedia-corpus/sa/आस_र_म_ब_प_.txt
+third_party/wikipedia-corpus/sa/औद_य_ग_क_ज_ल_.txt
+third_party/wikipedia-corpus/sa/कन_न_ज_भ_ष_.txt
+third_party/wikipedia-corpus/sa/प_ण_न__.txt
+third_party/wikipedia-corpus/sa/प_र_णम_.txt
+third_party/wikipedia-corpus/sa/पतञ_जल__.txt
+third_party/wikipedia-corpus/sa/मह_भ_रतम_.txt
+third_party/wikipedia-corpus/sa/र_म_यणम_.txt
+third_party/wikipedia-corpus/sa/व_य_करणम_.txt
+third_party/wikipedia-corpus/sa/श_क_ष_.txt
+third_party/wikipedia-corpus/sa/स_स_क_तम_.txt

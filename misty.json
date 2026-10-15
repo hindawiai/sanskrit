@@ -1,0 +1,14 @@
+{
+ "title": "Project Pushkalāvatī / Nirgundi: the Sanskrit parser, its data-driven rule compiler and the Sūtram rule-rewrite language (BUILD-0024 to BUILD-0027)",
+ "version": "BUILD-0027",
+ "upload_type": "software",
+ "description": "The integrated research repository for the Sanskrit source inventory (all 3,983 sūtras as data), a data-driven rule compiler, the observed-form bootstrap, the Sūtram rule-rewrite language, the Sanskrit analysis pipeline, Hindawi ports and Romenagri transliteration tooling. This deposit preserves BUILD-0024, BUILD-0025, BUILD-0026 and BUILD-0027 exactly as delivered: each original archive is included byte for byte, the repository history carries one commit per build, and the final tree is BUILD-0026 with the BUILD-0027 results and correction applied. Twenty files that BUILD-0025 and BUILD-0026 dropped in packaging, including the Pages workflow, are restored from BUILD-0024, and the shell scripts are executable again; SEED-NOTE.md records each. Third-party components keep their own licences.",
+ "license": "MIT",
+ "access_right": "open",
+ "language": "eng",
+ "creators": [{"name": "Choudhary, Abhishek", "affiliation": "AyeAI", "orcid": "0009-0002-0684-8320"}],
+ "keywords": ["Sanskrit", "Aṣṭādhyāyī", "Pāṇini", "parser", "rule compiler", "Sūtram", "Romenagri", "Hindawi", "Project ILM", "Nirgundi"],
+ "programming_language": ["Python", "JavaScript", "C", "Shell"],
+ "repository": "https://github.com/hindawiai/sanskrit",
+ "related_identifiers": []
+}

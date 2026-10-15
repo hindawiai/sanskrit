@@ -1,0 +1,10 @@
+input,native_rmn2acii_bytes,native_acii2rmn,python_encode,python_decode,category,notes
+k,B3 E8,k,k,क्,profile-difference,native reverse returns bare stem; python maps k to क्
+k^,B3 E8 E8,(empty),,,unsupported,caret not in python profile
+chaee_t,B8 E1 C2 E8,chaee_t,chaee_t,चेत्,agree,both round-trip
+sarwam,D7 CF E8 D4 CC E8,sarwam,sarwam,सर्वम्,agree,both round-trip
+paapam,C8 DA C8 CC E8,paapam,paapam,पापम्,agree,both round-trip
+_u_d_dhara_nnam,A8 C4 E8 C5 CF C1 CC E8,_u_d_dhara_nnam,_u_d_dhara_nnam,उद्धरणम्,agree,both round-trip
+chaee_t^,B8 E1 C2 E8 E8,chaee_,,unsupported,caret not in python profile
+k_ha,B3 E8 D8,k_ha,k_ha,क्ह,agree,both round-trip
+_3,33,3,_3,ऽ,profile-difference,native treats _3 as digit 3; python maps _3 to avagraha

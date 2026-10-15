@@ -1,0 +1,19 @@
+BUILD-0025 test log
+Baseline SHA-256: b81e4c0472b935ac7f85406967dffb53ecf5efcc4d20e571b57726fe544bfda7
+
+Native C core:
+  make librmnagri -> PASS (librmnagri.a produced)
+  probe execution -> PASS (see differential CSV)
+
+Flex filter regeneration:
+  flex --version -> command not found
+  apt-get install flex -> permission denied
+  Result: BLOCKED
+
+Rust:
+  cargo test --lib (vidyut-prakriya) -> 57 passed, 0 failed
+
+Python:
+  test_residual_agrees_with_statistics -> SKIPPED (artifacts absent)
+
+No source files modified.

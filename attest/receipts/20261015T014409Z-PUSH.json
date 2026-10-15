@@ -1,0 +1,18 @@
+{
+    "_type": "https://in-toto.io/Statement/v1",
+    "predicateType": "https://project-ilm.org/attestations/candor/v1",
+    "subject": [
+        {
+            "name": "hindawiai/sanskrit",
+            "digest": {
+                "gitCommit": "3f7062d9fa1a91cb386eb1de39314e6b24038f35"
+            }
+        }
+    ],
+    "predicate": {
+        "action": "PUSH",
+        "reason": "seed",
+        "utc": "20261015T014409Z",
+        "host": "ilm01-lin"
+    }
+}

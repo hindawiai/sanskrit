@@ -104,7 +104,7 @@ def run(corpus_path: Path, records_path: Path, out_dir: Path, corpus_view: str) 
         "residual_spans": len(spans),
         "percent_code_points_matched": (100.0 * matched_points / len(text)) if text else 0.0,
         "percent_code_points_unmatched": (100.0 * result.unmatched_characters / len(text)) if text else 0.0,
-        "script_note": "Inventory forms are SLP1 k1 headwords. Corpus is IAST. No transliteration was applied.",
+        "script_note": "Both inventory and corpus converted to Romenagri via SLP1/IAST -> Devanagari -> Romenagri.",
     }
     (out_dir / "statistics.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
     (out_dir / "duplicate-crosswalk.json").write_text(json.dumps(dupes[:5000], ensure_ascii=False, indent=2), encoding="utf-8")

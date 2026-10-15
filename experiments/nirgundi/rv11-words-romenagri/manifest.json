@@ -1,0 +1,27 @@
+{
+  "method": "nirgundi-baseline-literal-v1",
+  "length": "Unicode code points of the decoded string, no normalization",
+  "tie_break": "stable source order, then integer id assigned after sort",
+  "duplicate_policy": "all source records retained; replacement uses first exact surface form",
+  "corpus_file": "data/corpus_rv_1.1_romenagri.json",
+  "corpus_sha256": "c01d54b74d24b4288550373fda9941599b9e795adbff4097c44746e656324400",
+  "records_sha256": "6a445a12d8ab6248e0f0da61f6c196021032f90951fd23a443bed7df8b762000",
+  "corpus_view": "words",
+  "statistics": {
+    "corpus_view": "words",
+    "corpus_code_points": 436,
+    "corpus_bytes": 459,
+    "source_records": 287312,
+    "unique_forms": 193839,
+    "duplicate_form_records": 93473,
+    "ordered_inventory": 193839,
+    "matched_occurrences": 10,
+    "distinct_ids_matched": 9,
+    "matched_code_points": 50,
+    "unmatched_code_points": 386,
+    "residual_spans": 1,
+    "percent_code_points_matched": 11.46788990825688,
+    "percent_code_points_unmatched": 88.53211009174312,
+    "script_note": "Inventory forms are SLP1 k1 headwords. Corpus is IAST. No transliteration was applied."
+  }
+}

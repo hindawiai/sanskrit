@@ -1,0 +1,17 @@
+{
+  "corpus_view": "words",
+  "corpus_code_points": 436,
+  "corpus_bytes": 459,
+  "source_records": 287312,
+  "unique_forms": 193839,
+  "duplicate_form_records": 93473,
+  "ordered_inventory": 193839,
+  "matched_occurrences": 10,
+  "distinct_ids_matched": 9,
+  "matched_code_points": 50,
+  "unmatched_code_points": 386,
+  "residual_spans": 1,
+  "percent_code_points_matched": 11.46788990825688,
+  "percent_code_points_unmatched": 88.53211009174312,
+  "script_note": "Inventory forms are SLP1 k1 headwords. Corpus is IAST. No transliteration was applied."
+}

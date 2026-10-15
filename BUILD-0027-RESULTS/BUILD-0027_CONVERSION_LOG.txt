@@ -1,0 +1,31 @@
+# BUILD-0027 conversion log
+
+Environment: Python 3.10.21, Linux x86_64
+Baseline BUILD-0026: 64bf96b15f8459b0ee6bf0326e8df656a67dab87c8e65e383e286cbdcc048ea5
+
+## Commands
+
+1. IAST to Devanagari with ḷ correction:
+   python3 -c "from scripts.conversion.iast_devanagari import iast_to_devanagari; print(iast_to_devanagari('īḷe'))"
+   Result: ईळे
+   Exit: 0
+
+2. Regenerate corpus:
+   python3 (inline) reading data/corpus_rv_1.1.json, writing data/corpus_rv_1.1_romenagri.json
+   Rejected words retained as original IAST.
+   Exit: 0
+
+3. Regenerate experiment:
+   python3 scripts/nirgundi/run_experiment.py \
+     --corpus data/corpus_rv_1.1_romenagri.json \
+     --records data/external/mw/mw-k1-romenagri.jsonl \
+     --out experiments/nirgundi/rv11-words-romenagri \
+     --view words
+   Exit: 0
+   matched_occurrences: 10
+   distinct_ids_matched: 9
+
+4. Tests:
+   python3 -m unittest tests.test_nirgundi_experiment -v
+   Exit: 0
+   2 passed

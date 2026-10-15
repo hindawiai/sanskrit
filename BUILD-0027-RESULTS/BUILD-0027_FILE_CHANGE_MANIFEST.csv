@@ -1,2 +1,5 @@
 path,change,reason
-BUILD-0027-RESULTS/,added,audit deliverables
+scripts/conversion/iast_devanagari.py,added,IAST to Devanagari with ḷ correction
+data/corpus_rv_1.1_romenagri.json,modified,regenerated with corrected conversion; rejected retained as IAST
+BUILD-0027-RESULTS/BUILD-0027_RV_CONVERSION_AUDIT.csv,modified,reclassified rayim/yam; īḷe intermediate corrected
+experiments/nirgundi/rv11-words-romenagri/,regenerated,experiment rerun

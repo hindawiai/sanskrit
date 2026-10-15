@@ -1,48 +1,48 @@
-verse,word,iast,devanagari,romenagri,status,reason
-0,0,agnim,अग्निम्,_agnim,full,
-0,1,īḷe,ईऌए,,rejected,unmapped codepoint U+090C at 1
-0,2,puraḥ-hitam,पुरः-हितम्,,rejected,unmapped codepoint U+002D at 4
-0,3,yajñasya,यज्ञस्य,yaj_ynasya,full,
-0,4,devam,देवम्,_daeewam,full,
-0,5,ṛtvijam,ऋत्विजम्,_ri_twijam,full,
-0,6,hotāram,होतारम्,_hoa_taaram,full,
-0,7,ratna-dhātamam,रत्न-धातमम्,,rejected,unmapped codepoint U+002D at 4
-1,0,agniḥ,अग्निः,_agni_hh,full,
-1,1,pūrvebhiḥ,पूर्वेभिः,poorwaeebhi_hh,full,
-1,2,ṛṣi-bhiḥ,ऋषि-भिः,,rejected,unmapped codepoint U+002D at 3
-1,3,īḍyaḥ,ईड्यः,_eedy_hh,full,
-1,4,nūtanaiḥ,नूतनैः,noo_tanai_hh,full,
-1,5,uta,उत,_u_ta,full,
-1,6,saḥ,सः,s_hh,full,
-1,7,devān,देवान्,_daeewaan,full,
-1,8,ā,आ,_aa,full,
-1,9,iha,इह,_i_ha,full,
-1,10,vakṣati,वक्षति,wakxa_ti,full,
-2,0,agninā,अग्निना,_agninaa,full,
-2,1,rayim,रयिम्,rayim,unchanged,output equals input
-2,2,aśnavat,अश्नवत्,_ashnawa_t,full,
-2,3,poṣam,पोषम्,poaxam,full,
-2,4,eva,एव,_aeewa,full,
-2,5,dive--dive,दिवे--दिवे,,rejected,unmapped codepoint U+002D at 4
-2,6,yaśasam,यशसम्,yashasam,full,
-2,7,vīravat-tamam,वीरवत्-तमम्,,rejected,unmapped codepoint U+002D at 6
-3,0,agne,अग्ने,_agnaee,full,
-3,1,yam,यम्,yam,unchanged,output equals input
-3,2,yajñam,यज्ञम्,yaj_ynam,full,
-3,3,adhvaram,अध्वरम्,_a_dhwaram,full,
-3,4,viśvataḥ,विश्वतः,wishwa_t_hh,full,
-3,5,pari-bhūḥ,परि-भूः,,rejected,unmapped codepoint U+002D at 3
-3,6,asi,असि,_asi,full,
-3,7,saḥ,सः,s_hh,full,
-3,8,it,इत्,_i_t,full,
-3,9,deveṣu,देवेषु,_daeewaeexu,full,
-3,10,gacchati,गच्छति,gachchha_ti,full,
-4,0,agniḥ,अग्निः,_agni_hh,full,
-4,1,hotā,होता,_hoa_taa,full,
-4,2,kavi-kratuḥ,कवि-क्रतुः,,rejected,unmapped codepoint U+002D at 3
-4,3,satyaḥ,सत्यः,sa_ty_hh,full,
-4,4,citraśravaḥ-tamaḥ,चित्रश्रवः-तमः,,rejected,unmapped codepoint U+002D at 10
-4,5,devaḥ,देवः,_daeew_hh,full,
-4,6,devebhiḥ,देवेभिः,_daeewaeebhi_hh,full,
-4,7,ā,आ,_aa,full,
-4,8,gamat,गमत्,gama_t,full,
+verse,word,iast,devanagari,romenagri,status,retained_as,reason
+0,0,agnim,अग्निम्,_agnim,full,romenagri,
+0,1,īḷe,ईळे,,rejected,iast,unmapped codepoint U+0933 at 1
+0,2,puraḥ-hitam,पुरः-हितम्,,rejected,iast,unmapped codepoint U+002D at 4
+0,3,yajñasya,यज्ञस्य,yaj_ynasya,full,romenagri,
+0,4,devam,देवम्,_daeewam,full,romenagri,
+0,5,ṛtvijam,ऋत्विजम्,_ri_twijam,full,romenagri,
+0,6,hotāram,होतारम्,_hoa_taaram,full,romenagri,
+0,7,ratna-dhātamam,रत्न-धातमम्,,rejected,iast,unmapped codepoint U+002D at 4
+1,0,agniḥ,अग्निः,_agni_hh,full,romenagri,
+1,1,pūrvebhiḥ,पूर्वेभिः,poorwaeebhi_hh,full,romenagri,
+1,2,ṛṣi-bhiḥ,ऋषि-भिः,,rejected,iast,unmapped codepoint U+002D at 3
+1,3,īḍyaḥ,ईड्यः,_eedy_hh,full,romenagri,
+1,4,nūtanaiḥ,नूतनैः,noo_tanai_hh,full,romenagri,
+1,5,uta,उत,_u_ta,full,romenagri,
+1,6,saḥ,सः,s_hh,full,romenagri,
+1,7,devān,देवान्,_daeewaan,full,romenagri,
+1,8,ā,आ,_aa,full,romenagri,
+1,9,iha,इह,_i_ha,full,romenagri,
+1,10,vakṣati,वक्षति,wakxa_ti,full,romenagri,
+2,0,agninā,अग्निना,_agninaa,full,romenagri,
+2,1,rayim,रयिम्,rayim,full,romenagri,output equals source spelling
+2,2,aśnavat,अश्नवत्,_ashnawa_t,full,romenagri,
+2,3,poṣam,पोषम्,poaxam,full,romenagri,
+2,4,eva,एव,_aeewa,full,romenagri,
+2,5,dive--dive,दिवे--दिवे,,rejected,iast,unmapped codepoint U+002D at 4
+2,6,yaśasam,यशसम्,yashasam,full,romenagri,
+2,7,vīravat-tamam,वीरवत्-तमम्,,rejected,iast,unmapped codepoint U+002D at 6
+3,0,agne,अग्ने,_agnaee,full,romenagri,
+3,1,yam,यम्,yam,full,romenagri,output equals source spelling
+3,2,yajñam,यज्ञम्,yaj_ynam,full,romenagri,
+3,3,adhvaram,अध्वरम्,_a_dhwaram,full,romenagri,
+3,4,viśvataḥ,विश्वतः,wishwa_t_hh,full,romenagri,
+3,5,pari-bhūḥ,परि-भूः,,rejected,iast,unmapped codepoint U+002D at 3
+3,6,asi,असि,_asi,full,romenagri,
+3,7,saḥ,सः,s_hh,full,romenagri,
+3,8,it,इत्,_i_t,full,romenagri,
+3,9,deveṣu,देवेषु,_daeewaeexu,full,romenagri,
+3,10,gacchati,गच्छति,gachchha_ti,full,romenagri,
+4,0,agniḥ,अग्निः,_agni_hh,full,romenagri,
+4,1,hotā,होता,_hoa_taa,full,romenagri,
+4,2,kavi-kratuḥ,कवि-क्रतुः,,rejected,iast,unmapped codepoint U+002D at 3
+4,3,satyaḥ,सत्यः,sa_ty_hh,full,romenagri,
+4,4,citraśravaḥ-tamaḥ,चित्रश्रवः-तमः,,rejected,iast,unmapped codepoint U+002D at 10
+4,5,devaḥ,देवः,_daeew_hh,full,romenagri,
+4,6,devebhiḥ,देवेभिः,_daeewaeebhi_hh,full,romenagri,
+4,7,ā,आ,_aa,full,romenagri,
+4,8,gamat,गमत्,gama_t,full,romenagri,

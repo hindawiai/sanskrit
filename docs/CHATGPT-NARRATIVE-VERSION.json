@@ -1,0 +1,21 @@
+{
+  "document_id": "HINDAWI-CHATGPT-NARRATIVE",
+  "version": "1.0.0",
+  "created": "2026-10-13",
+  "path": "docs/HINDAWI-CHATGPT-PROJECT-NARRATIVE.md",
+  "status": "versioned-project-narrative",
+  "scope": [
+    "Hindawi/HPS",
+    "Chintamani",
+    "BangaBhasha",
+    "Shaili",
+    "Romenagri",
+    "multilingual-port-matrix",
+    "Sanchalan-Suktam",
+    "QEMU-evidence",
+    "archive-provenance",
+    "test-boundaries"
+  ],
+  "update_policy": "Update version history and evidence against the current source tree; do not treat carried-forward test reports as freshly reproduced.",
+  "source_archive": "pushkalavati-combined-grok-latest-and-chatgpt-2026-10-13(1).zip"
+}

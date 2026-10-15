@@ -1,0 +1,42 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 4314,
+    "sha256": "31a43c6e9161590e2a6ea0f5b1d467ab4d7ebe96ede78804a04bfdf39cc84407"
+  },
+  {
+    "path": "licenses/ATTRIBUTION.md",
+    "bytes": 1657,
+    "sha256": "d47e58ba6714e7f861cd1827785da554dd3557d08e454d836c409527575b78c9"
+  },
+  {
+    "path": "licenses/CC-BY-NC-SA-3.0-URL.txt",
+    "bytes": 240,
+    "sha256": "68a96ac1f7115414aeecd559476405896a0ce0f22944ca4d4f02cb42522aa1f1"
+  },
+  {
+    "path": "licenses/CDSL-LICENSE-URL.txt",
+    "bytes": 212,
+    "sha256": "be398c734bd121d00c0320df2242921e5d26c7d5a9bfa286d0a8ffd155a4e877"
+  },
+  {
+    "path": "licenses/RIGHTS_NOTES.md",
+    "bytes": 1776,
+    "sha256": "d1b9b282791133ab3303f562c32af32b9b9fa4c8b5d0a2a3676c1d5ab6476f2d"
+  },
+  {
+    "path": "metadata/source_registry.json",
+    "bytes": 5030,
+    "sha256": "8ba3b3567ad958e9f8ad3b33d7b1e7976c16f57b7825ff6ae322f5988d5be170"
+  },
+  {
+    "path": "scripts/download_csl_mw.py",
+    "bytes": 1833,
+    "sha256": "957e460fc3f7cec05fd0d0ff7ad5c0696053879966784ad4b7b7f3ada49373bc"
+  },
+  {
+    "path": "sources/README.md",
+    "bytes": 595,
+    "sha256": "d5ef3518f240075e01b0c86a5ef07fee7aa8611777c659475b00c5123df765d4"
+  }
+]

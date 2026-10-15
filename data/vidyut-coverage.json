@@ -1,0 +1,29 @@
+{
+  "vidyut_source": "ambuda-org/vidyut vidyut-prakriya, MIT, vendored under third_party/",
+  "vidyut_unique_rule_ids_in_src": 2153,
+  "matched_to_our_3983": 2153,
+  "not_in_vidyut": 1830,
+  "by_type": {
+    "samjna": {
+      "vidyut": 86,
+      "total": 200
+    },
+    "paribhasha": {
+      "vidyut": 2,
+      "total": 23
+    },
+    "vidhi": {
+      "vidyut": 2015,
+      "total": 3629
+    },
+    "atidesha": {
+      "vidyut": 35,
+      "total": 67
+    },
+    "adhikara": {
+      "vidyut": 15,
+      "total": 64
+    }
+  },
+  "note": "vidyut_implemented means the sutra id appears in Vidyut source. It is not our executor."
+}

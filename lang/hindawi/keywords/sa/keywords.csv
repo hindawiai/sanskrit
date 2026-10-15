@@ -1,0 +1,42 @@
+source,c_token,kind,review_status,notes
+यदि,if,keyword,proposed,
+अन्यथा,else,keyword,proposed,
+यावत्,while,keyword,proposed,
+कृते,for,keyword,proposed,
+विरम,break,keyword,proposed,
+अनुवर्त,continue,keyword,proposed,
+प्रतिदाय,return,keyword,proposed,
+शून्यम्,void,type,proposed,
+चर,char,type,proposed,
+पूर्णाङ्क,int,type,proposed,
+दीर्घाङ्क,long,type,proposed,
+यदि-सत्य,true,literal-extension,proposed; C has no built-in true keyword in C90,
+यदि-असत्य,false,literal-extension,proposed; C has no built-in false keyword in C90,
+मुख्य,main,implementation-entrypoint,proposed,
+,auto,not-yet-mapped,missing,Canonical C token not yet mapped
+,_Bool,not-yet-mapped,missing,Canonical C token not yet mapped
+,const,not-yet-mapped,missing,Canonical C token not yet mapped
+,double,not-yet-mapped,missing,Canonical C token not yet mapped
+,enum,not-yet-mapped,missing,Canonical C token not yet mapped
+,extern,not-yet-mapped,missing,Canonical C token not yet mapped
+,float,not-yet-mapped,missing,Canonical C token not yet mapped
+,goto,not-yet-mapped,missing,Canonical C token not yet mapped
+,inline,not-yet-mapped,missing,Canonical C token not yet mapped
+,register,not-yet-mapped,missing,Canonical C token not yet mapped
+,restrict,not-yet-mapped,missing,Canonical C token not yet mapped
+,short,not-yet-mapped,missing,Canonical C token not yet mapped
+,signed,not-yet-mapped,missing,Canonical C token not yet mapped
+,sizeof,not-yet-mapped,missing,Canonical C token not yet mapped
+,static,not-yet-mapped,missing,Canonical C token not yet mapped
+,struct,not-yet-mapped,missing,Canonical C token not yet mapped
+,switch,not-yet-mapped,missing,Canonical C token not yet mapped
+,typedef,not-yet-mapped,missing,Canonical C token not yet mapped
+,union,not-yet-mapped,missing,Canonical C token not yet mapped
+,unsigned,not-yet-mapped,missing,Canonical C token not yet mapped
+,volatile,not-yet-mapped,missing,Canonical C token not yet mapped
+,do,not-yet-mapped,missing,Canonical C token not yet mapped
+,case,not-yet-mapped,missing,Canonical C token not yet mapped
+,default,not-yet-mapped,missing,Canonical C token not yet mapped
+,return-value conventions,not-yet-mapped,missing,Canonical C token not yet mapped
+,preprocessor directives,not-yet-mapped,missing,Canonical C token not yet mapped
+,C23 keywords,not-yet-mapped,missing,Canonical C token not yet mapped

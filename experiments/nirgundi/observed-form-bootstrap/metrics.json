@@ -1,0 +1,19 @@
+{
+  "experiment": "Nirgundi observed-form bootstrap",
+  "method_version": "observed-form-literal-substitution/1",
+  "source_records": 3983,
+  "distinct_observed_forms": 6248,
+  "records_with_at_least_one_literal_match": 3981,
+  "records_without_literal_match": 2,
+  "substitution_occurrences": 19283,
+  "distinct_residual_tokens": 2483,
+  "residual_token_occurrences": 3217,
+  "sutra_code_points": 73356,
+  "covered_code_points_estimate": 50031,
+  "character_coverage_estimate_percent": 68.2,
+  "coverage_note": "Sum of literal matched-form lengths over the original sutra text; overlapping matches and sequential replacement mean this is an estimate, not linguistic coverage.",
+  "tokenization": "Split term, padaccheda, gloss, and anuvrtti[].term on whitespace, danda, double danda, comma, and semicolon; no transliteration or Unicode normalization.",
+  "replacement": "Exact literal string replacement in sutra field, forms ordered by descending code-point length then lexical order; already replaced text is protected by integer markers.",
+  "source_sha256": "7b3d6a62aa0ec51ce21fdd9e4d0f876b688ff9c90de18a6d5685fe812ff23342",
+  "source_file": "data/sutras.json"
+}

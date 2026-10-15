@@ -1,0 +1,3 @@
+CDSL csl-orig licence: CC BY-SA 4.0
+Official repository licence URL: https://github.com/sanskrit-lexicon/csl-orig/blob/main/LICENSE
+Official licence text: https://creativecommons.org/licenses/by-sa/4.0/legalcode

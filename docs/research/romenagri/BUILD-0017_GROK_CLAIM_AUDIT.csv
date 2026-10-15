@@ -1,0 +1,16 @@
+claim_id,grok_claim,test_surface,observed_evidence,assessment,required_followup
+GROK-001,"156 failures / 2,000",Count arithmetic,52 + 104 = 156; internally consistent count,PASS_ARITHMETIC_ONLY,Does not validate corpus outcomes
+GROK-002,91.5% exact success,Percentage consistency,156 failures implies 92.2% success; 91.5% implies 170 failures,INCONSISTENT,Need denominator/exclusion rule
+GROK-003,52 unsupported rows include U+093D avagraha (19),Current strict encoder,ऽ -> _3 -> ऽ exact,CONTRADICTED_BY_CURRENT_BUILD,Raw corpus/implementation used by Grok absent
+GROK-004,101/104 mismatches caused by terminal virama stripping,Current strict Python word encoder,All four quoted words round-trip exactly,NOT_REPRODUCED,Need all 104 raw rows and implementation revision
+GROK-005,Original 2004 decoder strips terminal virama,Legacy implementation,Project owner states 2004 decoder handles terminal virama correctly,REJECTED_AS_STATED,Do not attribute the Python reconstruction issue to legacy C
+GROK-006,Curly quotes unsupported,Strict base encoder,U+2018/U+201C/U+201D return explicit unmapped status,CONFIRMED_GAP,Lossless wrapper now preserves via ~{HEX}
+GROK-007,Candra o U+0949 unsupported,Strict base encoder,Unmapped by strict encoder,CONFIRMED_GAP,Lossless wrapper escapes grapheme cluster
+GROK-008,Candra e U+0945 unsupported,Strict base encoder,Unmapped by strict encoder,CONFIRMED_GAP,Lossless wrapper escapes grapheme cluster
+GROK-009,Nukta U+093C unsupported,Strict base encoder,Unmapped by strict encoder,CONFIRMED_GAP,Lossless wrapper escapes grapheme cluster
+GROK-010,ZWJ U+200D unsupported,Strict base encoder,Unmapped by strict encoder,CONFIRMED_GAP,Lossless wrapper escapes the affected cluster
+GROK-011,En/em dash unsupported,Strict base encoder,U+2013/U+2014 return explicit unmapped status,CONFIRMED_GAP,Lossless wrapper preserves exact code point
+GROK-012,"IAST/HK/SLP1 aggregate counts on 2,000-word sample",External schemes,Exact corpus and per-row outputs not supplied,NOT_REPRODUCED,Only the 13-item Rahnuma fixture was run
+GROK-013,Three of 104 changed outputs unexplained,Failure taxonomy,Raw rows absent,UNRESOLVED,Must enumerate every changed case
+GROK-014,Double danda / numerals / punctuation,Additional frontend gap,U+0965 unsupported by strict encoder; digits and punctuation are escaped by lossless wrapper,CONFIRMED_SCOPE_GAP,Define preservation vs normalization policy
+GROK-015,Grok BUILD-0016 compared against assistant BUILD-0016,Build identity,Only one distinct mounted archive; SHA matches prior assistant archive,CANNOT_DIFF_TWO_BUILDS,Re-upload Grok archive with a distinct filename/hash

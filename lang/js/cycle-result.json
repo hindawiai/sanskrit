@@ -1,0 +1,1134 @@
+{
+  "scope": "selected hand-translated prototype slice; not full Aṣṭādhyāyī coverage",
+  "sutras": 22,
+  "sections": [
+    "1.1",
+    "1.4",
+    "2.3",
+    "3.1",
+    "4.1",
+    "6.1",
+    "7.3",
+    "8.3"
+  ],
+  "meta_steps": 56,
+  "meta_rule_fires": {
+    "samjna-pratyahara-expand": 8,
+    "advance": 22,
+    "anuvrtti-pull": 11,
+    "adhikara-propagate": 8,
+    "atidesha-stamp": 5,
+    "ekadesha-propagate": 2
+  },
+  "gained_sutra_ids": [
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.71",
+    "1.4.24",
+    "1.4.54",
+    "3.1.2",
+    "4.1.1",
+    "4.1.2",
+    "6.1.77",
+    "6.1.84",
+    "6.1.87",
+    "6.1.101",
+    "7.3.82",
+    "7.3.84",
+    "8.3.14",
+    "8.3.15"
+  ],
+  "para_self_check": "later",
+  "operational_examples": [
+    {
+      "left": "nadii",
+      "right": "aa",
+      "form": "nadyaa",
+      "rule": "6.1.77",
+      "trace": [
+        "6.1.77 iko yan aci"
+      ]
+    },
+    {
+      "left": "upa",
+      "right": "indra",
+      "form": "upendra",
+      "rule": "6.1.87",
+      "trace": [
+        "6.1.87 aad gunah"
+      ]
+    },
+    {
+      "left": "vidyaa",
+      "right": "aalaya",
+      "form": "vidyaalaya",
+      "rule": "6.1.101",
+      "trace": [
+        "6.1.101 akah savarne dirghah"
+      ]
+    },
+    {
+      "left": "daNDa",
+      "right": "agra",
+      "form": "daNDaagra",
+      "rule": "6.1.101",
+      "trace": [
+        "6.1.101 akah savarne dirghah"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "1.1.1",
+      "section": "1.1 samjna",
+      "type": "samjna",
+      "term": "वृद्धि",
+      "sutra": "वृद्धिरादैच्",
+      "padaccheda": "वृद्धिः १/१ आत्-ऐच् १/१",
+      "anuvrtti_field": [],
+      "gloss": "आत्-ऐच् वृद्धिः",
+      "introduces": [
+        {
+          "term": "वृद्धिः",
+          "role": "samjna",
+          "continues": false
+        },
+        {
+          "term": "आत्",
+          "role": "members",
+          "continues": false
+        },
+        {
+          "term": "ऐच्",
+          "role": "members",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Names aa, ai, au as vrddhi. Padaccheda is आत्-ऐच्, long a, not short a.",
+      "inherited": [],
+      "resolved": [
+        {
+          "term": "ऐच्",
+          "via": "1.1.71",
+          "value": [
+            "ai",
+            "au"
+          ]
+        },
+        {
+          "term": "वृद्धिः",
+          "via": "1.1.1+1.1.71",
+          "value": [
+            "aa",
+            "ai",
+            "au"
+          ]
+        }
+      ],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.1.2",
+      "section": "1.1 samjna",
+      "type": "samjna",
+      "term": "गुण",
+      "sutra": "अदेङ् गुणः",
+      "padaccheda": "अत्-एङ् १/१ गुणः १/१",
+      "anuvrtti_field": [],
+      "gloss": "अत्-एङ् गुणः",
+      "introduces": [
+        {
+          "term": "गुणः",
+          "role": "samjna",
+          "continues": false
+        },
+        {
+          "term": "अत्",
+          "role": "members",
+          "continues": false
+        },
+        {
+          "term": "एङ्",
+          "role": "members",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Names a, e, o as guna.",
+      "inherited": [],
+      "resolved": [
+        {
+          "term": "एङ्",
+          "via": "1.1.71",
+          "value": [
+            "e",
+            "o"
+          ]
+        },
+        {
+          "term": "गुणः",
+          "via": "1.1.2+1.1.71",
+          "value": [
+            "a",
+            "e",
+            "o"
+          ]
+        }
+      ],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.1.3",
+      "section": "1.1 paribhasha",
+      "type": "paribhasha",
+      "term": null,
+      "sutra": "इको गुणवृद्धी",
+      "padaccheda": "इकः ६/१ गुण-वृद्धी १/२",
+      "anuvrtti_field": [
+        {
+          "term": "वृद्धिः",
+          "from": "1.1.1"
+        },
+        {
+          "term": "गुणः",
+          "from": "1.1.2"
+        }
+      ],
+      "gloss": "गुणः, वृद्धिः (इत्येताभ्यां निर्दिष्टौ) गुण-वृद्धी इकः",
+      "introduces": [
+        {
+          "term": "इकः",
+          "role": "sthana",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Surface is only ikah + gunavrddhi. Guna and vrddhi arrive by anuvrtti from 1.1.1 and 1.1.2.",
+      "inherited": [
+        {
+          "term": "वृद्धिः",
+          "from": "1.1.1",
+          "via": "anuvrtti",
+          "source_has_term": true
+        },
+        {
+          "term": "गुणः",
+          "from": "1.1.2",
+          "via": "anuvrtti",
+          "source_has_term": true
+        }
+      ],
+      "resolved": [
+        {
+          "term": "इकः",
+          "via": "1.1.71",
+          "value": [
+            "i",
+            "u",
+            "R",
+            "L"
+          ]
+        }
+      ],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.1.56",
+      "section": "1.1 atidesha",
+      "type": "atidesha",
+      "term": null,
+      "sutra": "स्थानिवदादेशोऽनल्विधौ",
+      "padaccheda": "स्थानिवत् ०/० आदेशः १/१ अनल्विधौ ७/१",
+      "anuvrtti_field": [],
+      "gloss": "अनल्विधौ आदेशः स्थानिवत्",
+      "introduces": [
+        {
+          "term": "स्थानिवत्",
+          "role": "atidesha",
+          "continues": true
+        },
+        {
+          "term": "आदेशः",
+          "role": "target",
+          "continues": true
+        },
+        {
+          "term": "अनल्विधौ",
+          "role": "exception",
+          "continues": true
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "A substitute is treated like the original, except in a rule whose condition is a sound.",
+      "inherited": [],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.1.71",
+      "section": "1.1 samjna",
+      "type": "samjna",
+      "term": "प्रत्याहार",
+      "sutra": "आदिरन्त्येन सहेता",
+      "padaccheda": "आदिः १/१ अन्त्येन ३/१ सह ०/० इता ३/१",
+      "anuvrtti_field": [
+        {
+          "term": "स्वम्",
+          "from": "1.1.68"
+        },
+        {
+          "term": "रूपम्",
+          "from": "1.1.68"
+        }
+      ],
+      "gloss": "अन्त्येन इता सह आदिः स्वस्य रूपस्य",
+      "introduces": [
+        {
+          "term": "आदिः",
+          "role": "pratyahara-start",
+          "continues": false
+        },
+        {
+          "term": "इता",
+          "role": "pratyahara-end",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "A pratyahara is the span from an initial sound up to a closing it-marker. This is what lets guna/ik/ac be sets rather than names.",
+      "inherited": [
+        {
+          "term": "स्वम्",
+          "from": "1.1.68",
+          "via": "anuvrtti",
+          "source_has_term": false
+        },
+        {
+          "term": "रूपम्",
+          "from": "1.1.68",
+          "via": "anuvrtti",
+          "source_has_term": false
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.4.2",
+      "section": "1.4 paribhasha",
+      "type": "paribhasha",
+      "term": null,
+      "sutra": "विप्रतिषेधे परं कार्यम्",
+      "padaccheda": "विप्रतिषेधे ७/१ परम् १/१ कार्यम् १/१",
+      "anuvrtti_field": [],
+      "gloss": "विप्रतिषेधे परं कार्यम्",
+      "introduces": [
+        {
+          "term": "विप्रतिषेधे",
+          "role": "condition",
+          "continues": false
+        },
+        {
+          "term": "परम्",
+          "role": "winner",
+          "continues": false
+        },
+        {
+          "term": "कार्यम्",
+          "role": "karya",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "In a conflict, the later operation. This is the rule Engine.step already implements as its tie-break.",
+      "inherited": [],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.4.23",
+      "section": "1.4 adhikara",
+      "type": "samjna",
+      "term": "कारक",
+      "sutra": "कारके",
+      "padaccheda": "कारके ७/१",
+      "anuvrtti_field": [],
+      "gloss": null,
+      "introduces": [
+        {
+          "term": "कारके",
+          "role": "adhikara",
+          "continues": true
+        }
+      ],
+      "adhikara": {
+        "term": "कारके",
+        "scopeUntil": "1.4.56"
+      },
+      "governs": null,
+      "note": "Locative heading. Data anuvrtti of 1.4.24 is empty; the gloss still contains karakam. Propagation is the cycle, not the field.",
+      "inherited": [],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.4.24",
+      "section": "1.4 samjna",
+      "type": "samjna",
+      "term": "कारक",
+      "sutra": "ध्रुवमपायेऽपादानम्",
+      "padaccheda": "ध्रुवम् १/१ अपाये ७/१ अपादानम् १/१",
+      "anuvrtti_field": [],
+      "gloss": "अपाये ध्रुवम् कारकम् अपादानम्",
+      "introduces": [
+        {
+          "term": "ध्रुवम्",
+          "role": "defined",
+          "continues": false
+        },
+        {
+          "term": "अपाये",
+          "role": "condition",
+          "continues": false
+        },
+        {
+          "term": "अपादानम्",
+          "role": "samjna",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Fixed point of departure is apadana. Karaka is not in this sutra's own words.",
+      "inherited": [
+        {
+          "term": "कारके",
+          "from": "1.4.23",
+          "via": "adhikara"
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "1.4.54",
+      "section": "1.4 samjna",
+      "type": "samjna",
+      "term": "कारक",
+      "sutra": "स्वतन्त्रः कर्ता",
+      "padaccheda": "स्वतन्त्रः १/१ कर्ता १/१",
+      "anuvrtti_field": [],
+      "gloss": null,
+      "introduces": [
+        {
+          "term": "स्वतन्त्रः",
+          "role": "defined",
+          "continues": false
+        },
+        {
+          "term": "कर्ता",
+          "role": "samjna",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "The independent participant is karta. Same karake heading as 1.4.24; this file's gloss is null, so the attachment is not gloss-confirmed.",
+      "inherited": [
+        {
+          "term": "कारके",
+          "from": "1.4.23",
+          "via": "adhikara"
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "2.3.2",
+      "section": "2.3 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "कर्मणि द्वितीया",
+      "padaccheda": "कर्मणि ७/१ द्वितीया १/१",
+      "anuvrtti_field": [],
+      "gloss": null,
+      "introduces": [
+        {
+          "term": "कर्मणि",
+          "role": "condition",
+          "continues": false
+        },
+        {
+          "term": "द्वितीया",
+          "role": "vibhakti",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Karma is expressed by the second triplet. anuvrtti and gloss are both empty here, so the cycle must not invent anabhihite.",
+      "inherited": [],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "3.1.1",
+      "section": "3.1 adhikara",
+      "type": "samjna",
+      "term": "प्रत्यय",
+      "sutra": "प्रत्ययः",
+      "padaccheda": "प्रत्ययः १/१",
+      "anuvrtti_field": [],
+      "gloss": "प्रत्ययः",
+      "introduces": [
+        {
+          "term": "प्रत्ययः",
+          "role": "adhikara",
+          "continues": true
+        }
+      ],
+      "adhikara": {
+        "term": "प्रत्ययः",
+        "scopeUntil": "5.4.161"
+      },
+      "governs": null,
+      "note": "Heading. Kashika reads it as adhikara through the end of adhyaya 5.",
+      "inherited": [],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "3.1.2",
+      "section": "3.1 paribhasha",
+      "type": null,
+      "term": null,
+      "sutra": "परश्च",
+      "padaccheda": "परः १/१ च ०/०",
+      "anuvrtti_field": [],
+      "gloss": "प्रत्ययः परश्च",
+      "introduces": [
+        {
+          "term": "परः",
+          "role": "placement",
+          "continues": true
+        }
+      ],
+      "adhikara": {
+        "term": "परः",
+        "scopeUntil": "5.4.161"
+      },
+      "governs": null,
+      "note": "Surface is parash ca. Treated as a heading over the same span as 3.1.1: Kashika carries pratyayah, and Vasu/NPTEL carry parah, through the end of adhyaya 5. The gloss is pratyayah parash ca; pratyayah is not in the anuvrtti field.",
+      "inherited": [
+        {
+          "term": "प्रत्ययः",
+          "from": "3.1.1",
+          "via": "adhikara"
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "4.1.1",
+      "section": "4.1 adhikara",
+      "type": null,
+      "term": null,
+      "sutra": "ङ्याप्प्रातिपदिकात्",
+      "padaccheda": "ङी-आप्-प्रातिपदिकात् ५/१",
+      "anuvrtti_field": [],
+      "gloss": "ङ्याप्प्रातिपदिकात्",
+      "introduces": [
+        {
+          "term": "ङ्याप्प्रातिपदिकात्",
+          "role": "adhikara",
+          "continues": true
+        }
+      ],
+      "adhikara": {
+        "term": "ङ्याप्प्रातिपदिकात्",
+        "scopeUntil": "5.4.161"
+      },
+      "governs": null,
+      "note": "Heading for suffixes after a nyap or a pratipadika. Gloss of 4.1.2 contains this word; anuvrtti field of 4.1.2 is empty.",
+      "inherited": [
+        {
+          "term": "प्रत्ययः",
+          "from": "3.1.1",
+          "via": "adhikara"
+        },
+        {
+          "term": "परः",
+          "from": "3.1.2",
+          "via": "adhikara"
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "4.1.2",
+      "section": "4.1 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "स्वौजसमौट्छष्टाभ्याम्भिस्ङेभ्याम्भ्यस्ङसिभ्याम्भ्यस्ङसोसाङ्ङ्योस्सुप्",
+      "padaccheda": "सुँ-औ-जस्-अम्-औट्-शस्-टा-भ्याम्-भिस्-ङे-भ्याम्-भ्यस्-ङसिँ-भ्याम्-भ्यस्-ङस्-ओस्-आम्-ङि-ओस्-सुप् १/१",
+      "anuvrtti_field": [],
+      "gloss": "सुँ-औ-जस्-अम्-औट्-शस्-टा-भ्याम्-भिस्-ङे-भ्याम्-भ्यस्-ङसिँ-भ्याम्-भ्यस्-ङस्-ओस्-आम्-ङि-ओस्-सुप् ङ्याप्प्रातिपदिकात् प्रत्ययः परश्च",
+      "introduces": [
+        {
+          "term": "सुप्",
+          "role": "pratyaya-list",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "The 21 sup endings. Base and 'it is a pratyaya placed after' are not in this sutra's own words.",
+      "inherited": [
+        {
+          "term": "प्रत्ययः",
+          "from": "3.1.1",
+          "via": "adhikara"
+        },
+        {
+          "term": "परः",
+          "from": "3.1.2",
+          "via": "adhikara"
+        },
+        {
+          "term": "ङ्याप्प्रातिपदिकात्",
+          "from": "4.1.1",
+          "via": "adhikara"
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false,
+      "suffixes": [
+        "सुँ",
+        "औ",
+        "जस्",
+        "अम्",
+        "औट्",
+        "शस्",
+        "टा",
+        "भ्याम्",
+        "भिस्",
+        "ङे",
+        "भ्याम्",
+        "भ्यस्",
+        "ङसिँ",
+        "भ्याम्",
+        "भ्यस्",
+        "ङस्",
+        "ओस्",
+        "आम्",
+        "ङि",
+        "ओस्",
+        "सुप्"
+      ]
+    },
+    {
+      "id": "6.1.77",
+      "section": "6.1 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "इको यणचि",
+      "padaccheda": "इकः ६/१ यण् १/१ अचि ७/१",
+      "anuvrtti_field": [],
+      "gloss": "इकः यण् अचि संहितायाम्",
+      "introduces": [
+        {
+          "term": "इकः",
+          "role": "sthana",
+          "continues": true
+        },
+        {
+          "term": "यण्",
+          "role": "adesha",
+          "continues": false
+        },
+        {
+          "term": "अचि",
+          "role": "right-context",
+          "continues": true
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "ik becomes yan before ac. aci continues; 6.1.87's anuvrtti field records that.",
+      "inherited": [],
+      "resolved": [
+        {
+          "term": "इकः",
+          "via": "1.1.71",
+          "value": [
+            "i",
+            "u",
+            "R",
+            "L"
+          ]
+        },
+        {
+          "term": "यण्",
+          "via": "1.1.71",
+          "value": [
+            "y",
+            "v",
+            "r",
+            "l"
+          ]
+        },
+        {
+          "term": "अचि",
+          "via": "1.1.71",
+          "value": [
+            "a",
+            "i",
+            "u",
+            "R",
+            "L",
+            "e",
+            "o",
+            "ai",
+            "au"
+          ]
+        }
+      ],
+      "atidesha": {
+        "rule": "1.1.56",
+        "treat_as": "sthanivat",
+        "except": "alvidhi"
+      },
+      "emitted": false
+    },
+    {
+      "id": "6.1.84",
+      "section": "6.1 paribhasha",
+      "type": null,
+      "term": null,
+      "sutra": "एकः पूर्वपरयोः",
+      "padaccheda": "एकः १/१ पूर्वपरयोः ६/२",
+      "anuvrtti_field": [
+        {
+          "term": "अचि",
+          "from": "6.1.77"
+        }
+      ],
+      "gloss": "एकः पूर्वपरयोः",
+      "introduces": [
+        {
+          "term": "एकः",
+          "role": "ekadesha",
+          "continues": true
+        },
+        {
+          "term": "पूर्वपरयोः",
+          "role": "ekadesha",
+          "continues": true
+        }
+      ],
+      "adhikara": null,
+      "governs": {
+        "kind": "ekadesha",
+        "scopeUntil": "6.1.112"
+      },
+      "note": "One substitute in place of the preceding and the following. 6.1.87 and 6.1.101 glosses contain this phrase; their anuvrtti arrays do not.",
+      "inherited": [
+        {
+          "term": "अचि",
+          "from": "6.1.77",
+          "via": "anuvrtti",
+          "source_has_term": true
+        }
+      ],
+      "resolved": [
+        {
+          "term": "अचि",
+          "via": "1.1.71",
+          "value": [
+            "a",
+            "i",
+            "u",
+            "R",
+            "L",
+            "e",
+            "o",
+            "ai",
+            "au"
+          ]
+        }
+      ],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "6.1.87",
+      "section": "6.1 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "आद्गुणः",
+      "padaccheda": "आत् ५/१ गुणः १/१",
+      "anuvrtti_field": [
+        {
+          "term": "अचि",
+          "from": "6.1.77"
+        }
+      ],
+      "gloss": "आद् अचि पूर्वपरयोः एकः गुणः",
+      "introduces": [
+        {
+          "term": "आत्",
+          "role": "left",
+          "continues": false
+        },
+        {
+          "term": "गुणः",
+          "role": "adesha",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Surface is aad gunah only. Needs aci (anuvrtti field) and ekah purvaparayoh (not in the field).",
+      "inherited": [
+        {
+          "term": "अचि",
+          "from": "6.1.77",
+          "via": "anuvrtti",
+          "source_has_term": true
+        },
+        {
+          "term": "एकः",
+          "from": "6.1.84",
+          "via": "ekadesha"
+        },
+        {
+          "term": "पूर्वपरयोः",
+          "from": "6.1.84",
+          "via": "ekadesha"
+        }
+      ],
+      "resolved": [
+        {
+          "term": "अचि",
+          "via": "1.1.71",
+          "value": [
+            "a",
+            "i",
+            "u",
+            "R",
+            "L",
+            "e",
+            "o",
+            "ai",
+            "au"
+          ]
+        }
+      ],
+      "atidesha": {
+        "rule": "1.1.56",
+        "treat_as": "sthanivat",
+        "except": "alvidhi"
+      },
+      "emitted": false
+    },
+    {
+      "id": "6.1.101",
+      "section": "6.1 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "अकः सवर्णे दीर्घः",
+      "padaccheda": "अकः ५/१ सवर्णे ७/१ दीर्घः १/१",
+      "anuvrtti_field": [
+        {
+          "term": "अचि",
+          "from": "6.1.77"
+        }
+      ],
+      "gloss": "अकः सवर्णे अचि पूर्वपरयोः एकः दीर्घः",
+      "introduces": [
+        {
+          "term": "अकः",
+          "role": "left",
+          "continues": false
+        },
+        {
+          "term": "सवर्णे",
+          "role": "right-context",
+          "continues": false
+        },
+        {
+          "term": "दीर्घः",
+          "role": "adesha",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "ak followed by a savarna ac becomes one long vowel. Gloss has ekah purvaparayoh; anuvrtti field has only aci.",
+      "inherited": [
+        {
+          "term": "अचि",
+          "from": "6.1.77",
+          "via": "anuvrtti",
+          "source_has_term": true
+        },
+        {
+          "term": "एकः",
+          "from": "6.1.84",
+          "via": "ekadesha"
+        },
+        {
+          "term": "पूर्वपरयोः",
+          "from": "6.1.84",
+          "via": "ekadesha"
+        }
+      ],
+      "resolved": [
+        {
+          "term": "अकः",
+          "via": "1.1.71",
+          "value": [
+            "a",
+            "i",
+            "u",
+            "R",
+            "L"
+          ]
+        },
+        {
+          "term": "अचि",
+          "via": "1.1.71",
+          "value": [
+            "a",
+            "i",
+            "u",
+            "R",
+            "L",
+            "e",
+            "o",
+            "ai",
+            "au"
+          ]
+        }
+      ],
+      "atidesha": {
+        "rule": "1.1.56",
+        "treat_as": "sthanivat",
+        "except": "alvidhi"
+      },
+      "emitted": false
+    },
+    {
+      "id": "7.3.82",
+      "section": "7.3 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "मिदेर्गुणः",
+      "padaccheda": "मिदेः ६/१ गुणः १/१",
+      "anuvrtti_field": [
+        {
+          "term": "शिति",
+          "from": "7.3.75"
+        }
+      ],
+      "gloss": null,
+      "introduces": [
+        {
+          "term": "मिदेः",
+          "role": "sthana",
+          "continues": false
+        },
+        {
+          "term": "गुणः",
+          "role": "adesha",
+          "continues": true
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Included because 7.3.84's anuvrtti field names guna as coming from here. The guna of mid itself is not the rule under test.",
+      "inherited": [
+        {
+          "term": "शिति",
+          "from": "7.3.75",
+          "via": "anuvrtti",
+          "source_has_term": false
+        }
+      ],
+      "resolved": [],
+      "atidesha": {
+        "rule": "1.1.56",
+        "treat_as": "sthanivat",
+        "except": "alvidhi"
+      },
+      "emitted": false
+    },
+    {
+      "id": "7.3.84",
+      "section": "7.3 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "सार्वधातुकार्धधातुकयोः",
+      "padaccheda": "सार्वधातुक-आर्धधातुकयोः ७/२",
+      "anuvrtti_field": [
+        {
+          "term": "गुणः",
+          "from": "7.3.82"
+        }
+      ],
+      "gloss": "अङ्गस्य गुणः सार्वधातुक-आर्धधातुकयोः",
+      "introduces": [
+        {
+          "term": "सार्वधातुक-आर्धधातुकयोः",
+          "role": "right-context",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Surface has only the right context. Guna is anuvrtta from 7.3.82. Gloss also has angasya, whose source (6.4.1) is outside this slice, so the cycle must not invent it.",
+      "inherited": [
+        {
+          "term": "गुणः",
+          "from": "7.3.82",
+          "via": "anuvrtti",
+          "source_has_term": true
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "8.3.14",
+      "section": "8.3 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "रो रि",
+      "padaccheda": "रः ६/१ रि ७/१",
+      "anuvrtti_field": [
+        {
+          "term": "लोपः",
+          "from": "8.3.13"
+        }
+      ],
+      "gloss": "रः रि लोपः",
+      "introduces": [
+        {
+          "term": "रः",
+          "role": "sthana",
+          "continues": true
+        },
+        {
+          "term": "रि",
+          "role": "right-context",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Source of rah for 8.3.15. Its own anuvrtti (lopah from 8.3.13) is outside this slice.",
+      "inherited": [
+        {
+          "term": "लोपः",
+          "from": "8.3.13",
+          "via": "anuvrtti",
+          "source_has_term": false
+        }
+      ],
+      "resolved": [],
+      "atidesha": null,
+      "emitted": false
+    },
+    {
+      "id": "8.3.15",
+      "section": "8.3 vidhi",
+      "type": "vidhi",
+      "term": null,
+      "sutra": "खरवसानयोर्विसर्जनीयः",
+      "padaccheda": "खर्-अवसानयोः ७/२ विसर्जनीयः १/१",
+      "anuvrtti_field": [
+        {
+          "term": "रः",
+          "from": "8.3.14"
+        }
+      ],
+      "gloss": "पदस्य रः खर्-अवसानयोः विसर्जनीयः संहितायाम्",
+      "introduces": [
+        {
+          "term": "खर्-अवसानयोः",
+          "role": "right-context",
+          "continues": false
+        },
+        {
+          "term": "विसर्जनीयः",
+          "role": "adesha",
+          "continues": false
+        }
+      ],
+      "adhikara": null,
+      "governs": null,
+      "note": "Surface has no rah. anuvrtti field supplies rah from 8.3.14. Gloss also has padasya and samhitaayaam, sources outside this slice.",
+      "inherited": [
+        {
+          "term": "रः",
+          "from": "8.3.14",
+          "via": "anuvrtti",
+          "source_has_term": true
+        }
+      ],
+      "resolved": [
+        {
+          "term": "खर्",
+          "via": "1.1.71",
+          "value": [
+            "kh",
+            "ph",
+            "ch",
+            "Th",
+            "th",
+            "c",
+            "T2",
+            "t",
+            "k",
+            "p",
+            "sh1",
+            "SH2",
+            "s"
+          ]
+        }
+      ],
+      "atidesha": {
+        "rule": "1.1.56",
+        "treat_as": "sthanivat",
+        "except": "alvidhi"
+      },
+      "emitted": false
+    }
+  ]
+}

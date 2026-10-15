@@ -1,0 +1,772 @@
+{
+  "rahnuma": "1.3.0 chapter 17",
+  "attested": [
+    {
+      "input": "प्रकृति",
+      "expected": "prak_ri_ti",
+      "got": "prak_ri_ti",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "पितृ",
+      "expected": "pi_t_ri",
+      "got": "pi_t_ri",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "क्षि",
+      "expected": "kxi",
+      "got": "kxi",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "ज्ञाान",
+      "expected": "j_ynaana",
+      "got": "j_ynaana",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "हृदय",
+      "expected": "_h_ri_daya",
+      "got": "_h_ri_daya",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "उत्तर",
+      "expected": "_u_t_tara",
+      "got": "_u_t_tara",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "क्षेत्रफल",
+      "expected": "kxaee_traphala",
+      "got": "kxaee_traphala",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "त्रिकोण",
+      "expected": "_trikoa_nna",
+      "got": "_trikoa_nna",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "ख",
+      "expected": "kha",
+      "got": "kha",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "कह",
+      "expected": "ka_ha",
+      "got": "ka_ha",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "क्ह",
+      "expected": "k_ha",
+      "got": "k_ha",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "योग",
+      "expected": "yoaga",
+      "got": "yoaga",
+      "match": true,
+      "note": ""
+    },
+    {
+      "input": "सीमा",
+      "expected": "seemaa",
+      "got": "seemaa",
+      "match": true,
+      "note": ""
+    }
+  ],
+  "round_trip": [
+    {
+      "scheme": "romenagri",
+      "input": "प्रकृति",
+      "forward": "prak_ri_ti",
+      "back": "प्रकृति",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "पितृ",
+      "forward": "pi_t_ri",
+      "back": "पितृ",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "क्षि",
+      "forward": "kxi",
+      "back": "क्षि",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "ज्ञाान",
+      "forward": "j_ynaana",
+      "back": "ज्ञान",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "हृदय",
+      "forward": "_h_ri_daya",
+      "back": "हृदय",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "उत्तर",
+      "forward": "_u_t_tara",
+      "back": "उत्तर",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "क्षेत्रफल",
+      "forward": "kxaee_traphala",
+      "back": "क्षेत्रफल",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "त्रिकोण",
+      "forward": "_trikoa_nna",
+      "back": "त्रिकोण",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "ख",
+      "forward": "kha",
+      "back": "ख",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "कह",
+      "forward": "ka_ha",
+      "back": "कह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "क्ह",
+      "forward": "k_ha",
+      "back": "क्ह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "योग",
+      "forward": "yoaga",
+      "back": "योग",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "romenagri",
+      "input": "सीमा",
+      "forward": "seemaa",
+      "back": "सीमा",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "प्रकृति",
+      "forward": "prakṛti",
+      "back": "प्रकृति",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "पितृ",
+      "forward": "pitṛ",
+      "back": "पितृ",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "क्षि",
+      "forward": "kṣi",
+      "back": "क्षि",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "ज्ञाान",
+      "forward": "jñāāna",
+      "back": "ज्ञाआन",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "हृदय",
+      "forward": "hṛdaya",
+      "back": "हृदय",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "उत्तर",
+      "forward": "uttara",
+      "back": "उत्तर",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "क्षेत्रफल",
+      "forward": "kṣetraphala",
+      "back": "क्षेत्रफल",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "त्रिकोण",
+      "forward": "trikoṇa",
+      "back": "त्रिकोण",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "ख",
+      "forward": "kha",
+      "back": "ख",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "कह",
+      "forward": "kaha",
+      "back": "कह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "क्ह",
+      "forward": "kha",
+      "back": "ख",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "योग",
+      "forward": "yoga",
+      "back": "योग",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "iast",
+      "input": "सीमा",
+      "forward": "sīmā",
+      "back": "सीमा",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "प्रकृति",
+      "forward": "prakRti",
+      "back": "प्रकृति",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "पितृ",
+      "forward": "pitR",
+      "back": "पितृ",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "क्षि",
+      "forward": "kSi",
+      "back": "क्षि",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "ज्ञाान",
+      "forward": "jJAAna",
+      "back": "ज्ञाआन",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "हृदय",
+      "forward": "hRdaya",
+      "back": "हृदय",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "उत्तर",
+      "forward": "uttara",
+      "back": "उत्तर",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "क्षेत्रफल",
+      "forward": "kSetraphala",
+      "back": "क्षेत्रफल",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "त्रिकोण",
+      "forward": "trikoNa",
+      "back": "त्रिकोण",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "ख",
+      "forward": "kha",
+      "back": "ख",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "कह",
+      "forward": "kaha",
+      "back": "कह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "क्ह",
+      "forward": "kha",
+      "back": "ख",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "योग",
+      "forward": "yoga",
+      "back": "योग",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "hk",
+      "input": "सीमा",
+      "forward": "sImA",
+      "back": "सीमा",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "प्रकृति",
+      "forward": "prakfti",
+      "back": "प्रकृति",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "पितृ",
+      "forward": "pitf",
+      "back": "पितृ",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "क्षि",
+      "forward": "kzi",
+      "back": "क्षि",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "ज्ञाान",
+      "forward": "jYAAna",
+      "back": "ज्ञाआन",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "हृदय",
+      "forward": "hfdaya",
+      "back": "हृदय",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "उत्तर",
+      "forward": "uttara",
+      "back": "उत्तर",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "क्षेत्रफल",
+      "forward": "kzetraPala",
+      "back": "क्षेत्रफल",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "त्रिकोण",
+      "forward": "trikoRa",
+      "back": "त्रिकोण",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "ख",
+      "forward": "Ka",
+      "back": "ख",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "कह",
+      "forward": "kaha",
+      "back": "कह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "क्ह",
+      "forward": "kha",
+      "back": "क्ह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "योग",
+      "forward": "yoga",
+      "back": "योग",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "slp1",
+      "input": "सीमा",
+      "forward": "sImA",
+      "back": "सीमा",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "प्रकृति",
+      "forward": "prakRRiti",
+      "back": "प्रकृति",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "पितृ",
+      "forward": "pitRRi",
+      "back": "पितृ",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "क्षि",
+      "forward": "kShi",
+      "back": "क्षि",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "ज्ञाान",
+      "forward": "j~nAAna",
+      "back": "ज्ञाआन",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "हृदय",
+      "forward": "hRRidaya",
+      "back": "हृदय",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "उत्तर",
+      "forward": "uttara",
+      "back": "उत्तर",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "क्षेत्रफल",
+      "forward": "kShetraphala",
+      "back": "क्षेत्रफल",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "त्रिकोण",
+      "forward": "trikoNa",
+      "back": "त्रिकोण",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "ख",
+      "forward": "kha",
+      "back": "ख",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "कह",
+      "forward": "kaha",
+      "back": "कह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "क्ह",
+      "forward": "kha",
+      "back": "ख",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "योग",
+      "forward": "yoga",
+      "back": "योग",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "itrans",
+      "input": "सीमा",
+      "forward": "sImA",
+      "back": "सीमा",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "प्रकृति",
+      "forward": "prak.rti",
+      "back": "प्रकृति",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "पितृ",
+      "forward": "pit.r",
+      "back": "पितृ",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "क्षि",
+      "forward": "k.si",
+      "back": "क्षि",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "ज्ञाान",
+      "forward": "j~naaaana",
+      "back": "ज्ञाआन",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "हृदय",
+      "forward": "h.rdaya",
+      "back": "हृदय",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "उत्तर",
+      "forward": "uttara",
+      "back": "उत्तर",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "क्षेत्रफल",
+      "forward": "k.setraphala",
+      "back": "क्षेत्रफल",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "त्रिकोण",
+      "forward": "triko.na",
+      "back": "त्रिकोण",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "ख",
+      "forward": "kha",
+      "back": "ख",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "कह",
+      "forward": "kaha",
+      "back": "कह",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "क्ह",
+      "forward": "kha",
+      "back": "ख",
+      "identical": false,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "योग",
+      "forward": "yoga",
+      "back": "योग",
+      "identical": true,
+      "note": ""
+    },
+    {
+      "scheme": "velthuis",
+      "input": "सीमा",
+      "forward": "siimaa",
+      "back": "सीमा",
+      "identical": true,
+      "note": ""
+    }
+  ],
+  "speed": [
+    {
+      "scheme": "romenagri",
+      "calls": 2600,
+      "seconds": 0.0075,
+      "us_per_call": 2.9,
+      "round_trip_identical": 12,
+      "round_trip_total": 13
+    },
+    {
+      "scheme": "iast",
+      "calls": 2600,
+      "seconds": 0.0985,
+      "us_per_call": 37.9,
+      "round_trip_identical": 11,
+      "round_trip_total": 13
+    },
+    {
+      "scheme": "hk",
+      "calls": 2600,
+      "seconds": 0.0375,
+      "us_per_call": 14.4,
+      "round_trip_identical": 11,
+      "round_trip_total": 13
+    },
+    {
+      "scheme": "slp1",
+      "calls": 2600,
+      "seconds": 0.0295,
+      "us_per_call": 11.3,
+      "round_trip_identical": 12,
+      "round_trip_total": 13
+    },
+    {
+      "scheme": "itrans",
+      "calls": 2600,
+      "seconds": 0.0791,
+      "us_per_call": 30.4,
+      "round_trip_identical": 11,
+      "round_trip_total": 13
+    },
+    {
+      "scheme": "velthuis",
+      "calls": 2600,
+      "seconds": 0.0276,
+      "us_per_call": 10.6,
+      "round_trip_identical": 11,
+      "round_trip_total": 13
+    }
+  ]
+}

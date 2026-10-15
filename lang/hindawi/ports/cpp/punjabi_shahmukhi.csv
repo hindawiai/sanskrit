@@ -1,0 +1,26 @@
+profile_code,language_name,script,construct_id,native_keyword,romenagri,programming_language_token,category,source_file,status
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_IF,إذا,izaa,if,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_ELSE,وإلا,vaillaa,else,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_WHILE,طالما,taalamaa,while,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_DO,افعل,ifaela,do,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_FOR,لكل,likulli,for,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_BREAK,اكسر,iksira,break,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_CONTINUE,استمر,istamirra,continue,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_SWITCH,بدل,baddila,switch,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_CASE,حالة,haalah,case,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_DEFAULT,افتراضي,iftiraadii,default,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_RETURN,أرجع,arjie,return,control_flow,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_CONST,ثابت,saabita,const,declaration,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_INT,صحيح,sahiiha,int,type,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_FLOAT,عائم,aaima,float,type,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_DOUBLE,مزدوج,muzdavija,double,type,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_CHAR,حرف,harfa,char,type,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_VOID,فراغ,faraagha,void,type,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_STATIC,ساكن,saakina,static,storage,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_STRUCT,بنية,binyah,struct,type_def,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_INCLUDE,ضمن,dammina,include,preprocessor,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_CLASS,صنف,sanfa,class,type_def,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_NEW,جديد,jadiida,new,instantiation,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_PUBLIC,عام,aamma,public,access,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_PRIVATE,خاص,khaassa,private,access,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,KW_VIRTUAL,افتراضي,iftiraadii,virtual,modifier,lang_punjabi_shahmukhi.csv,derived-keyword-data; compiler integration unverified

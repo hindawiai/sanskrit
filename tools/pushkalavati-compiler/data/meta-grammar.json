@@ -1,0 +1,436 @@
+{
+  "schema": "pushkalavati.meta-grammar/1",
+  "principle": "Functional categories are overlapping labels, not sequential execution phases. Rules are data records; this table defines category semantics and classification predicates.",
+  "categories": [
+    {
+      "id": "combine",
+      "traditional_label": "Sandhi",
+      "meaning": "Join or coalesce adjacent sounds, morphemes, or forms."
+    },
+    {
+      "id": "split",
+      "traditional_label": "Viccheda / Padaccheda",
+      "meaning": "Recover boundaries and candidate underlying forms; permit ambiguity."
+    },
+    {
+      "id": "substitute",
+      "traditional_label": "Ādeśa",
+      "meaning": "Replace a target with another representation."
+    },
+    {
+      "id": "insert",
+      "traditional_label": "Āgama",
+      "meaning": "Insert an element at a defined site."
+    },
+    {
+      "id": "delete",
+      "traditional_label": "Lopa",
+      "meaning": "Remove or suppress an element under conditions."
+    },
+    {
+      "id": "affix",
+      "traditional_label": "Pratyaya",
+      "meaning": "Select or attach a grammatical affix."
+    },
+    {
+      "id": "transform",
+      "traditional_label": "Vikāra / transformation",
+      "meaning": "Change internal phonological or morphological structure."
+    },
+    {
+      "id": "derive",
+      "traditional_label": "Derivation / inflection",
+      "meaning": "Construct words or inflected forms from grammatical inputs."
+    },
+    {
+      "id": "relate",
+      "traditional_label": "Kāraka / Vibhakti / Anvaya",
+      "meaning": "Establish relations between constituents."
+    },
+    {
+      "id": "constrain",
+      "traditional_label": "Niyama / Pratiṣedha",
+      "meaning": "Restrict, license, qualify, or prohibit operations."
+    },
+    {
+      "id": "define",
+      "traditional_label": "Saṃjñā",
+      "meaning": "Define a technical category or label."
+    },
+    {
+      "id": "scope_inherit",
+      "traditional_label": "Adhikāra / Anuvṛtti",
+      "meaning": "Establish scope or inherited conditions."
+    },
+    {
+      "id": "override",
+      "traditional_label": "Apavāda / Utsarga / Vipratiṣedha",
+      "meaning": "Represent exceptions and competing-rule resolution."
+    },
+    {
+      "id": "transfer",
+      "traditional_label": "Atideśa",
+      "meaning": "Transfer a property or operation across grammatical contexts."
+    },
+    {
+      "id": "interpret",
+      "traditional_label": "Paribhāṣā",
+      "meaning": "Govern interpretation or application of grammatical rules."
+    }
+  ],
+  "classification_rules": [
+    {
+      "id": "M001",
+      "when": {
+        "type": [
+          "samjna"
+        ]
+      },
+      "category": "define",
+      "evidence": "source_record_type",
+      "confidence": "high"
+    },
+    {
+      "id": "M002",
+      "when": {
+        "type": [
+          "paribhasha"
+        ]
+      },
+      "category": "interpret",
+      "evidence": "source_record_type",
+      "confidence": "high"
+    },
+    {
+      "id": "M003",
+      "when": {
+        "type": [
+          "atidesha"
+        ]
+      },
+      "category": "transfer",
+      "evidence": "source_record_type",
+      "confidence": "high"
+    },
+    {
+      "id": "M004",
+      "when": {
+        "sutraContains": [
+          "सन्धि",
+          "संधि",
+          "संयोगे"
+        ]
+      },
+      "category": "combine",
+      "evidence": "sutra_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M005",
+      "when": {
+        "sutraContains": [
+          "लोप",
+          "लुप्",
+          "लुक्",
+          "श्लु"
+        ]
+      },
+      "category": "delete",
+      "evidence": "sutra_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M006",
+      "when": {
+        "sutraContains": [
+          "आगम",
+          "आगमः",
+          "आगमे"
+        ]
+      },
+      "category": "insert",
+      "evidence": "sutra_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M007",
+      "when": {
+        "sutraContains": [
+          "आदेश",
+          "आदेशः",
+          "आदेशे"
+        ]
+      },
+      "category": "substitute",
+      "evidence": "sutra_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M008",
+      "when": {
+        "sutraContains": [
+          "प्रत्यय",
+          "प्रत्यये",
+          "प्रत्ययः",
+          "विभक्तिः",
+          "तिङ्",
+          "सुप्"
+        ]
+      },
+      "category": "affix",
+      "evidence": "sutra_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M009",
+      "when": {
+        "sutraContains": [
+          "कारके",
+          "कारक",
+          "विभक्तौ",
+          "अन्वय",
+          "कर्तरि",
+          "कर्मणि"
+        ]
+      },
+      "category": "relate",
+      "evidence": "sutra_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M010",
+      "when": {
+        "sutraContains": [
+          "निषेध",
+          "प्रतिषेध",
+          "नियम",
+          "विकल्प"
+        ]
+      },
+      "category": "constrain",
+      "evidence": "sutra_lexeme",
+      "confidence": "low"
+    },
+    {
+      "id": "M011",
+      "when": {
+        "sutraContains": [
+          "अतिदेश"
+        ]
+      },
+      "category": "transfer",
+      "evidence": "sutra_lexeme",
+      "confidence": "low"
+    },
+    {
+      "id": "M013",
+      "when": {
+        "glossContains": [
+          "सन्धि",
+          "संयोग",
+          "एकादेश",
+          "पूर्वरूप",
+          "पररूप"
+        ]
+      },
+      "category": "combine",
+      "evidence": "gloss_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M014",
+      "when": {
+        "glossContains": [
+          "लोप",
+          "लुक्",
+          "श्लु"
+        ]
+      },
+      "category": "delete",
+      "evidence": "gloss_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M015",
+      "when": {
+        "glossContains": [
+          "आगम",
+          "आगमः"
+        ]
+      },
+      "category": "insert",
+      "evidence": "gloss_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M016",
+      "when": {
+        "glossContains": [
+          "आदेश",
+          "स्थाने"
+        ]
+      },
+      "category": "substitute",
+      "evidence": "gloss_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M017",
+      "when": {
+        "glossContains": [
+          "प्रत्यय",
+          "विभक्ति",
+          "तिङ्",
+          "सुप्"
+        ]
+      },
+      "category": "affix",
+      "evidence": "gloss_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M018",
+      "when": {
+        "glossContains": [
+          "कारक",
+          "कर्तृ",
+          "कर्म",
+          "करण",
+          "सम्प्रदान",
+          "अपादान",
+          "अधिकरण"
+        ]
+      },
+      "category": "relate",
+      "evidence": "gloss_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M019",
+      "when": {
+        "glossContains": [
+          "निषेध",
+          "न भवति",
+          "विकल्प"
+        ]
+      },
+      "category": "constrain",
+      "evidence": "gloss_lexeme",
+      "confidence": "low"
+    },
+    {
+      "id": "M020A",
+      "when": {
+        "hasAnuvrtti": true
+      },
+      "category": "scope_inherit",
+      "evidence": "source_anuvrtti_edges",
+      "confidence": "high"
+    },
+    {
+      "id": "M020B",
+      "when": {
+        "sutraContains": [
+          "विच्छेद",
+          "पदच्छेद",
+          "छेद"
+        ]
+      },
+      "category": "split",
+      "evidence": "sutra_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M021",
+      "when": {
+        "sutraContains": [
+          "गुण",
+          "वृद्धि",
+          "दीर्घ",
+          "यण्",
+          "यण्",
+          "एकादेश",
+          "पूर्वरूप",
+          "पररूप",
+          "आत्व",
+          "त्व"
+        ]
+      },
+      "category": "transform",
+      "evidence": "sutra_operation_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M022",
+      "when": {
+        "glossContains": [
+          "गुण",
+          "वृद्धि",
+          "दीर्घ",
+          "यण्",
+          "एकादेश",
+          "पूर्वरूप",
+          "पररूप"
+        ]
+      },
+      "category": "transform",
+      "evidence": "gloss_operation_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M023",
+      "when": {
+        "sutraContains": [
+          "विप्रतिषेध",
+          "अपवाद",
+          "उत्सर्ग"
+        ]
+      },
+      "category": "override",
+      "evidence": "sutra_conflict_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M024",
+      "when": {
+        "glossContains": [
+          "विप्रतिषेध",
+          "अपवाद",
+          "उत्सर्ग"
+        ]
+      },
+      "category": "override",
+      "evidence": "gloss_conflict_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M025",
+      "when": {
+        "sutraContains": [
+          "कृत्",
+          "तद्धित",
+          "धातोः",
+          "प्रत्ययः",
+          "प्रत्ययेन"
+        ]
+      },
+      "category": "derive",
+      "evidence": "sutra_derivation_lexeme",
+      "confidence": "medium"
+    },
+    {
+      "id": "M026",
+      "when": {
+        "glossContains": [
+          "कृत्",
+          "तद्धित",
+          "धातु",
+          "प्रत्यय"
+        ]
+      },
+      "category": "derive",
+      "evidence": "gloss_derivation_lexeme",
+      "confidence": "low"
+    }
+  ]
+}

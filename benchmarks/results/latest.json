@@ -1,0 +1,122 @@
+[
+  {
+    "system": "pushkalavati",
+    "kind": "sandhi",
+    "id": "6.1.77",
+    "expected": "dadhyatra",
+    "got": "dadhyatra",
+    "ok": true
+  },
+  {
+    "system": "pushkalavati",
+    "kind": "sandhi",
+    "id": "6.1.87",
+    "expected": "devendra",
+    "got": "devendra",
+    "ok": true
+  },
+  {
+    "system": "pushkalavati",
+    "kind": "sandhi",
+    "id": "8.3.15",
+    "expected": "devaḥ",
+    "got": "devaḥ",
+    "ok": true
+  },
+  {
+    "system": "pushkalavati",
+    "kind": "generation",
+    "id": "bhavati",
+    "status": "not_applicable",
+    "note": "this project has no word generator"
+  },
+  {
+    "system": "pushkalavati",
+    "kind": "generation",
+    "id": "gacchati",
+    "status": "not_applicable",
+    "note": "this project has no word generator"
+  },
+  {
+    "system": "pushkalavati",
+    "kind": "analysis",
+    "id": "dadhyatra",
+    "status": "not_applicable",
+    "note": "this project has no morphological analyzer"
+  },
+  {
+    "system": "pushkalavati",
+    "kind": "analysis",
+    "id": "bhavati",
+    "status": "not_applicable",
+    "note": "this project has no morphological analyzer"
+  },
+  {
+    "system": "vidyut",
+    "kind": "generation",
+    "id": "BU",
+    "expected": "Bavati",
+    "got": "Bavati",
+    "ok": true
+  },
+  {
+    "system": "vidyut",
+    "kind": "generation",
+    "id": "gam",
+    "expected": "gacCati",
+    "got": "gati",
+    "ok": false
+  },
+  {
+    "system": "vidyut",
+    "kind": "analysis",
+    "id": "dadhyatra",
+    "status": "not_applicable",
+    "note": "vidyut is a generator, not an analyzer"
+  },
+  {
+    "system": "vidyut",
+    "kind": "analysis",
+    "id": "bhavati",
+    "status": "not_applicable",
+    "note": "vidyut is a generator, not an analyzer"
+  },
+  {
+    "system": "sanskrit_parser",
+    "status": "unavailable",
+    "error": "No module named 'sanskrit_parser'",
+    "note": "pip install sanskrit_parser to enable"
+  },
+  {
+    "system": "sanskrit_heritage",
+    "status": "external",
+    "name": "sanskrit_heritage",
+    "kind": "analyzer",
+    "license": "GPL / LGPL (Zen)",
+    "why_not": "OCaml platform with Apache and generated form banks; not installed"
+  },
+  {
+    "system": "samsaadhanii",
+    "status": "external",
+    "name": "samsaadhanii",
+    "kind": "analyzer",
+    "license": "GPL-2.0",
+    "why_not": "requires lttoolbox, ocaml, flex, bison, and a server install"
+  },
+  {
+    "system": "sanskritshala",
+    "status": "external",
+    "name": "sanskritshala",
+    "kind": "analyzer",
+    "license": "Apache-2.0",
+    "why_not": "neural models; needs weights and a GPU or long CPU run"
+  },
+  {
+    "system": "dharmamitra",
+    "status": "external",
+    "name": "dharmamitra",
+    "kind": "analyzer",
+    "license": "permissive code; data terms vary",
+    "why_not": "API or local model; not bundled"
+  }
+]

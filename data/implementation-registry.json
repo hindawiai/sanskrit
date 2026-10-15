@@ -1,0 +1,202 @@
+{
+  "own_executor": {
+    "count": 24,
+    "rules": [
+      {
+        "id": "6.1.77",
+        "section": "ATTESTED",
+        "mode": "replace_left",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.87",
+        "section": "ATTESTED",
+        "mode": "fuse",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.88",
+        "section": "ATTESTED",
+        "mode": "fuse",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.101",
+        "section": "ATTESTED",
+        "mode": "fuse",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.78",
+        "section": "SANDHI_ATTESTED",
+        "mode": "ec_to_ayavayav_before_vowel",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.109",
+        "section": "SANDHI_ATTESTED",
+        "mode": "pada_final_eo_before_short_a_purvarupa",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.94",
+        "section": "SANDHI_ATTESTED",
+        "mode": "upasarga_final_a_before_dhatu_initial_en_pararupa",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.3.15",
+        "section": "SANDHI_ATTESTED",
+        "mode": "ra_to_visarga_before_khar_or_avasana",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.4.40",
+        "section": "SANDHI_ATTESTED",
+        "mode": "sto_scu_before_scu",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.3.34",
+        "section": "SANDHI_ATTESTED",
+        "mode": "visarga_to_s_before_khar",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.66",
+        "section": "SANDHI_ATTESTED",
+        "mode": "v_y_lopa_before_val",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.4.41",
+        "section": "SANDHI_ATTESTED",
+        "mode": "sto_stu_before_stu",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.3.23",
+        "section": "SANDHI_ATTESTED",
+        "mode": "m_to_anusvara_before_hal",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.4.58",
+        "section": "SANDHI_ATTESTED",
+        "mode": "anusvara_to_class_nasal_before_yay",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.4.55",
+        "section": "SANDHI_ATTESTED",
+        "mode": "jhal_to_car_before_khar",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.2.66",
+        "section": "SANDHI_ATTESTED",
+        "mode": "final_s_to_ru",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.3.17",
+        "section": "SANDHI_ATTESTED",
+        "mode": "visarga_to_y_before_ash",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.107",
+        "section": "SANDHI_ATTESTED",
+        "mode": "a_before_am_purvarupa",
+        "status": "executable_tested"
+      },
+      {
+        "id": "8.2.39",
+        "section": "SANDHI_ATTESTED",
+        "mode": "jhal_to_jash_final",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.45",
+        "section": "MORPH_ATTESTED",
+        "mode": "replace_final_ec_with_aa",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.1.131",
+        "section": "MORPH_ATTESTED",
+        "mode": "div_to_diu_in_pada",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.4.81",
+        "section": "MORPH_ATTESTED",
+        "mode": "iṇ_final_i_to_y_before_vowel_affix",
+        "status": "executable_tested"
+      },
+      {
+        "id": "6.4.110",
+        "section": "MORPH_ATTESTED",
+        "mode": "kṛ_a_to_u_before_kṅit_sarvadhātuka",
+        "status": "executable_tested"
+      },
+      {
+        "id": "7.1.86",
+        "section": "MORPH_ATTESTED",
+        "mode": "pathin_family_i_to_a_in_strong_case",
+        "status": "executable_tested"
+      }
+    ],
+    "note": "rules this project's execute.py / execute.js can run"
+  },
+  "structural_conversion": {
+    "count": 3983,
+    "source": "data/nirgundi/all-sutras-converted.jsonl",
+    "note": "padaccheda, roles, anuvrtti. Not executable."
+  },
+  "categories": {
+    "count": 3983,
+    "by_type": {
+      "samjna": 200,
+      "paribhasha": 23,
+      "vidhi": 3629,
+      "atidesha": 67,
+      "adhikara": 64
+    },
+    "source": "data/sutra-categories.jsonl (Tajziya join)"
+  },
+  "dhatupatha": {
+    "count": 2259,
+    "source": "ambuda-org/vidyut vidyut-prakriya/data/dhatupatha.tsv",
+    "licence": "MIT",
+    "path": "data/external/vidyut-dhatupatha.tsv"
+  },
+  "vidyut_coverage": {
+    "unique_rule_ids": 2153,
+    "matched_to_ours": 2153,
+    "by_type": {
+      "samjna": {
+        "vidyut": 86,
+        "total": 200
+      },
+      "paribhasha": {
+        "vidyut": 2,
+        "total": 23
+      },
+      "vidhi": {
+        "vidyut": 2015,
+        "total": 3629
+      },
+      "atidesha": {
+        "vidyut": 35,
+        "total": 67
+      },
+      "adhikara": {
+        "vidyut": 15,
+        "total": 64
+      }
+    },
+    "note": "vidyut_implemented means the sutra id appears in Vidyut source. It is not our executor.",
+    "path": "third_party/vidyut-prakriya"
+  }
+}

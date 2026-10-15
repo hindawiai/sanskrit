@@ -1,0 +1,59 @@
+#समावेश "sanchalan.h"
+#समावेश <मानकपन.स>
+#समावेश <माला.स>
+
+व्योम sanchalan_init(Sanchalan *m) अणु
+    m->pid = -1;
+    m->memory_pages = 0;
+    m->pipes = 0;
+    m->sends = 0;
+    m->steps = 0;
+    m->deferred = 0;
+पूर्ण
+
+अटल पूर्णांक same(स्थिर अक्षर *a, स्थिर अक्षर *b) अणु वापस म_भेद(a, b) == 0; पूर्ण
+
+अटल पूर्णांक is_deferred(स्थिर अक्षर *op) अणु
+    अटल स्थिर अक्षर *names[] = अणु
+        "address-board","all-items","begin","bound","characters","command-store",
+        "communicator","complete","configure","control","destroyed","door-board",
+        "empty-location","enter","fill","first-process","group","index","initialize",
+        "initialize-runtime","input","input-location","location","machine","machine-board",
+        "measure-memory","message","native","ordered","ordered-procedure","orphan-process",
+        "page-board","particle","partition","pause","process","process-id","prompt",
+        "protect-machine","result","root","root-command","root-location","run","sanitize",
+        "scope","send-buffer","signal","start","state","store","terminal","terminated",
+        "trap-board","user-mode","validate","validate-memory","violation","virtual-memory",
+        "visarga-ca","wait","watchdog","work","work-board"
+    पूर्ण;
+    क्रम (माप_प्रकार i = 0; i < माप(names)/माप(names[0]); i++) अगर (same(op, names[i])) वापस 1;
+    वापस 0;
+पूर्ण
+
+पूर्णांक sanchalan_call(Sanchalan *m, स्थिर अक्षर *op) अणु
+    अगर (!op || !*op) वापस 0;
+    अगर (same(op, "pid-zero") || same(op, "zero-fill")) अणु
+        m->pid = 0;
+    पूर्ण अन्यथा अगर (same(op, "partition-memory") || same(op, "memory-reference") || same(op, "protect-memory")) अणु
+        m->memory_pages += 1;
+    पूर्ण अन्यथा अगर (same(op, "command-pipe")) अणु
+        m->pipes += 1;
+    पूर्ण अन्यथा अगर (same(op, "send") || same(op, "communicate") || same(op, "forward")) अणु
+        m->sends += 1;
+    पूर्ण अन्यथा अगर (same(op, "spawn-pair")) अणु
+        अगर (m->pid < 0) m->pid = 0;
+        m->pid += 1;
+    पूर्ण अन्यथा अगर (is_deferred(op)) अणु
+        m->deferred += 1;
+    पूर्ण अन्यथा अणु
+        ख_लिखो(मानक_त्रुटि, "sanchalan: unknown operation '%s'\n", op);
+        वापस 1;
+    पूर्ण
+    m->steps += 1;
+    वापस 0;
+पूर्ण
+
+व्योम sanchalan_report(स्थिर Sanchalan *m, पूर्णांक verse) अणु
+    म_लिखो("verse=%d pid=%d mem=%d pipe=%d send=%d deferred=%d\n",
+        verse, m->pid, m->memory_pages, m->pipes, m->sends, m->deferred);
+पूर्ण

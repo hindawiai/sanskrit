@@ -1,0 +1,20 @@
+#¤µÏ_¤¶åÖÛÂ SANCHALAN_H
+#¶åÖÁÚ SANCHALAN_H
+
+/* Small run×ÌÍ library. The generated program calls these.
+   This is not a kernel. Sanskrit conversion comes later. */
+
+ÈèÏ³ÚÏ ³ÚÖè¾Ú ¤Áİ
+    ÈŞÏèÁÚ¢³ pid;
+    ÈŞÏèÁÚ¢³ memory_pages;
+    ÈŞÏèÁÚ¢³ pipes;
+    ÈŞÏèÁÚ¢³ sends;
+    ÈŞÏèÁÚ¢³ steps;
+    ÈŞÏèÁÚ¢³ deferred;
+ÈŞÏèÁ Sanchalan;
+
+ÔèÍåÌ sanchalan_init(Sanchalan *m);
+ÈŞÏèÁÚ¢³ sanchalan_call(Sanchalan *m, ×èÃÛÏ ¤³èÖÏ *op);
+ÔèÍåÌ sanchalan_report(×èÃÛÏ Sanchalan *m, ÈŞÏèÁÚ¢³ verse);
+
+#ÈŞÏèÁ_¤µÏ

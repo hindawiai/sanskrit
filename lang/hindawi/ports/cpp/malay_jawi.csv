@@ -1,0 +1,26 @@
+profile_code,language_name,script,construct_id,native_keyword,romenagri,programming_language_token,category,source_file,status
+malay_jawi,Malay (Jawi),Jawi,KW_IF,إذا,izaa,if,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_ELSE,وإلا,vaillaa,else,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_WHILE,طالما,taalamaa,while,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_DO,افعل,ifaela,do,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_FOR,لكل,likulli,for,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_BREAK,اكسر,iksira,break,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_CONTINUE,استمر,istamirra,continue,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_SWITCH,بدل,baddila,switch,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_CASE,حالة,haalah,case,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_DEFAULT,افتراضي,iftiraadii,default,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_RETURN,أرجع,arjie,return,control_flow,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_CONST,ثابت,saabita,const,declaration,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_INT,صحيح,sahiiha,int,type,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_FLOAT,عائم,aaima,float,type,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_DOUBLE,مزدوج,muzdavija,double,type,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_CHAR,حرف,harfa,char,type,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_VOID,فراغ,faraagha,void,type,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_STATIC,ساكن,saakina,static,storage,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_STRUCT,بنية,binyah,struct,type_def,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_INCLUDE,ضمن,dammina,include,preprocessor,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_CLASS,صنف,sanfa,class,type_def,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_NEW,جديد,jadiida,new,instantiation,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_PUBLIC,عام,aamma,public,access,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_PRIVATE,خاص,khaassa,private,access,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified
+malay_jawi,Malay (Jawi),Jawi,KW_VIRTUAL,افتراضي,iftiraadii,virtual,modifier,lang_malay_jawi.csv,derived-keyword-data; compiler integration unverified

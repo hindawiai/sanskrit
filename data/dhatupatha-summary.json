@@ -1,0 +1,10 @@
+{
+  "source": "ambuda-org/vidyut vidyut-prakriya/data/dhatupatha.tsv",
+  "licence": "MIT",
+  "count": 2259,
+  "columns": [
+    "code",
+    "dhatu",
+    "artha"
+  ]
+}

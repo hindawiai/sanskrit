@@ -1,0 +1,40 @@
+{
+  "schema": "pushkalavati.romenagri-acii-table.v1",
+  "source": "https://github.com/project-ilm/romenagri/blob/master/src/acii.h",
+  "source_table_length": 84,
+  "entries": [
+    {"key":"__","legacy":"_","meaning":"control underscore expansion"},
+    {"key":"_a","legacy":"¤","meaning":"independent vowel entry; source table label only"},
+    {"key":"^a","legacy":"","meaning":"zero-width inherent-a/parser convention; no dependent Devanagari sign for अ; empty value alone is not a proven defect"},
+    {"key":"_aa","legacy":"¥"},{"key":"^aa","legacy":"Ú"},
+    {"key":"_i","legacy":"¦"},{"key":"^i","legacy":"Û"},
+    {"key":"_ee","legacy":"§"},{"key":"^ee","legacy":"Ü"},
+    {"key":"_u","legacy":"¨"},{"key":"^u","legacy":"Ý"},
+    {"key":"_oo","legacy":"©"},{"key":"^oo","legacy":"Þ"},
+    {"key":"_ri","legacy":"ª"},{"key":"^_ri","legacy":"ß"},
+    {"key":"_ae","legacy":"«"},{"key":"^ae","legacy":"à"},
+    {"key":"_aee","legacy":"¬"},{"key":"^aee","legacy":"á"},
+    {"key":"_ai","legacy":"­"},{"key":"^ai","legacy":"â"},
+    {"key":"_ow","legacy":"¯"},{"key":"^ow","legacy":"ä"},
+    {"key":"_oa","legacy":"°"},{"key":"^oa","legacy":"å"},
+    {"key":"_ou","legacy":"±"},{"key":"^ou","legacy":"æ"},
+    {"key":"_au","legacy":"²"},{"key":"^au","legacy":"ç"},
+    {"key":"_ao","legacy":"®"},{"key":"^ao","legacy":"ã"},
+    {"key":"ka","legacy":"³"},{"key":"kha","legacy":"´"},
+    {"key":"ga","legacy":"µ"},{"key":"gha","legacy":"¶"},{"key":"_nga","legacy":"·"},
+    {"key":"cha","legacy":"¸"},{"key":"chha","legacy":"¹"},{"key":"ja","legacy":"º"},{"key":"jha","legacy":"»"},{"key":"_yna","legacy":"¼"},
+    {"key":"ta","legacy":"½"},{"key":"tha","legacy":"¾"},{"key":"da","legacy":"¿"},{"key":"dha","legacy":"À"},{"key":"_nna","legacy":"Á"},
+    {"key":"_ta","legacy":"Â"},{"key":"_tha","legacy":"Ã"},{"key":"_da","legacy":"Ä"},{"key":"_dha","legacy":"Å"},{"key":"na","legacy":"Æ"},
+    {"key":"pa","legacy":"È"},{"key":"pha","legacy":"É"},{"key":"ba","legacy":"Ê"},{"key":"bha","legacy":"Ë"},{"key":"ma","legacy":"Ì"},
+    {"key":"ya","legacy":"Í"},{"key":"ra","legacy":"Ï"},{"key":"_rra","legacy":"Ð"},{"key":"la","legacy":"Ñ"},{"key":"wa","legacy":"Ô"},{"key":"lvra","legacy":"Ò"},
+    {"key":"sha","legacy":"Õ"},{"key":"xa","legacy":"Ö"},{"key":"sa","legacy":"×"},{"key":"_ha","legacy":"Ø"},
+    {"key":"_m","legacy":"¢"},{"key":"_hh","legacy":"£"},{"key":"_na","legacy":"¡"},{"key":"^za","legacy":"é"},
+    {"key":"|","legacy":"ê"},{"key":"^","legacy":"è"},{"key":"_rda","legacy":"¿é"},{"key":"_rdha","legacy":"Àé"},{"key":"^ra","legacy":"èÏ"},{"key":"r","legacy":"Ïè"},
+    {"key":"kxa","legacy":"³èÖ"},{"key":"_tra","legacy":"ÂèÏ"},{"key":"j_yna","legacy":"ºè¼"},{"key":"shra","legacy":"ÕèÏ"},{"key":"_jza","legacy":"€"},{"key":"_nza","legacy":"Ç"},{"key":"_3","legacy":"ë","meaning":"avagraha"}
+  ],
+  "notes": [
+    "The source table has 84 entries including its index-0 control entry {\"\", \"ïB\"}; this JSON omits that sentinel from entries and records the declared length above.",
+    "Values are the legacy table's byte/code-page glyphs as rendered in the upstream source, not Unicode Sanskrit letters.",
+    "Do not infer phoneme identity from a key alone where the table's historical convention is ambiguous."
+  ]
+}

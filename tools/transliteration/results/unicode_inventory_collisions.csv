@@ -1,0 +1,314 @@
+scheme,encoded,count,codepoints,characters,unicode_names,note
+hk,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,A,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,I,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,R,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,RR,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,U,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,lR,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,lRR,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,|,2,U+007C;U+0964,|;।,VERTICAL LINE;DEVANAGARI DANDA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,è,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+hk,ò,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,|,2,U+007C;U+0964,|;।,VERTICAL LINE;DEVANAGARI DANDA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,è,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ò,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ā,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ī,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ū,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,̀,2,U+1CD9;U+1CE1,᳙;᳡,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER;VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ḷ,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ḹ,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ṛ,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iast,ṝ,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,e,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,l̥,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,l̥̄,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,o,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,r̥,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,r̥̄,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ê,2,U+090D;U+0945,ऍ;ॅ,DEVANAGARI LETTER CANDRA E;DEVANAGARI VOWEL SIGN CANDRA E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ô,2,U+0911;U+0949,ऑ;ॉ,DEVANAGARI LETTER CANDRA O;DEVANAGARI VOWEL SIGN CANDRA O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ā,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ē,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ī,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ō,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,ū,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso,̀,2,U+1CD9;U+1CE1,᳙;᳡,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER;VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,ai,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,au,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,e,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,l̥,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,l̥̄,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,o,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,r̥,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,r̥̄,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,ê,2,U+090D;U+0945,ऍ;ॅ,DEVANAGARI LETTER CANDRA E;DEVANAGARI VOWEL SIGN CANDRA E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,ô,2,U+0911;U+0949,ऑ;ॉ,DEVANAGARI LETTER CANDRA O;DEVANAGARI VOWEL SIGN CANDRA O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,ā,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,āi,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,āu,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,ī,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,ū,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+iso_vedic,̀,2,U+1CD9;U+1CE1,᳙;᳡,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER;VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,A,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,I,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,LLI,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,LLi,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,RRI,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,RRi,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,U,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,|,2,U+007C;U+0964,|;।,VERTICAL LINE;DEVANAGARI DANDA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,è,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+itrans,ò,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,e,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,o,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,|,2,U+007C;U+0964,|;।,VERTICAL LINE;DEVANAGARI DANDA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ā,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ē,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ī,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ō,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ū,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,̀,2,U+1CD9;U+1CE1,᳙;᳡,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER;VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ḷ,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ḹ,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ṛ,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+kolkata,ṝ,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,A,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,E,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,I,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,LLI,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,LLi,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,O,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,R,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,RR,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,U,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,ea,2,U+090D;U+0945,ऍ;ॅ,DEVANAGARI LETTER CANDRA E;DEVANAGARI VOWEL SIGN CANDRA E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,oa,2,U+0911;U+0949,ऑ;ॉ,DEVANAGARI LETTER CANDRA O;DEVANAGARI VOWEL SIGN CANDRA O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+optitrans,|,2,U+007C;U+0964,|;।,VERTICAL LINE;DEVANAGARI DANDA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+romenagri,_ri,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,A,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,E,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,F,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,I,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,O,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,U,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,X,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,f,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,x,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,è,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+slp1,ò,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,l̥,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,l̥̄,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,r̥,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,r̥̄,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,æ,2,U+090D;U+0945,ऍ;ॅ,DEVANAGARI LETTER CANDRA E;DEVANAGARI VOWEL SIGN CANDRA E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,ô,2,U+0911;U+0949,ऑ;ॉ,DEVANAGARI LETTER CANDRA O;DEVANAGARI VOWEL SIGN CANDRA O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,ā,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,ĕ,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,ī,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,ŏ,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,ū,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+titus,̀,2,U+1CD9;U+1CE1,᳙;᳡,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER;VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,.l,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,.ll,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,.r,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,.rr,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,aa,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,ai,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,au,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,ii,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,uu,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,|,2,U+007C;U+0964,|;।,VERTICAL LINE;DEVANAGARI DANDA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,è,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+velthuis,ò,2,U+0912;U+094A,ऒ;ॊ,DEVANAGARI LETTER SHORT O;DEVANAGARI VOWEL SIGN SHORT O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,',2,U+0027;U+093D,';ऽ,APOSTROPHE;DEVANAGARI SIGN AVAGRAHA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,0,2,U+0030;U+0966,0;०,DIGIT ZERO;DEVANAGARI DIGIT ZERO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,1,2,U+0031;U+0967,1;१,DIGIT ONE;DEVANAGARI DIGIT ONE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,2,2,U+0032;U+0968,2;२,DIGIT TWO;DEVANAGARI DIGIT TWO,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,3,2,U+0033;U+0969,3;३,DIGIT THREE;DEVANAGARI DIGIT THREE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,4,2,U+0034;U+096A,4;४,DIGIT FOUR;DEVANAGARI DIGIT FOUR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,5,2,U+0035;U+096B,5;५,DIGIT FIVE;DEVANAGARI DIGIT FIVE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,6,2,U+0036;U+096C,6;६,DIGIT SIX;DEVANAGARI DIGIT SIX,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,7,2,U+0037;U+096D,7;७,DIGIT SEVEN;DEVANAGARI DIGIT SEVEN,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,8,2,U+0038;U+096E,8;८,DIGIT EIGHT;DEVANAGARI DIGIT EIGHT,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,9,2,U+0039;U+096F,9;९,DIGIT NINE;DEVANAGARI DIGIT NINE,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,A,2,U+0906;U+093E,आ;ा,DEVANAGARI LETTER AA;DEVANAGARI VOWEL SIGN AA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,E,2,U+0910;U+0948,ऐ;ै,DEVANAGARI LETTER AI;DEVANAGARI VOWEL SIGN AI,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,I,2,U+0908;U+0940,ई;ी,DEVANAGARI LETTER II;DEVANAGARI VOWEL SIGN II,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,L,2,U+090C;U+0962,ऌ;ॢ,DEVANAGARI LETTER VOCALIC L;DEVANAGARI VOWEL SIGN VOCALIC L,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,O,2,U+0914;U+094C,औ;ौ,DEVANAGARI LETTER AU;DEVANAGARI VOWEL SIGN AU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,Q,2,U+0944;U+0960,ॄ;ॠ,DEVANAGARI VOWEL SIGN VOCALIC RR;DEVANAGARI LETTER VOCALIC RR,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,U,2,U+090A;U+0942,ऊ;ू,DEVANAGARI LETTER UU;DEVANAGARI VOWEL SIGN UU,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,e,2,U+090F;U+0947,ए;े,DEVANAGARI LETTER E;DEVANAGARI VOWEL SIGN E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,i,2,U+0907;U+093F,इ;ि,DEVANAGARI LETTER I;DEVANAGARI VOWEL SIGN I,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,o,2,U+0913;U+094B,ओ;ो,DEVANAGARI LETTER O;DEVANAGARI VOWEL SIGN O,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,q,2,U+090B;U+0943,ऋ;ृ,DEVANAGARI LETTER VOCALIC R;DEVANAGARI VOWEL SIGN VOCALIC R,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,u,2,U+0909;U+0941,उ;ु,DEVANAGARI LETTER U;DEVANAGARI VOWEL SIGN U,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,è,2,U+090E;U+0946,ऎ;ॆ,DEVANAGARI LETTER SHORT E;DEVANAGARI VOWEL SIGN SHORT E,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,̀,2,U+1CD9;U+1CE1,᳙;᳡,VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER;VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA,Context-free code-point collision; inspect category/context before treating as a valid-text defect.
+wx,ḹ,2,U+0961;U+0963,ॡ;ॣ,DEVANAGARI LETTER VOCALIC LL;DEVANAGARI VOWEL SIGN VOCALIC LL,Context-free code-point collision; inspect category/context before treating as a valid-text defect.

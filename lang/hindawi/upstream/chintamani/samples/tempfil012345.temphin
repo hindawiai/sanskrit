@@ -1,0 +1,58 @@
+%_a_nnu
+#samaawaeesha <prakaara.sa>
+#samaawaeesha <maanakapana.sa>
+#ghoaxa_nnaa wyaaka_dhaeera_prakaara _dwiguna
+
+poor_nnaa_mka wyaaka__truti(_akxara *);
+poor_nnaa_mka sha_shab_da();
+%poor_nna
+ 
+%moa_hara _a_mka
+%baa_na_aee '+' '-'
+%baa_na_aee '*' '/'
+%baa_na_aee '%'
+%_daa_na_aee ghataa
+ 
+%%
+pa_mk_ti   : pa_mk_ti _uk_ti '\n'   { ma_likhoa("%g \n", $2); }
+       | pa_mk_ti '\n'
+       | /* _aipasilana */
+       ;
+_uk_ti   : _uk_ti '+' _uk_ti    { $$ = $1 + $3; }
+       | _uk_ti '-' _uk_ti    { $$ = $1 - $3; }
+       | _uk_ti '*' _uk_ti    { $$ = $1 * $3; }
+       | _uk_ti '/' _uk_ti    { $$ = $1 / $3; }
+       | _uk_ti '%' _uk_ti    { $$ = (int)$1 % (int)$3; }
+       | '(' _uk_ti ')'     { $$ = $2; }
+       | '-' _uk_ti %praa_thamika_taa ghataa  { $$ = - $2; }
+       | _a_mka
+       ;
+%%
+ 
+poor_nnaa_mka sha_shab_da()
+_a_nnu
+   poor_nnaa_mka cha;
+   jaba_taka ( ( cha=_akxara_loa() ) == ' ' );
+   _agara ( (cha == '.') || (_hai__a_mka(cha)) )
+   _a_nnu
+      _akxara_waapasa(cha, maanaka_niwaeesha);
+      ma_poochhoa("%lf", &sha_ba_maana);
+      waapasa _a_mka;
+   poor_nna
+   waapasa cha;
+poor_nna
+ 
+poor_nnaa_mka wyaaka__truti()
+_a_nnu
+   waapasa 0;
+poor_nna
+ 
+poor_nnaa_mka mukhya(poor_nnaa_mka _tasa, _akxara *_tawa[] )
+_a_nnu
+   ma_likhoa("ØÛ¢ÄÔÜ ³âÑè³èÍÞÑá½Ï\n");
+   ma_likhoa("Copyright (C) 2005 Abhishek Choudhary\n");
+   ma_likhoa("GNU GPL V2 license. NO WARRANTY.\n");
+   ma_likhoa("¥È 0 ×á 9, +, -, *, / ±Ï () ³Ú ÈèÏÍåµ ³Ï ×³Âá Øâ¢ê\n");
+   wyaaka();
+   waapasa 0;
+poor_nna

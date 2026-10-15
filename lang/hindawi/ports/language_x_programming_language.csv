@@ -1,0 +1,545 @@
+human_language_profile,script,programming_language,keyword_table_status,compiler_integration_status,evidence
+hindi,Devanagari,C,candidate-keyword-table,not-verified,lang_hindi.csv
+hindi,Devanagari,C++,candidate-keyword-table,not-verified,lang_hindi.csv
+bengali,Bengali,C,candidate-keyword-table,not-verified,lang_bengali.csv
+bengali,Bengali,C++,candidate-keyword-table,not-verified,lang_bengali.csv
+marathi,Devanagari,C,candidate-keyword-table,not-verified,lang_marathi.csv
+marathi,Devanagari,C++,candidate-keyword-table,not-verified,lang_marathi.csv
+gujarati,Gujarati,C,candidate-keyword-table,not-verified,lang_gujarati.csv
+gujarati,Gujarati,C++,candidate-keyword-table,not-verified,lang_gujarati.csv
+punjabi,Gurmukhi,C,candidate-keyword-table,not-verified,lang_punjabi.csv
+punjabi,Gurmukhi,C++,candidate-keyword-table,not-verified,lang_punjabi.csv
+odia,Odia,C,candidate-keyword-table,not-verified,lang_odia.csv
+odia,Odia,C++,candidate-keyword-table,not-verified,lang_odia.csv
+assamese,Bengali-Assamese,C,candidate-keyword-table,not-verified,lang_assamese.csv
+assamese,Bengali-Assamese,C++,candidate-keyword-table,not-verified,lang_assamese.csv
+nepali,Devanagari,C,candidate-keyword-table,not-verified,lang_nepali.csv
+nepali,Devanagari,C++,candidate-keyword-table,not-verified,lang_nepali.csv
+sinhala,Sinhala,C,candidate-keyword-table,not-verified,lang_sinhala.csv
+sinhala,Sinhala,C++,candidate-keyword-table,not-verified,lang_sinhala.csv
+maithili,Devanagari,C,candidate-keyword-table,not-verified,lang_maithili.csv
+maithili,Devanagari,C++,candidate-keyword-table,not-verified,lang_maithili.csv
+bhojpuri,Devanagari,C,candidate-keyword-table,not-verified,lang_bhojpuri.csv
+bhojpuri,Devanagari,C++,candidate-keyword-table,not-verified,lang_bhojpuri.csv
+magahi,Devanagari,C,candidate-keyword-table,not-verified,lang_magahi.csv
+magahi,Devanagari,C++,candidate-keyword-table,not-verified,lang_magahi.csv
+awadhi,Devanagari,C,candidate-keyword-table,not-verified,lang_awadhi.csv
+awadhi,Devanagari,C++,candidate-keyword-table,not-verified,lang_awadhi.csv
+chhattisgarhi,Devanagari,C,candidate-keyword-table,not-verified,lang_chhattisgarhi.csv
+chhattisgarhi,Devanagari,C++,candidate-keyword-table,not-verified,lang_chhattisgarhi.csv
+rajasthani,Devanagari,C,candidate-keyword-table,not-verified,lang_rajasthani.csv
+rajasthani,Devanagari,C++,candidate-keyword-table,not-verified,lang_rajasthani.csv
+marwari,Devanagari,C,candidate-keyword-table,not-verified,lang_marwari.csv
+marwari,Devanagari,C++,candidate-keyword-table,not-verified,lang_marwari.csv
+konkani,Devanagari,C,candidate-keyword-table,not-verified,lang_konkani.csv
+konkani,Devanagari,C++,candidate-keyword-table,not-verified,lang_konkani.csv
+dogri,Devanagari,C,candidate-keyword-table,not-verified,lang_dogri.csv
+dogri,Devanagari,C++,candidate-keyword-table,not-verified,lang_dogri.csv
+kashmiri_dev,Devanagari,C,candidate-keyword-table,not-verified,lang_kashmiri_dev.csv
+kashmiri_dev,Devanagari,C++,candidate-keyword-table,not-verified,lang_kashmiri_dev.csv
+sindhi_dev,Devanagari,C,candidate-keyword-table,not-verified,lang_sindhi_dev.csv
+sindhi_dev,Devanagari,C++,candidate-keyword-table,not-verified,lang_sindhi_dev.csv
+santali,Ol Chiki,C,candidate-keyword-table,not-verified,lang_santali.csv
+santali,Ol Chiki,C++,candidate-keyword-table,not-verified,lang_santali.csv
+bodo,Devanagari,C,candidate-keyword-table,not-verified,lang_bodo.csv
+bodo,Devanagari,C++,candidate-keyword-table,not-verified,lang_bodo.csv
+manipuri_beng,Bengali,C,candidate-keyword-table,not-verified,lang_manipuri_beng.csv
+manipuri_beng,Bengali,C++,candidate-keyword-table,not-verified,lang_manipuri_beng.csv
+tamil,Tamil,C,candidate-keyword-table,not-verified,lang_tamil.csv
+tamil,Tamil,C++,candidate-keyword-table,not-verified,lang_tamil.csv
+telugu,Telugu,C,candidate-keyword-table,not-verified,lang_telugu.csv
+telugu,Telugu,C++,candidate-keyword-table,not-verified,lang_telugu.csv
+kannada,Kannada,C,candidate-keyword-table,not-verified,lang_kannada.csv
+kannada,Kannada,C++,candidate-keyword-table,not-verified,lang_kannada.csv
+malayalam,Malayalam,C,candidate-keyword-table,not-verified,lang_malayalam.csv
+malayalam,Malayalam,C++,candidate-keyword-table,not-verified,lang_malayalam.csv
+tulu,Kannada,C,candidate-keyword-table,not-verified,lang_tulu.csv
+tulu,Kannada,C++,candidate-keyword-table,not-verified,lang_tulu.csv
+sanskrit,Devanagari,C,candidate-keyword-table,not-verified,lang_sanskrit.csv
+sanskrit,Devanagari,C++,candidate-keyword-table,not-verified,lang_sanskrit.csv
+pali,Devanagari,C,candidate-keyword-table,not-verified,lang_pali.csv
+pali,Devanagari,C++,candidate-keyword-table,not-verified,lang_pali.csv
+prakrit,Devanagari,C,candidate-keyword-table,not-verified,lang_prakrit.csv
+prakrit,Devanagari,C++,candidate-keyword-table,not-verified,lang_prakrit.csv
+tibetan,Tibetan,C,candidate-keyword-table,not-verified,lang_tibetan.csv
+tibetan,Tibetan,C++,candidate-keyword-table,not-verified,lang_tibetan.csv
+dzongkha,Tibetan,C,candidate-keyword-table,not-verified,lang_dzongkha.csv
+dzongkha,Tibetan,C++,candidate-keyword-table,not-verified,lang_dzongkha.csv
+newari,Devanagari,C,candidate-keyword-table,not-verified,lang_newari.csv
+newari,Devanagari,C++,candidate-keyword-table,not-verified,lang_newari.csv
+limbu,Limbu,C,candidate-keyword-table,not-verified,lang_limbu.csv
+limbu,Limbu,C++,candidate-keyword-table,not-verified,lang_limbu.csv
+lepcha,Lepcha,C,candidate-keyword-table,not-verified,lang_lepcha.csv
+lepcha,Lepcha,C++,candidate-keyword-table,not-verified,lang_lepcha.csv
+thai,Thai,C,candidate-keyword-table,not-verified,lang_thai.csv
+thai,Thai,C++,candidate-keyword-table,not-verified,lang_thai.csv
+lao,Lao,C,candidate-keyword-table,not-verified,lang_lao.csv
+lao,Lao,C++,candidate-keyword-table,not-verified,lang_lao.csv
+khmer,Khmer,C,candidate-keyword-table,not-verified,lang_khmer.csv
+khmer,Khmer,C++,candidate-keyword-table,not-verified,lang_khmer.csv
+burmese,Myanmar,C,candidate-keyword-table,not-verified,lang_burmese.csv
+burmese,Myanmar,C++,candidate-keyword-table,not-verified,lang_burmese.csv
+shan,Myanmar,C,candidate-keyword-table,not-verified,lang_shan.csv
+shan,Myanmar,C++,candidate-keyword-table,not-verified,lang_shan.csv
+balinese,Balinese,C,candidate-keyword-table,not-verified,lang_balinese.csv
+balinese,Balinese,C++,candidate-keyword-table,not-verified,lang_balinese.csv
+javanese,Javanese,C,candidate-keyword-table,not-verified,lang_javanese.csv
+javanese,Javanese,C++,candidate-keyword-table,not-verified,lang_javanese.csv
+sundanese,Sundanese,C,candidate-keyword-table,not-verified,lang_sundanese.csv
+sundanese,Sundanese,C++,candidate-keyword-table,not-verified,lang_sundanese.csv
+buginese,Lontara,C,candidate-keyword-table,not-verified,lang_buginese.csv
+buginese,Lontara,C++,candidate-keyword-table,not-verified,lang_buginese.csv
+batak,Batak,C,candidate-keyword-table,not-verified,lang_batak.csv
+batak,Batak,C++,candidate-keyword-table,not-verified,lang_batak.csv
+tagalog,Baybayin,C,candidate-keyword-table,not-verified,lang_tagalog.csv
+tagalog,Baybayin,C++,candidate-keyword-table,not-verified,lang_tagalog.csv
+arabic,Arabic,C,candidate-keyword-table,not-verified,lang_arabic.csv
+arabic,Arabic,C++,needs-review,not-verified,lang_arabic.csv
+urdu,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_urdu.csv
+urdu,Perso-Arabic,C++,candidate-keyword-table,not-verified,lang_urdu.csv
+persian,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_persian.csv
+persian,Perso-Arabic,C++,candidate-keyword-table,not-verified,lang_persian.csv
+pashto,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_pashto.csv
+pashto,Perso-Arabic,C++,needs-review,not-verified,lang_pashto.csv
+sindhi,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_sindhi.csv
+sindhi,Perso-Arabic,C++,needs-review,not-verified,lang_sindhi.csv
+saraiki,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_saraiki.csv
+saraiki,Perso-Arabic,C++,needs-review,not-verified,lang_saraiki.csv
+kashmiri,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_kashmiri.csv
+kashmiri,Perso-Arabic,C++,needs-review,not-verified,lang_kashmiri.csv
+uyghur,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_uyghur.csv
+uyghur,Perso-Arabic,C++,needs-review,not-verified,lang_uyghur.csv
+kurdish_sorani,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_kurdish_sorani.csv
+kurdish_sorani,Perso-Arabic,C++,needs-review,not-verified,lang_kurdish_sorani.csv
+balochi,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_balochi.csv
+balochi,Perso-Arabic,C++,needs-review,not-verified,lang_balochi.csv
+punjabi_shahmukhi,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_punjabi_shahmukhi.csv
+punjabi_shahmukhi,Perso-Arabic,C++,needs-review,not-verified,lang_punjabi_shahmukhi.csv
+malay_jawi,Jawi,C,candidate-keyword-table,not-verified,lang_malay_jawi.csv
+malay_jawi,Jawi,C++,needs-review,not-verified,lang_malay_jawi.csv
+hausa_ajami,Ajami,C,candidate-keyword-table,not-verified,lang_hausa_ajami.csv
+hausa_ajami,Ajami,C++,needs-review,not-verified,lang_hausa_ajami.csv
+dari,Perso-Arabic,C,candidate-keyword-table,not-verified,lang_dari.csv
+dari,Perso-Arabic,C++,needs-review,not-verified,lang_dari.csv
+hebrew,Hebrew,C,candidate-keyword-table,not-verified,lang_hebrew.csv
+hebrew,Hebrew,C++,needs-review,not-verified,lang_hebrew.csv
+syriac,Syriac,C,candidate-keyword-table,not-verified,lang_syriac.csv
+syriac,Syriac,C++,needs-review,not-verified,lang_syriac.csv
+aramaic,Imperial Aramaic,C,candidate-keyword-table,not-verified,lang_aramaic.csv
+aramaic,Imperial Aramaic,C++,needs-review,not-verified,lang_aramaic.csv
+phoenician,Phoenician,C,candidate-keyword-table,not-verified,lang_phoenician.csv
+phoenician,Phoenician,C++,needs-review,not-verified,lang_phoenician.csv
+samaritan,Samaritan,C,candidate-keyword-table,not-verified,lang_samaritan.csv
+samaritan,Samaritan,C++,needs-review,not-verified,lang_samaritan.csv
+mandaic,Mandaic,C,candidate-keyword-table,not-verified,lang_mandaic.csv
+mandaic,Mandaic,C++,needs-review,not-verified,lang_mandaic.csv
+nabataean,Nabataean,C,candidate-keyword-table,not-verified,lang_nabataean.csv
+nabataean,Nabataean,C++,needs-review,not-verified,lang_nabataean.csv
+hindi,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+hindi,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+hindi,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+hindi,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+hindi,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+hindi,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+bengali,Bengali,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+bengali,Bengali,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+bengali,Bengali,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+bengali,Bengali,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+bengali,Bengali,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+bengali,Bengali,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+marathi,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+marathi,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+marathi,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+marathi,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+marathi,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+marathi,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+gujarati,Gujarati,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+gujarati,Gujarati,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+gujarati,Gujarati,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+gujarati,Gujarati,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+gujarati,Gujarati,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+gujarati,Gujarati,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+punjabi,Gurmukhi,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+punjabi,Gurmukhi,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+punjabi,Gurmukhi,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+punjabi,Gurmukhi,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+punjabi,Gurmukhi,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+punjabi,Gurmukhi,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+odia,Odia,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+odia,Odia,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+odia,Odia,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+odia,Odia,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+odia,Odia,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+odia,Odia,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+assamese,Bengali-Assamese,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+assamese,Bengali-Assamese,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+assamese,Bengali-Assamese,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+assamese,Bengali-Assamese,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+assamese,Bengali-Assamese,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+assamese,Bengali-Assamese,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+nepali,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+nepali,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+nepali,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+nepali,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+nepali,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+nepali,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+sinhala,Sinhala,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+sinhala,Sinhala,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+sinhala,Sinhala,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+sinhala,Sinhala,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+sinhala,Sinhala,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+sinhala,Sinhala,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+maithili,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+maithili,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+maithili,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+maithili,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+maithili,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+maithili,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+bhojpuri,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+bhojpuri,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+bhojpuri,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+bhojpuri,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+bhojpuri,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+bhojpuri,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+magahi,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+magahi,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+magahi,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+magahi,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+magahi,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+magahi,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+awadhi,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+awadhi,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+awadhi,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+awadhi,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+awadhi,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+awadhi,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+chhattisgarhi,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+chhattisgarhi,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+chhattisgarhi,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+chhattisgarhi,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+chhattisgarhi,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+chhattisgarhi,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+rajasthani,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+rajasthani,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+rajasthani,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+rajasthani,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+rajasthani,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+rajasthani,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+marwari,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+marwari,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+marwari,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+marwari,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+marwari,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+marwari,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+konkani,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+konkani,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+konkani,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+konkani,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+konkani,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+konkani,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+dogri,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+dogri,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+dogri,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+dogri,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+dogri,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+dogri,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+kashmiri_dev,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+kashmiri_dev,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+kashmiri_dev,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+kashmiri_dev,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+kashmiri_dev,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+kashmiri_dev,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+sindhi_dev,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+sindhi_dev,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+sindhi_dev,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+sindhi_dev,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+sindhi_dev,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+sindhi_dev,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+santali,Ol Chiki,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+santali,Ol Chiki,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+santali,Ol Chiki,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+santali,Ol Chiki,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+santali,Ol Chiki,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+santali,Ol Chiki,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+bodo,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+bodo,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+bodo,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+bodo,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+bodo,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+bodo,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+manipuri_beng,Bengali,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+manipuri_beng,Bengali,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+manipuri_beng,Bengali,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+manipuri_beng,Bengali,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+manipuri_beng,Bengali,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+manipuri_beng,Bengali,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+tamil,Tamil,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+tamil,Tamil,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+tamil,Tamil,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+tamil,Tamil,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+tamil,Tamil,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+tamil,Tamil,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+telugu,Telugu,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+telugu,Telugu,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+telugu,Telugu,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+telugu,Telugu,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+telugu,Telugu,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+telugu,Telugu,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+kannada,Kannada,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+kannada,Kannada,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+kannada,Kannada,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+kannada,Kannada,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+kannada,Kannada,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+kannada,Kannada,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+malayalam,Malayalam,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+malayalam,Malayalam,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+malayalam,Malayalam,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+malayalam,Malayalam,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+malayalam,Malayalam,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+malayalam,Malayalam,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+tulu,Kannada,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+tulu,Kannada,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+tulu,Kannada,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+tulu,Kannada,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+tulu,Kannada,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+tulu,Kannada,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+sanskrit,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+sanskrit,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+sanskrit,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+sanskrit,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+sanskrit,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+sanskrit,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+pali,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+pali,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+pali,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+pali,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+pali,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+pali,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+prakrit,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+prakrit,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+prakrit,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+prakrit,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+prakrit,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+prakrit,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+tibetan,Tibetan,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+tibetan,Tibetan,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+tibetan,Tibetan,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+tibetan,Tibetan,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+tibetan,Tibetan,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+tibetan,Tibetan,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+dzongkha,Tibetan,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+dzongkha,Tibetan,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+dzongkha,Tibetan,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+dzongkha,Tibetan,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+dzongkha,Tibetan,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+dzongkha,Tibetan,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+newari,Devanagari,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+newari,Devanagari,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+newari,Devanagari,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+newari,Devanagari,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+newari,Devanagari,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+newari,Devanagari,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+limbu,Limbu,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+limbu,Limbu,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+limbu,Limbu,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+limbu,Limbu,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+limbu,Limbu,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+limbu,Limbu,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+lepcha,Lepcha,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+lepcha,Lepcha,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+lepcha,Lepcha,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+lepcha,Lepcha,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+lepcha,Lepcha,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+lepcha,Lepcha,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+thai,Thai,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+thai,Thai,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+thai,Thai,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+thai,Thai,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+thai,Thai,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+thai,Thai,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+lao,Lao,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+lao,Lao,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+lao,Lao,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+lao,Lao,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+lao,Lao,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+lao,Lao,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+khmer,Khmer,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+khmer,Khmer,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+khmer,Khmer,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+khmer,Khmer,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+khmer,Khmer,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+khmer,Khmer,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+burmese,Myanmar,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+burmese,Myanmar,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+burmese,Myanmar,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+burmese,Myanmar,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+burmese,Myanmar,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+burmese,Myanmar,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+shan,Myanmar,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+shan,Myanmar,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+shan,Myanmar,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+shan,Myanmar,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+shan,Myanmar,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+shan,Myanmar,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+balinese,Balinese,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+balinese,Balinese,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+balinese,Balinese,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+balinese,Balinese,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+balinese,Balinese,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+balinese,Balinese,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+javanese,Javanese,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+javanese,Javanese,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+javanese,Javanese,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+javanese,Javanese,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+javanese,Javanese,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+javanese,Javanese,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+sundanese,Sundanese,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+sundanese,Sundanese,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+sundanese,Sundanese,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+sundanese,Sundanese,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+sundanese,Sundanese,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+sundanese,Sundanese,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+buginese,Lontara,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+buginese,Lontara,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+buginese,Lontara,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+buginese,Lontara,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+buginese,Lontara,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+buginese,Lontara,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+batak,Batak,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+batak,Batak,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+batak,Batak,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+batak,Batak,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+batak,Batak,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+batak,Batak,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+tagalog,Baybayin,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+tagalog,Baybayin,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+tagalog,Baybayin,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+tagalog,Baybayin,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+tagalog,Baybayin,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+tagalog,Baybayin,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+arabic,Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+arabic,Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+arabic,Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+arabic,Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+arabic,Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+arabic,Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+urdu,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+urdu,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+urdu,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+urdu,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+urdu,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+urdu,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+persian,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+persian,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+persian,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+persian,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+persian,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+persian,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+pashto,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+pashto,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+pashto,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+pashto,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+pashto,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+pashto,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+sindhi,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+sindhi,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+sindhi,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+sindhi,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+sindhi,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+sindhi,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+saraiki,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+saraiki,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+saraiki,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+saraiki,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+saraiki,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+saraiki,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+kashmiri,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+kashmiri,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+kashmiri,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+kashmiri,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+kashmiri,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+kashmiri,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+uyghur,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+uyghur,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+uyghur,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+uyghur,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+uyghur,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+uyghur,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+kurdish_sorani,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+kurdish_sorani,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+kurdish_sorani,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+kurdish_sorani,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+kurdish_sorani,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+kurdish_sorani,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+balochi,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+balochi,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+balochi,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+balochi,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+balochi,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+balochi,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+punjabi_shahmukhi,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+punjabi_shahmukhi,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+punjabi_shahmukhi,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+punjabi_shahmukhi,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+punjabi_shahmukhi,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+punjabi_shahmukhi,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+malay_jawi,Jawi,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+malay_jawi,Jawi,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+malay_jawi,Jawi,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+malay_jawi,Jawi,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+malay_jawi,Jawi,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+malay_jawi,Jawi,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+hausa_ajami,Ajami,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+hausa_ajami,Ajami,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+hausa_ajami,Ajami,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+hausa_ajami,Ajami,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+hausa_ajami,Ajami,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+hausa_ajami,Ajami,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+dari,Perso-Arabic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+dari,Perso-Arabic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+dari,Perso-Arabic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+dari,Perso-Arabic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+dari,Perso-Arabic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+dari,Perso-Arabic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+hebrew,Hebrew,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+hebrew,Hebrew,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+hebrew,Hebrew,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+hebrew,Hebrew,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+hebrew,Hebrew,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+hebrew,Hebrew,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+syriac,Syriac,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+syriac,Syriac,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+syriac,Syriac,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+syriac,Syriac,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+syriac,Syriac,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+syriac,Syriac,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+aramaic,Imperial Aramaic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+aramaic,Imperial Aramaic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+aramaic,Imperial Aramaic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+aramaic,Imperial Aramaic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+aramaic,Imperial Aramaic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+aramaic,Imperial Aramaic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+phoenician,Phoenician,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+phoenician,Phoenician,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+phoenician,Phoenician,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+phoenician,Phoenician,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+phoenician,Phoenician,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+phoenician,Phoenician,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+samaritan,Samaritan,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+samaritan,Samaritan,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+samaritan,Samaritan,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+samaritan,Samaritan,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+samaritan,Samaritan,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+samaritan,Samaritan,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+mandaic,Mandaic,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+mandaic,Mandaic,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+mandaic,Mandaic,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+mandaic,Mandaic,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+mandaic,Mandaic,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+mandaic,Mandaic,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific
+nabataean,Nabataean,Python,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Soochee adapter is Hindi-specific
+nabataean,Nabataean,BASIC,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Praatha adapter is Hindi-specific
+nabataean,Nabataean,Assembly,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiASM sample exists; adapter not generalized
+nabataean,Nabataean,Java,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,HindiJAVA sample exists; adapter not generalized
+nabataean,Nabataean,Lex,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Shabda adapter is Hindi-specific
+nabataean,Nabataean,Yacc,shared-ontology-available; language-specific table not generated,not-implemented-and-not-tested,Chintamani Wyaaka adapter is Hindi-specific

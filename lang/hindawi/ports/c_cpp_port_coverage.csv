@@ -1,0 +1,69 @@
+profile_code,language_name,script,mapped_constructs,target_constructs,status,missing_construct_ids,native_collisions,romenagri_collisions
+hindi,Hindi,Devanagari,8,25,needs-review,KW_DO;KW_CONTINUE;KW_SWITCH;KW_CASE;KW_DEFAULT;KW_CONST;KW_FLOAT;KW_DOUBLE;KW_CHAR;KW_CLASS;KW_NEW;KW_PUBLIC;KW_PRIVATE;KW_STATIC;KW_VIRTUAL;KW_STRUCT;KW_INCLUDE,,
+bengali,Bengali,Bengali,25,25,candidate,,,
+marathi,Marathi,Devanagari,25,25,candidate,,,
+gujarati,Gujarati,Gujarati,25,25,candidate,,,
+punjabi,Punjabi,Gurmukhi,25,25,candidate,,,
+odia,Odia,Odia,25,25,candidate,,,
+assamese,Assamese,Bengali-Assamese,25,25,candidate,,,
+nepali,Nepali,Devanagari,25,25,candidate,,,
+sinhala,Sinhala,Sinhala,25,25,candidate,,,
+maithili,Maithili,Devanagari,25,25,candidate,,,
+bhojpuri,Bhojpuri,Devanagari,25,25,candidate,,,
+magahi,Magahi,Devanagari,25,25,candidate,,,
+awadhi,Awadhi,Devanagari,25,25,candidate,,,
+chhattisgarhi,Chhattisgarhi,Devanagari,25,25,candidate,,,
+rajasthani,Rajasthani,Devanagari,25,25,candidate,,,
+marwari,Marwari,Devanagari,25,25,candidate,,,
+konkani,Konkani,Devanagari,25,25,candidate,,,
+dogri,Dogri,Devanagari,25,25,candidate,,,
+kashmiri_dev,Kashmiri (Devanagari),Devanagari,25,25,candidate,,,
+sindhi_dev,Sindhi (Devanagari),Devanagari,25,25,candidate,,,
+santali,Santali,Ol Chiki,25,25,candidate,,,
+bodo,Bodo,Devanagari,25,25,candidate,,,
+manipuri_beng,Manipuri (Bengali),Bengali,25,25,candidate,,,
+tamil,Tamil,Tamil,25,25,candidate,,,
+telugu,Telugu,Telugu,25,25,candidate,,,
+kannada,Kannada,Kannada,25,25,candidate,,,
+malayalam,Malayalam,Malayalam,25,25,candidate,,,
+tulu,Tulu,Kannada,25,25,candidate,,,
+sanskrit,Sanskrit,Devanagari,25,25,candidate,,,
+pali,Pali,Devanagari,25,25,candidate,,,
+prakrit,Prakrit,Devanagari,25,25,candidate,,,
+tibetan,Tibetan,Tibetan,25,25,candidate,,,
+dzongkha,Dzongkha,Tibetan,25,25,candidate,,,
+newari,Newari,Devanagari,25,25,candidate,,,
+limbu,Limbu,Limbu,25,25,candidate,,,
+lepcha,Lepcha,Lepcha,25,25,candidate,,,
+thai,Thai,Thai,25,25,candidate,,,
+lao,Lao,Lao,25,25,candidate,,,
+khmer,Khmer,Khmer,25,25,candidate,,,
+burmese,Burmese,Myanmar,25,25,candidate,,,
+shan,Shan,Myanmar,25,25,candidate,,,
+balinese,Balinese,Balinese,25,25,candidate,,,
+javanese,Javanese,Javanese,25,25,candidate,,,
+sundanese,Sundanese,Sundanese,25,25,candidate,,,
+buginese,Buginese,Lontara,25,25,candidate,,,
+batak,Batak,Batak,25,25,candidate,,,
+tagalog,Tagalog,Baybayin,25,25,candidate,,,
+arabic,Arabic,Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+urdu,Urdu,Perso-Arabic,25,25,candidate,,,
+persian,Persian,Perso-Arabic,25,25,candidate,,,
+pashto,Pashto,Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+sindhi,Sindhi,Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+saraiki,Saraiki,Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+kashmiri,Kashmiri,Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+uyghur,Uyghur,Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+kurdish_sorani,Kurdish (Sorani),Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+balochi,Balochi,Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+malay_jawi,Malay (Jawi),Jawi,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+hausa_ajami,Hausa (Ajami),Ajami,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+dari,Dari,Perso-Arabic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+hebrew,Hebrew,Hebrew,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+syriac,Syriac,Syriac,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+aramaic,Imperial Aramaic,Imperial Aramaic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+phoenician,Phoenician,Phoenician,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+samaritan,Samaritan,Samaritan,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+mandaic,Mandaic,Mandaic,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL
+nabataean,Nabataean,Nabataean,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL

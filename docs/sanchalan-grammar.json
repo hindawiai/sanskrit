@@ -1,0 +1,50 @@
+{
+  "title": "Sanchalan Suktam parsing rules",
+  "source": "Sanchalan Suktam V1.0, supplied source, explicitly not guaranteed final executable version",
+  "status": "Closed lexical/parser grammar. Not a complete Sanskrit grammar or OS runtime.",
+  "productions": [
+    {
+      "id": "SUK-001",
+      "lhs": "program/verse",
+      "rhs": "heading? verse+; verse := body ॥ number ॥",
+      "meaning": "A program has numbered verse bodies terminated by double-daṇḍa numeric markers."
+    },
+    {
+      "id": "SUK-002",
+      "lhs": "normalized-source",
+      "rhs": "NFC(source)",
+      "meaning": "Normalize to NFC and use Unicode code-point offsets over normalized verse text."
+    },
+    {
+      "id": "SUK-003",
+      "lhs": "body-item",
+      "rhs": "longest-known-lexeme | residual-span",
+      "meaning": "At each offset choose the longest lexicon entry."
+    },
+    {
+      "id": "SUK-004",
+      "lhs": "residual-span",
+      "rhs": "maximal-unmatched-code-points",
+      "meaning": "Unmatched spans are retained verbatim and make a verse lexically partial."
+    },
+    {
+      "id": "SUK-005",
+      "lhs": "verse-sequence",
+      "rhs": "ordered verse numbers",
+      "meaning": "Duplicate or gapped numbering produces diagnostics and is not silently repaired."
+    },
+    {
+      "id": "SUK-006",
+      "lhs": "verse-status",
+      "rhs": "LEXICALLY_COMPLETE | LEXICALLY_PARTIAL",
+      "meaning": "Status describes lexical coverage only; it is not grammatical validity."
+    }
+  ],
+  "non_goals": [
+    "full Sanskrit sandhi/padaccheda",
+    "complete morphology",
+    "derivation of every compound",
+    "execution of process/memory/IPC operations",
+    "claim that V1.0 is final executable source"
+  ]
+}

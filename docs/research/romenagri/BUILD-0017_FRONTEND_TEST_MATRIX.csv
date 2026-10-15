@@ -1,0 +1,21 @@
+test_id,category,input,strict_base_observation,lossless_frontend_observation,exact_roundtrip,notes
+VIRAMA-01,terminal-virama,चेत्,चेत् -> chaee_t -> चेत् exact,not needed,yes,Directly executed against current strict encoder/decoder
+VIRAMA-02,terminal-virama,सर्वम्,सर्वम् -> sarwam -> सर्वम् exact,not needed,yes,Directly executed against current strict encoder/decoder
+VIRAMA-03,terminal-virama,पापम्,पापम् -> paapam -> पापम् exact,not needed,yes,Directly executed against current strict encoder/decoder
+VIRAMA-04,terminal-virama,उद्धरणम्,उद्धरणम् -> _u_d_dhara_nnam -> उद्धरणम् exact,not needed,yes,Directly executed against current strict encoder/decoder
+SYMBOL-AVAGRAHA,punctuation,ऽ,ऽ -> _3 -> ऽ exact,base transliteration; no escape needed,yes,Contradicts the pasted claim that U+093D is unmapped in this implementation
+SYMBOL-U+201C,unsupported-symbol,U+201C left curly double quote,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+201D,unsupported-symbol,U+201D right curly double quote,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+2018,unsupported-symbol,U+2018 left curly single quote,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+0949,unsupported-symbol,U+0949 candra o,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+2013,unsupported-symbol,U+2013 en dash,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+2014,unsupported-symbol,U+2014 em dash,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+200D,unsupported-symbol,U+200D zero-width joiner,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+093C,unsupported-symbol,U+093C nukta,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+0945,unsupported-symbol,U+0945 candra e,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+SYMBOL-U+0965,unsupported-symbol,U+0965 double danda,strict encoder returns unmapped status,lossless wrapper escapes and restores exact code point/cluster,yes,Exactness verified by lossless-wrapper regression suite
+DOC-16,document-preservation,।।36।।,strict encoder rejects unsupported mixed-document characters when present,lossless wrapper uses base Romenagri for supported clusters and ~{HEX} escapes elsewhere,yes,Lossless wrapper round-trip regression
+DOC-17,document-preservation,45-52।,strict encoder rejects unsupported mixed-document characters when present,lossless wrapper uses base Romenagri for supported clusters and ~{HEX} escapes elsewhere,yes,Lossless wrapper round-trip regression
+DOC-18,document-preservation,'अ,strict encoder rejects unsupported mixed-document characters when present,lossless wrapper uses base Romenagri for supported clusters and ~{HEX} escapes elsewhere,yes,Lossless wrapper round-trip regression
+DOC-19,document-preservation,literal ~ marker,strict encoder rejects unsupported mixed-document characters when present,lossless wrapper uses base Romenagri for supported clusters and ~{HEX} escapes elsewhere,yes,Lossless wrapper round-trip regression
+DOC-20,document-preservation,Sanskrit 123,strict encoder rejects unsupported mixed-document characters when present,lossless wrapper uses base Romenagri for supported clusters and ~{HEX} escapes elsewhere,yes,Lossless wrapper round-trip regression

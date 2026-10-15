@@ -1,0 +1,58 @@
+{
+  "fixtures": {
+    "analysis": 3,
+    "generation": 1
+  },
+  "systems": {
+    "pushkalavati-inverse": {
+      "available": true,
+      "system": "pushkalavati-inverse",
+      "rows": [
+        {
+          "system": "pushkalavati-inverse",
+          "job": "analysis",
+          "id": "upendro",
+          "surface": "उपेन्द्रो",
+          "status": "UNRESOLVED",
+          "prefix": "उप",
+          "candidates": [
+            "इन्द्रो",
+            "ईन्द्रो"
+          ],
+          "rules": [
+            "6.1.87"
+          ],
+          "elapsed_ms": 27.579,
+          "pass": true
+        },
+        {
+          "system": "pushkalavati-inverse",
+          "job": "analysis",
+          "id": "kitaba",
+          "surface": "किताब",
+          "status": "NO_MATCH",
+          "prefix": null,
+          "candidates": [],
+          "rules": [],
+          "elapsed_ms": 0.144,
+          "pass": true
+        }
+      ]
+    },
+    "vidyut": {
+      "available": false,
+      "job": "generation",
+      "reason": "MIT forward prakriya generator. Not an analyzer. Install separately to score generation."
+    },
+    "sanskrit_parser": {
+      "available": false,
+      "reason": "MIT sandhi splitter plus lexical lookup. Reverse only at the sandhi layer.",
+      "job": "sandhi-split-and-lookup"
+    },
+    "vyakarana": {
+      "available": false,
+      "job": "generation",
+      "reason": "No LICENSE file. Not scored."
+    }
+  }
+}

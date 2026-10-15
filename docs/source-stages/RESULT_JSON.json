@@ -1,0 +1,2672 @@
+{
+  "name": "sanchalan",
+  "sourceVersion": "V1.0 (source explicitly says not guaranteed final executable version)",
+  "grammar": "lang/suktam/grammar.json",
+  "rules": [
+    {
+      "id": "SUK-001",
+      "name": "verse-boundary",
+      "rule": "A verse body ends at ॥N॥ where N is an ASCII or Devanagari decimal number."
+    },
+    {
+      "id": "SUK-002",
+      "name": "unicode-normalization",
+      "rule": "Normalize recognized input to NFC; preserve the normalized verse text and code-point offsets."
+    },
+    {
+      "id": "SUK-003",
+      "name": "longest-lexeme",
+      "rule": "At each code-point offset, choose the longest lexicon entry that matches."
+    },
+    {
+      "id": "SUK-004",
+      "name": "residual-preservation",
+      "rule": "Unmatched spans are retained verbatim and make the verse partial; they are never deleted or guessed."
+    },
+    {
+      "id": "SUK-005",
+      "name": "sequence-validation",
+      "rule": "Verse numbers are reported in source order; duplicates and gaps are diagnostics, not silently repaired."
+    },
+    {
+      "id": "SUK-006",
+      "name": "lexical-status",
+      "rule": "LEXICALLY_COMPLETE means no residual text; LEXICALLY_PARTIAL means residual text exists. Neither status asserts grammatical validity."
+    },
+    {
+      "id": "SUK-007",
+      "name": "visarga-scu",
+      "rule": "श्च after a matched stem is ḥ+c, licensed by 8.3.34 then 8.4.40. It is consumed only at that boundary.",
+      "license": [
+        "8.3.34",
+        "8.4.40"
+      ]
+    },
+    {
+      "id": "SUK-008",
+      "name": "execute-named-ops",
+      "rule": "Only recognized operation codes execute. Residual text does not execute."
+    }
+  ],
+  "verses": [
+    {
+      "n": 1,
+      "text": "||SanchalanSuktam||अधिकारश्चमूलेवैस्मृतिप्रमाणसिद्धयेस्थानपट्टंसमाप्येवकार्यमारभतेस्थिरम्",
+      "sourceOffset": 0,
+      "nodes": [
+        {
+          "term": "अधिकार",
+          "id": "adhikara",
+          "role": "control",
+          "operation": "scope",
+          "at": 19,
+          "end": 25,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "श्च",
+          "id": "visarga-ca",
+          "role": "sandhi",
+          "operation": "visarga-ca",
+          "at": 25,
+          "end": 27,
+          "rule": "SUK-007",
+          "license": [
+            "8.3.34",
+            "8.4.40"
+          ]
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 27,
+          "end": 28,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मूले",
+          "id": "mula",
+          "role": "runtime",
+          "operation": "root",
+          "at": 28,
+          "end": 32,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 32,
+          "end": 34,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्मृतिप्रमाण",
+          "id": "smrti-pramana",
+          "role": "memory-proof",
+          "operation": "validate-memory",
+          "at": 34,
+          "end": 46,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्थानपट्ट",
+          "id": "sthana-patta",
+          "role": "storage",
+          "operation": "address-board",
+          "at": 53,
+          "end": 62,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "समाप्य",
+          "id": "samapya",
+          "role": "control",
+          "operation": "complete",
+          "at": 63,
+          "end": 69,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "कार्य",
+          "id": "karya",
+          "role": "runtime",
+          "operation": "work",
+          "at": 71,
+          "end": 76,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "||SanchalanSuktam||",
+          "at": 0,
+          "end": 19,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "सिद्धये",
+          "at": 46,
+          "end": 53,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ं",
+          "at": 62,
+          "end": 63,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ेव",
+          "at": 69,
+          "end": 71,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "मारभतेस्थिरम्",
+          "at": 76,
+          "end": 89,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "||SanchalanSuktam||सिद्धयेंेवमारभतेस्थिरम्",
+      "operations": [
+        "adhikara",
+        "visarga-ca",
+        "ca",
+        "mula",
+        "vai",
+        "smrti-pramana",
+        "sthana-patta",
+        "samapya",
+        "karya"
+      ],
+      "operationCodes": [
+        "scope",
+        "visarga-ca",
+        "particle",
+        "root",
+        "particle",
+        "validate-memory",
+        "address-board",
+        "complete",
+        "work"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004",
+        "SUK-007"
+      ]
+    },
+    {
+      "n": 2,
+      "text": "स्रोतस्स्थानात्तुनिर्गत्यगन्तव्यंसङ्ग्यलक्षितम्आनीयसर्वमेवैवंस्थापयेत्क्रमतःस्मृतौ",
+      "sourceOffset": 97,
+      "nodes": [
+        {
+          "term": "तु",
+          "id": "tu",
+          "role": "particle",
+          "operation": "particle",
+          "at": 15,
+          "end": 17,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 57,
+          "end": 59,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्थापयेत्",
+          "id": "sthapaya",
+          "role": "control",
+          "operation": "store",
+          "at": 61,
+          "end": 70,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्मृतौ",
+          "id": "smrti",
+          "role": "memory",
+          "operation": "memory-reference",
+          "at": 76,
+          "end": 82,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "स्रोतस्स्थानात्",
+          "at": 0,
+          "end": 15,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "निर्गत्यगन्तव्यंसङ्ग्यलक्षितम्आनीयसर्वमे",
+          "at": 17,
+          "end": 57,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "वं",
+          "at": 59,
+          "end": 61,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "क्रमतः",
+          "at": 70,
+          "end": 76,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "स्रोतस्स्थानात्निर्गत्यगन्तव्यंसङ्ग्यलक्षितम्आनीयसर्वमेवंक्रमतः",
+      "operations": [
+        "tu",
+        "vai",
+        "sthapaya",
+        "smrti"
+      ],
+      "operationCodes": [
+        "particle",
+        "particle",
+        "store",
+        "memory-reference"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 3,
+      "text": "रिक्तस्थानंतुसर्वत्रशून्येनैवप्रपूरयेत्शुद्धिंकृत्वाचतस्यैवमङ्गलंकुरुतेध्रुवम्",
+      "sourceOffset": 183,
+      "nodes": [
+        {
+          "term": "रिक्तस्थान",
+          "id": "rikta-sthana",
+          "role": "storage",
+          "operation": "empty-location",
+          "at": 0,
+          "end": 10,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "तु",
+          "id": "tu",
+          "role": "particle",
+          "operation": "particle",
+          "at": 11,
+          "end": 13,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "शून्येन",
+          "id": "sunya",
+          "role": "memory",
+          "operation": "zero-fill",
+          "at": 20,
+          "end": 27,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रपूरयेत्",
+          "id": "prapuraya",
+          "role": "memory",
+          "operation": "fill",
+          "at": 29,
+          "end": 39,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "शुद्धिं",
+          "id": "suddhi",
+          "role": "diagnostic",
+          "operation": "sanitize",
+          "at": 39,
+          "end": 46,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 52,
+          "end": 53,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मङ्गल",
+          "id": "mangala",
+          "role": "control",
+          "operation": "initialize",
+          "at": 59,
+          "end": 64,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "ं",
+          "at": 10,
+          "end": 11,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "सर्वत्र",
+          "at": 13,
+          "end": 20,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ैव",
+          "at": 27,
+          "end": 29,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "कृत्वा",
+          "at": 46,
+          "end": 52,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "तस्यैव",
+          "at": 53,
+          "end": 59,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ंकुरुतेध्रुवम्",
+          "at": 64,
+          "end": 78,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ंसर्वत्रैवकृत्वातस्यैवंकुरुतेध्रुवम्",
+      "operations": [
+        "rikta-sthana",
+        "tu",
+        "sunya",
+        "prapuraya",
+        "suddhi",
+        "ca",
+        "mangala"
+      ],
+      "operationCodes": [
+        "empty-location",
+        "particle",
+        "zero-fill",
+        "fill",
+        "sanitize",
+        "particle",
+        "initialize"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 4,
+      "text": "यन्त्रपट्टेषुसर्वेषुस्थितिकार्यंप्रकल्पयेत्नियन्त्रणन्तुविध्यस्थंरक्षेद्विधिपूर्वकम्",
+      "sourceOffset": 265,
+      "nodes": [
+        {
+          "term": "यन्त्रपट्ट",
+          "id": "yantra-patta",
+          "role": "runtime",
+          "operation": "machine-board",
+          "at": 0,
+          "end": 10,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्थिति",
+          "id": "sthiti",
+          "role": "runtime",
+          "operation": "state",
+          "at": 20,
+          "end": 26,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "कार्यं",
+          "id": "karya",
+          "role": "runtime",
+          "operation": "work",
+          "at": 26,
+          "end": 32,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रकल्पयेत्",
+          "id": "prakalpaya",
+          "role": "runtime",
+          "operation": "configure",
+          "at": 32,
+          "end": 43,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "नियन्त्रण",
+          "id": "niyantrana",
+          "role": "control",
+          "operation": "control",
+          "at": 43,
+          "end": 52,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "तु",
+          "id": "tu",
+          "role": "particle",
+          "operation": "particle",
+          "at": 54,
+          "end": 56,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "विधिपूर्वकम्",
+          "id": "vidhipurvaka",
+          "role": "control",
+          "operation": "ordered-procedure",
+          "at": 72,
+          "end": 84,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "ेषुसर्वेषु",
+          "at": 10,
+          "end": 20,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "न्",
+          "at": 52,
+          "end": 54,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "विध्यस्थंरक्षेद्",
+          "at": 56,
+          "end": 72,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ेषुसर्वेषुन्विध्यस्थंरक्षेद्",
+      "operations": [
+        "yantra-patta",
+        "sthiti",
+        "karya",
+        "prakalpaya",
+        "niyantrana",
+        "tu",
+        "vidhipurvaka"
+      ],
+      "operationCodes": [
+        "machine-board",
+        "state",
+        "work",
+        "configure",
+        "control",
+        "particle",
+        "ordered-procedure"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 5,
+      "text": "मूलस्थानेचगन्तव्यंप्रस्थानञ्चविधायचआरभ्यतैवमुख्यञ्चकार्यंसंपूर्णतामियात्",
+      "sourceOffset": 353,
+      "nodes": [
+        {
+          "term": "मूलस्थान",
+          "id": "mula-sthana",
+          "role": "runtime",
+          "operation": "root-location",
+          "at": 0,
+          "end": 8,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 9,
+          "end": 10,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रस्थान",
+          "id": "prasthana",
+          "role": "control",
+          "operation": "start",
+          "at": 18,
+          "end": 26,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 28,
+          "end": 29,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 34,
+          "end": 35,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "आरभ्य",
+          "id": "arabhya",
+          "role": "control",
+          "operation": "begin",
+          "at": 35,
+          "end": 40,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 50,
+          "end": 51,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "कार्यं",
+          "id": "karya",
+          "role": "runtime",
+          "operation": "work",
+          "at": 51,
+          "end": 57,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "े",
+          "at": 8,
+          "end": 9,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "गन्तव्यं",
+          "at": 10,
+          "end": 18,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ञ्",
+          "at": 26,
+          "end": 28,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "विधाय",
+          "at": 29,
+          "end": 34,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "तैवमुख्यञ्",
+          "at": 40,
+          "end": 50,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "संपूर्णतामियात्",
+          "at": 57,
+          "end": 72,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ेगन्तव्यंञ्विधायतैवमुख्यञ्संपूर्णतामियात्",
+      "operations": [
+        "mula-sthana",
+        "ca",
+        "prasthana",
+        "ca",
+        "ca",
+        "arabhya",
+        "ca",
+        "karya"
+      ],
+      "operationCodes": [
+        "root-location",
+        "particle",
+        "start",
+        "particle",
+        "particle",
+        "begin",
+        "particle",
+        "work"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 6,
+      "text": "अधिकारश्चमूलेवैद्वारपट्टेंसमाश्रित्यसञ्चारंकारयेत्सम्यक्लेखनायविधीयते",
+      "sourceOffset": 429,
+      "nodes": [
+        {
+          "term": "अधिकार",
+          "id": "adhikara",
+          "role": "control",
+          "operation": "scope",
+          "at": 0,
+          "end": 6,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "श्च",
+          "id": "visarga-ca",
+          "role": "sandhi",
+          "operation": "visarga-ca",
+          "at": 6,
+          "end": 8,
+          "rule": "SUK-007",
+          "license": [
+            "8.3.34",
+            "8.4.40"
+          ]
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 8,
+          "end": 9,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मूले",
+          "id": "mula",
+          "role": "runtime",
+          "operation": "root",
+          "at": 9,
+          "end": 13,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 13,
+          "end": 15,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "द्वारपट्ट",
+          "id": "dvara-patta",
+          "role": "ipc",
+          "operation": "door-board",
+          "at": 15,
+          "end": 24,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "सञ्चारं",
+          "id": "sanchara",
+          "role": "ipc",
+          "operation": "communicate",
+          "at": 36,
+          "end": 43,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "ेंसमाश्रित्य",
+          "at": 24,
+          "end": 36,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "कारयेत्सम्यक्लेखनायविधीयते",
+          "at": 43,
+          "end": 69,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ेंसमाश्रित्यकारयेत्सम्यक्लेखनायविधीयते",
+      "operations": [
+        "adhikara",
+        "visarga-ca",
+        "ca",
+        "mula",
+        "vai",
+        "dvara-patta",
+        "sanchara"
+      ],
+      "operationCodes": [
+        "scope",
+        "visarga-ca",
+        "particle",
+        "root",
+        "particle",
+        "door-board",
+        "communicate"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004",
+        "SUK-007"
+      ]
+    },
+    {
+      "n": 7,
+      "text": "हृत्स्थानेवैपरिच्छिद्यसञ्चारकंविधानतःप्रेषयेत्प्रत्यक्षरंनित्यंविराममवलोकयन्",
+      "sourceOffset": 502,
+      "nodes": [
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 10,
+          "end": 12,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "परिच्छिद्य",
+          "id": "paricchidya",
+          "role": "control",
+          "operation": "bound",
+          "at": 12,
+          "end": 22,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "सञ्चारक",
+          "id": "sanchara",
+          "role": "ipc",
+          "operation": "communicator",
+          "at": 22,
+          "end": 29,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रेषयेत्",
+          "id": "preshayet",
+          "role": "ipc",
+          "operation": "send",
+          "at": 37,
+          "end": 46,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "विराम",
+          "id": "virama",
+          "role": "control",
+          "operation": "pause",
+          "at": 63,
+          "end": 68,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "हृत्स्थाने",
+          "at": 0,
+          "end": 10,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ंविधानतः",
+          "at": 29,
+          "end": 37,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "प्रत्यक्षरंनित्यं",
+          "at": 46,
+          "end": 63,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "मवलोकयन्",
+          "at": 68,
+          "end": 76,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "हृत्स्थानेंविधानतःप्रत्यक्षरंनित्यंमवलोकयन्",
+      "operations": [
+        "vai",
+        "paricchidya",
+        "sanchara",
+        "preshayet",
+        "virama"
+      ],
+      "operationCodes": [
+        "particle",
+        "bound",
+        "communicator",
+        "send",
+        "pause"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 8,
+      "text": "यावत्प्रेषणपट्टेवैस्थानंभवतिपूरितम्तावत्प्रतीक्षणंकृत्वासङ्केतम्प्रेषयेत्ततः",
+      "sourceOffset": 582,
+      "nodes": [
+        {
+          "term": "प्रेषणपट्ट",
+          "id": "presana-patta",
+          "role": "ipc",
+          "operation": "send-buffer",
+          "at": 5,
+          "end": 15,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 16,
+          "end": 18,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्थानं",
+          "id": "sthana",
+          "role": "storage",
+          "operation": "location",
+          "at": 18,
+          "end": 24,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रतीक्षण",
+          "id": "pratikshana",
+          "role": "process",
+          "operation": "wait",
+          "at": 40,
+          "end": 49,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "सङ्केत",
+          "id": "sanketa",
+          "role": "ipc",
+          "operation": "signal",
+          "at": 56,
+          "end": 62,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रेषयेत्",
+          "id": "preshayet",
+          "role": "ipc",
+          "operation": "send",
+          "at": 64,
+          "end": 73,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "यावत्",
+          "at": 0,
+          "end": 5,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "े",
+          "at": 15,
+          "end": 16,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "भवतिपूरितम्तावत्",
+          "at": 24,
+          "end": 40,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ंकृत्वा",
+          "at": 49,
+          "end": 56,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "म्",
+          "at": 62,
+          "end": 64,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ततः",
+          "at": 73,
+          "end": 76,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "यावत्ेभवतिपूरितम्तावत्ंकृत्वाम्ततः",
+      "operations": [
+        "presana-patta",
+        "vai",
+        "sthana",
+        "pratikshana",
+        "sanketa",
+        "preshayet"
+      ],
+      "operationCodes": [
+        "send-buffer",
+        "particle",
+        "location",
+        "wait",
+        "signal",
+        "send"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 9,
+      "text": "अक्षराणिचसर्वाणिसन्देशस्यक्रमेणैवद्वारपट्टेप्रपूर्यैवकार्यंपूर्णंसमापयेत्",
+      "sourceOffset": 662,
+      "nodes": [
+        {
+          "term": "अक्षराणि",
+          "id": "aksarani",
+          "role": "io",
+          "operation": "characters",
+          "at": 0,
+          "end": 8,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 8,
+          "end": 9,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "सर्वाणि",
+          "id": "sarvani",
+          "role": "control",
+          "operation": "all-items",
+          "at": 9,
+          "end": 16,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "सन्देश",
+          "id": "sandesa",
+          "role": "ipc",
+          "operation": "message",
+          "at": 16,
+          "end": 22,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "क्रमेण",
+          "id": "krama",
+          "role": "control",
+          "operation": "ordered",
+          "at": 25,
+          "end": 31,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "द्वारपट्ट",
+          "id": "dvara-patta",
+          "role": "ipc",
+          "operation": "door-board",
+          "at": 33,
+          "end": 42,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रपूर्य",
+          "id": "prapurya",
+          "role": "memory",
+          "operation": "fill",
+          "at": 43,
+          "end": 51,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "कार्यं",
+          "id": "karya",
+          "role": "runtime",
+          "operation": "work",
+          "at": 53,
+          "end": 59,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "समापयेत्",
+          "id": "samapaya",
+          "role": "control",
+          "operation": "complete",
+          "at": 65,
+          "end": 73,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "स्य",
+          "at": 22,
+          "end": 25,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ैव",
+          "at": 31,
+          "end": 33,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "े",
+          "at": 42,
+          "end": 43,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ैव",
+          "at": 51,
+          "end": 53,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "पूर्णं",
+          "at": 59,
+          "end": 65,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "स्यैवेैवपूर्णं",
+      "operations": [
+        "aksarani",
+        "ca",
+        "sarvani",
+        "sandesa",
+        "krama",
+        "dvara-patta",
+        "prapurya",
+        "karya",
+        "samapaya"
+      ],
+      "operationCodes": [
+        "characters",
+        "particle",
+        "all-items",
+        "message",
+        "ordered",
+        "door-board",
+        "fill",
+        "work",
+        "complete"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 10,
+      "text": "अधिकारश्चमूलेवैप्रथमप्रक्रियाश्रयेपिड्शून्यंनित्यमुत्पाद्यस्थितिंश्रेष्ठांप्रकल्पयेत्",
+      "sourceOffset": 739,
+      "nodes": [
+        {
+          "term": "अधिकार",
+          "id": "adhikara",
+          "role": "control",
+          "operation": "scope",
+          "at": 0,
+          "end": 6,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "श्च",
+          "id": "visarga-ca",
+          "role": "sandhi",
+          "operation": "visarga-ca",
+          "at": 6,
+          "end": 8,
+          "rule": "SUK-007",
+          "license": [
+            "8.3.34",
+            "8.4.40"
+          ]
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 8,
+          "end": 9,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मूले",
+          "id": "mula",
+          "role": "runtime",
+          "operation": "root",
+          "at": 9,
+          "end": 13,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 13,
+          "end": 15,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रथमप्रक्रिया",
+          "id": "prathama-prakriya",
+          "role": "process",
+          "operation": "first-process",
+          "at": 15,
+          "end": 29,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "पिड्शून्य",
+          "id": "pid-sunya",
+          "role": "process",
+          "operation": "pid-zero",
+          "at": 34,
+          "end": 43,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्थितिं",
+          "id": "sthiti",
+          "role": "runtime",
+          "operation": "state",
+          "at": 58,
+          "end": 65,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रकल्पयेत्",
+          "id": "prakalpaya",
+          "role": "runtime",
+          "operation": "configure",
+          "at": 74,
+          "end": 85,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "श्रये",
+          "at": 29,
+          "end": 34,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ंनित्यमुत्पाद्य",
+          "at": 43,
+          "end": 58,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "श्रेष्ठां",
+          "at": 65,
+          "end": 74,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "श्रयेंनित्यमुत्पाद्यश्रेष्ठां",
+      "operations": [
+        "adhikara",
+        "visarga-ca",
+        "ca",
+        "mula",
+        "vai",
+        "prathama-prakriya",
+        "pid-sunya",
+        "sthiti",
+        "prakalpaya"
+      ],
+      "operationCodes": [
+        "scope",
+        "visarga-ca",
+        "particle",
+        "root",
+        "particle",
+        "first-process",
+        "pid-zero",
+        "state",
+        "configure"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004",
+        "SUK-007"
+      ]
+    },
+    {
+      "n": 11,
+      "text": "स्मृतिस्थानंविभज्यादौविस्तारंचैवसर्वतःकार्यपट्टान्समुद्दिश्यसूचकान्स्थापयेत्क्रमात्",
+      "sourceOffset": 829,
+      "nodes": [
+        {
+          "term": "स्मृतिस्थान",
+          "id": "smrti-sthana",
+          "role": "memory",
+          "operation": "partition-memory",
+          "at": 0,
+          "end": 11,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "विभज्य",
+          "id": "vibhajya",
+          "role": "memory",
+          "operation": "partition",
+          "at": 12,
+          "end": 18,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 29,
+          "end": 30,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "कार्यपट्ट",
+          "id": "karya-patta",
+          "role": "runtime",
+          "operation": "work-board",
+          "at": 38,
+          "end": 47,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "सूचक",
+          "id": "sucaka",
+          "role": "data",
+          "operation": "index",
+          "at": 60,
+          "end": 64,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्थापयेत्",
+          "id": "sthapaya",
+          "role": "control",
+          "operation": "store",
+          "at": 67,
+          "end": 76,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "क्रमात्",
+          "id": "krama",
+          "role": "control",
+          "operation": "ordered",
+          "at": 76,
+          "end": 83,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "ं",
+          "at": 11,
+          "end": 12,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ादौविस्तारं",
+          "at": 18,
+          "end": 29,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ैवसर्वतः",
+          "at": 30,
+          "end": 38,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ान्समुद्दिश्य",
+          "at": 47,
+          "end": 60,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ान्",
+          "at": 64,
+          "end": 67,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ंादौविस्तारंैवसर्वतःान्समुद्दिश्यान्",
+      "operations": [
+        "smrti-sthana",
+        "vibhajya",
+        "ca",
+        "karya-patta",
+        "sucaka",
+        "sthapaya",
+        "krama"
+      ],
+      "operationCodes": [
+        "partition-memory",
+        "partition",
+        "particle",
+        "work-board",
+        "index",
+        "store",
+        "ordered"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 12,
+      "text": "सर्वप्रक्रियामूलत्वेस्थापयित्वात्विमंनृपंयन्त्ररक्षणकार्येषुसदैवाग्रणिमन्महे",
+      "sourceOffset": 917,
+      "nodes": [
+        {
+          "term": "प्रक्रिया",
+          "id": "prakriya",
+          "role": "process",
+          "operation": "process",
+          "at": 4,
+          "end": 13,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मूल",
+          "id": "mula",
+          "role": "runtime",
+          "operation": "root",
+          "at": 13,
+          "end": 16,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "नृपं",
+          "id": "nrpa",
+          "role": "runtime",
+          "operation": "initialize-runtime",
+          "at": 37,
+          "end": 41,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "यन्त्ररक्षण",
+          "id": "yantra-raksana",
+          "role": "runtime",
+          "operation": "protect-machine",
+          "at": 41,
+          "end": 52,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "कार्य",
+          "id": "karya",
+          "role": "runtime",
+          "operation": "work",
+          "at": 52,
+          "end": 57,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "सर्व",
+          "at": 0,
+          "end": 4,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "त्वेस्थापयित्वात्विमं",
+          "at": 16,
+          "end": 37,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ेषुसदैवाग्रणिमन्महे",
+          "at": 57,
+          "end": 76,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "सर्वत्वेस्थापयित्वात्विमंेषुसदैवाग्रणिमन्महे",
+      "operations": [
+        "prakriya",
+        "mula",
+        "nrpa",
+        "yantra-raksana",
+        "karya"
+      ],
+      "operationCodes": [
+        "process",
+        "root",
+        "initialize-runtime",
+        "protect-machine",
+        "work"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 13,
+      "text": "अनाथप्रक्रियाश्चैवमृताःसञ्जातसंशयःस्वेकेनापिड्शून्येनसंरक्ष्यैवप्रमोचये",
+      "sourceOffset": 998,
+      "nodes": [
+        {
+          "term": "अनाथप्रक्रिया",
+          "id": "anatha-prakriya",
+          "role": "process",
+          "operation": "orphan-process",
+          "at": 0,
+          "end": 13,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "श्च",
+          "id": "visarga-ca",
+          "role": "sandhi",
+          "operation": "visarga-ca",
+          "at": 13,
+          "end": 15,
+          "rule": "SUK-007",
+          "license": [
+            "8.3.34",
+            "8.4.40"
+          ]
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 15,
+          "end": 16,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मृताः",
+          "id": "mrta",
+          "role": "process",
+          "operation": "terminated",
+          "at": 18,
+          "end": 23,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "पिड्शून्य",
+          "id": "pid-sunya",
+          "role": "process",
+          "operation": "pid-zero",
+          "at": 42,
+          "end": 51,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 68,
+          "end": 69,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "ैव",
+          "at": 16,
+          "end": 18,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "सञ्जातसंशयःस्वेकेना",
+          "at": 23,
+          "end": 42,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ेनसंरक्ष्यैवप्रमो",
+          "at": 51,
+          "end": 68,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ये",
+          "at": 69,
+          "end": 71,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ैवसञ्जातसंशयःस्वेकेनाेनसंरक्ष्यैवप्रमोये",
+      "operations": [
+        "anatha-prakriya",
+        "visarga-ca",
+        "ca",
+        "mrta",
+        "pid-sunya",
+        "ca"
+      ],
+      "operationCodes": [
+        "orphan-process",
+        "visarga-ca",
+        "particle",
+        "terminated",
+        "pid-zero",
+        "particle"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004",
+        "SUK-007"
+      ]
+    },
+    {
+      "n": 14,
+      "text": "यावद्यन्त्रंसदाजीवत्तावज्जागरूकःस्थितिविनष्टप्रक्रियाश्चैवशोधयित्वाविशाम्यति",
+      "sourceOffset": 1074,
+      "nodes": [
+        {
+          "term": "यन्त्र",
+          "id": "yantra",
+          "role": "runtime",
+          "operation": "machine",
+          "at": 5,
+          "end": 11,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "जागरूक",
+          "id": "jagaruka",
+          "role": "runtime",
+          "operation": "watchdog",
+          "at": 25,
+          "end": 31,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्थिति",
+          "id": "sthiti",
+          "role": "runtime",
+          "operation": "state",
+          "at": 32,
+          "end": 38,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "विनष्ट",
+          "id": "vinasta",
+          "role": "diagnostic",
+          "operation": "destroyed",
+          "at": 38,
+          "end": 44,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रक्रिया",
+          "id": "prakriya",
+          "role": "process",
+          "operation": "process",
+          "at": 44,
+          "end": 53,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "श्च",
+          "id": "visarga-ca",
+          "role": "sandhi",
+          "operation": "visarga-ca",
+          "at": 53,
+          "end": 55,
+          "rule": "SUK-007",
+          "license": [
+            "8.3.34",
+            "8.4.40"
+          ]
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 55,
+          "end": 56,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "यावद्",
+          "at": 0,
+          "end": 5,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ंसदाजीवत्तावज्",
+          "at": 11,
+          "end": 25,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ः",
+          "at": 31,
+          "end": 32,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ैवशोधयित्वाविशाम्यति",
+          "at": 56,
+          "end": 76,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "यावद्ंसदाजीवत्तावज्ःैवशोधयित्वाविशाम्यति",
+      "operations": [
+        "yantra",
+        "jagaruka",
+        "sthiti",
+        "vinasta",
+        "prakriya",
+        "visarga-ca",
+        "ca"
+      ],
+      "operationCodes": [
+        "machine",
+        "watchdog",
+        "state",
+        "destroyed",
+        "process",
+        "visarga-ca",
+        "particle"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004",
+        "SUK-007"
+      ]
+    },
+    {
+      "n": 15,
+      "text": "अधिकारश्चमूलेवैट्रैपपट्टंनिसर्गेणप्रसाध्यैवव्यतिक्रमविशोधने",
+      "sourceOffset": 1155,
+      "nodes": [
+        {
+          "term": "अधिकार",
+          "id": "adhikara",
+          "role": "control",
+          "operation": "scope",
+          "at": 0,
+          "end": 6,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "श्च",
+          "id": "visarga-ca",
+          "role": "sandhi",
+          "operation": "visarga-ca",
+          "at": 6,
+          "end": 8,
+          "rule": "SUK-007",
+          "license": [
+            "8.3.34",
+            "8.4.40"
+          ]
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 8,
+          "end": 9,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मूले",
+          "id": "mula",
+          "role": "runtime",
+          "operation": "root",
+          "at": 9,
+          "end": 13,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 13,
+          "end": 15,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "ट्रैपपट्ट",
+          "id": "trap-patta",
+          "role": "runtime",
+          "operation": "trap-board",
+          "at": 15,
+          "end": 24,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "निसर्गेण",
+          "id": "nisarga",
+          "role": "runtime",
+          "operation": "native",
+          "at": 25,
+          "end": 33,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "व्यतिक्रम",
+          "id": "vyatikrama",
+          "role": "diagnostic",
+          "operation": "violation",
+          "at": 43,
+          "end": 52,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "विशोधने",
+          "id": "visodhana",
+          "role": "diagnostic",
+          "operation": "validate",
+          "at": 52,
+          "end": 59,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "ं",
+          "at": 24,
+          "end": 25,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "प्रसाध्यैव",
+          "at": 33,
+          "end": 43,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ंप्रसाध्यैव",
+      "operations": [
+        "adhikara",
+        "visarga-ca",
+        "ca",
+        "mula",
+        "vai",
+        "trap-patta",
+        "nisarga",
+        "vyatikrama",
+        "visodhana"
+      ],
+      "operationCodes": [
+        "scope",
+        "visarga-ca",
+        "particle",
+        "root",
+        "particle",
+        "trap-board",
+        "native",
+        "violation",
+        "validate"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004",
+        "SUK-007"
+      ]
+    },
+    {
+      "n": 16,
+      "text": "पृष्ठपट्टंसमुत्पाद्यस्मृतिरक्षणमुत्तमंप्रचाल्यवैवर्चुवल्मेमरीमन्तरायतः",
+      "sourceOffset": 1219,
+      "nodes": [
+        {
+          "term": "पृष्ठपट्ट",
+          "id": "prstha-patta",
+          "role": "memory",
+          "operation": "page-board",
+          "at": 0,
+          "end": 9,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्मृतिरक्षण",
+          "id": "smrti-raksana",
+          "role": "memory",
+          "operation": "protect-memory",
+          "at": 20,
+          "end": 31,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 41,
+          "end": 42,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 46,
+          "end": 48,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वर्चुवल्मेमरी",
+          "id": "virtual-memory",
+          "role": "memory",
+          "operation": "virtual-memory",
+          "at": 48,
+          "end": 61,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "ंसमुत्पाद्य",
+          "at": 9,
+          "end": 20,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "मुत्तमंप्र",
+          "at": 31,
+          "end": 41,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ाल्य",
+          "at": 42,
+          "end": 46,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "मन्तरायतः",
+          "at": 61,
+          "end": 70,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "ंसमुत्पाद्यमुत्तमंप्राल्यमन्तरायतः",
+      "operations": [
+        "prstha-patta",
+        "smrti-raksana",
+        "ca",
+        "vai",
+        "virtual-memory"
+      ],
+      "operationCodes": [
+        "page-board",
+        "protect-memory",
+        "particle",
+        "particle",
+        "virtual-memory"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 17,
+      "text": "पिड्प्रथमंसमुत्पाद्यस्मृतिस्थानंप्रदायचयुसर्मोडंसमाविश्यप्रक्रियाम्प्रारभेद्वै",
+      "sourceOffset": 1294,
+      "nodes": [
+        {
+          "term": "पिड्",
+          "id": "pid",
+          "role": "process",
+          "operation": "process-id",
+          "at": 0,
+          "end": 4,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्मृतिस्थान",
+          "id": "smrti-sthana",
+          "role": "memory",
+          "operation": "partition-memory",
+          "at": 20,
+          "end": 31,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 38,
+          "end": 39,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "युसर्मोड",
+          "id": "user-mode",
+          "role": "runtime",
+          "operation": "user-mode",
+          "at": 39,
+          "end": 47,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रक्रिया",
+          "id": "prakriya",
+          "role": "process",
+          "operation": "process",
+          "at": 56,
+          "end": 65,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 76,
+          "end": 78,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "प्रथमंसमुत्पाद्य",
+          "at": 4,
+          "end": 20,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ंप्रदाय",
+          "at": 31,
+          "end": 38,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ंसमाविश्य",
+          "at": 47,
+          "end": 56,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "म्प्रारभेद्",
+          "at": 65,
+          "end": 76,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "प्रथमंसमुत्पाद्यंप्रदायंसमाविश्यम्प्रारभेद्",
+      "operations": [
+        "pid",
+        "smrti-sthana",
+        "ca",
+        "user-mode",
+        "prakriya",
+        "vai"
+      ],
+      "operationCodes": [
+        "process-id",
+        "partition-memory",
+        "particle",
+        "user-mode",
+        "process",
+        "particle"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 18,
+      "text": "टर्मिनल्स्थानमासाद्यमुद्रयित्वानिदेशकम्प्रवेषार्थंसुसन्नद्धंप्रश्नसूच्यम्प्रकाशयेत्",
+      "sourceOffset": 1377,
+      "nodes": [
+        {
+          "term": "टर्मिनल्",
+          "id": "terminal",
+          "role": "io",
+          "operation": "terminal",
+          "at": 0,
+          "end": 8,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रवेष",
+          "id": "pravesa",
+          "role": "runtime",
+          "operation": "enter",
+          "at": 39,
+          "end": 45,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रश्नसूच्य",
+          "id": "prasna-suci",
+          "role": "io",
+          "operation": "prompt",
+          "at": 60,
+          "end": 71,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "स्थानमासाद्यमुद्रयित्वानिदेशकम्",
+          "at": 8,
+          "end": 39,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ार्थंसुसन्नद्धं",
+          "at": 45,
+          "end": 60,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "म्प्रकाशयेत्",
+          "at": 71,
+          "end": 83,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "स्थानमासाद्यमुद्रयित्वानिदेशकम्ार्थंसुसन्नद्धंम्प्रकाशयेत्",
+      "operations": [
+        "terminal",
+        "pravesa",
+        "prasna-suci"
+      ],
+      "operationCodes": [
+        "terminal",
+        "enter",
+        "prompt"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 19,
+      "text": "अधिकारश्चमूलेवैआदेशगृहसंस्थाप्यमूलादेशसमूहनंविधीयते",
+      "sourceOffset": 1465,
+      "nodes": [
+        {
+          "term": "अधिकार",
+          "id": "adhikara",
+          "role": "control",
+          "operation": "scope",
+          "at": 0,
+          "end": 6,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "श्च",
+          "id": "visarga-ca",
+          "role": "sandhi",
+          "operation": "visarga-ca",
+          "at": 6,
+          "end": 8,
+          "rule": "SUK-007",
+          "license": [
+            "8.3.34",
+            "8.4.40"
+          ]
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 8,
+          "end": 9,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मूले",
+          "id": "mula",
+          "role": "runtime",
+          "operation": "root",
+          "at": 9,
+          "end": 13,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "वै",
+          "id": "vai",
+          "role": "particle",
+          "operation": "particle",
+          "at": 13,
+          "end": 15,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "आदेशगृह",
+          "id": "adesa-grha",
+          "role": "command",
+          "operation": "command-store",
+          "at": 15,
+          "end": 22,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "मूलादेश",
+          "id": "mula-adesa",
+          "role": "command",
+          "operation": "root-command",
+          "at": 31,
+          "end": 38,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "समूह",
+          "id": "samuha",
+          "role": "data",
+          "operation": "group",
+          "at": 38,
+          "end": 42,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "संस्थाप्य",
+          "at": 22,
+          "end": 31,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "नंविधीयते",
+          "at": 42,
+          "end": 51,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "संस्थाप्यनंविधीयते",
+      "operations": [
+        "adhikara",
+        "visarga-ca",
+        "ca",
+        "mula",
+        "vai",
+        "adesa-grha",
+        "mula-adesa",
+        "samuha"
+      ],
+      "operationCodes": [
+        "scope",
+        "visarga-ca",
+        "particle",
+        "root",
+        "particle",
+        "command-store",
+        "root-command",
+        "group"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004",
+        "SUK-007"
+      ]
+    },
+    {
+      "n": 20,
+      "text": "इन्पुट्स्थानमसौज्ञात्वापाठयित्वानिरन्तरंप्रक्रियाद्वन्द्वमुत्पाद्यसञ्चारंपारयेत्ततः",
+      "sourceOffset": 1521,
+      "nodes": [
+        {
+          "term": "इन्पुट्स्थान",
+          "id": "input-sthana",
+          "role": "io",
+          "operation": "input-location",
+          "at": 0,
+          "end": 12,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रक्रियाद्वन्द्व",
+          "id": "prakriya-dvandva",
+          "role": "process",
+          "operation": "spawn-pair",
+          "at": 40,
+          "end": 57,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "सञ्चारं",
+          "id": "sanchara",
+          "role": "ipc",
+          "operation": "communicate",
+          "at": 66,
+          "end": 73,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "पारयेत्ततः",
+          "id": "paraya",
+          "role": "ipc",
+          "operation": "forward",
+          "at": 73,
+          "end": 83,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "मसौज्ञात्वापाठयित्वानिरन्तरं",
+          "at": 12,
+          "end": 40,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "मुत्पाद्य",
+          "at": 57,
+          "end": 66,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "मसौज्ञात्वापाठयित्वानिरन्तरंमुत्पाद्य",
+      "operations": [
+        "input-sthana",
+        "prakriya-dvandva",
+        "sanchara",
+        "paraya"
+      ],
+      "operationCodes": [
+        "input-location",
+        "spawn-pair",
+        "communicate",
+        "forward"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 21,
+      "text": "पाठ्यशोधनकार्याणिस्मृतिमानंनिवेशनंप्रत्येकमप्यादेशञ्चप्रथक्कृत्वाप्रचालयेत्",
+      "sourceOffset": 1609,
+      "nodes": [
+        {
+          "term": "कार्य",
+          "id": "karya",
+          "role": "runtime",
+          "operation": "work",
+          "at": 9,
+          "end": 14,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "स्मृतिमान",
+          "id": "smrti-mana",
+          "role": "memory",
+          "operation": "measure-memory",
+          "at": 17,
+          "end": 26,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "निवेशनं",
+          "id": "nivesana",
+          "role": "io",
+          "operation": "input",
+          "at": 27,
+          "end": 34,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "च",
+          "id": "ca",
+          "role": "particle",
+          "operation": "particle",
+          "at": 52,
+          "end": 53,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रचालयेत्",
+          "id": "pracalaya",
+          "role": "runtime",
+          "operation": "run",
+          "at": 65,
+          "end": 75,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "पाठ्यशोधन",
+          "at": 0,
+          "end": 9,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ाणि",
+          "at": 14,
+          "end": 17,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ं",
+          "at": 26,
+          "end": 27,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "प्रत्येकमप्यादेशञ्",
+          "at": 34,
+          "end": 52,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "प्रथक्कृत्वा",
+          "at": 53,
+          "end": 65,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "पाठ्यशोधनाणिंप्रत्येकमप्यादेशञ्प्रथक्कृत्वा",
+      "operations": [
+        "karya",
+        "smrti-mana",
+        "nivesana",
+        "ca",
+        "pracalaya"
+      ],
+      "operationCodes": [
+        "work",
+        "measure-memory",
+        "input",
+        "particle",
+        "run"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    },
+    {
+      "n": 22,
+      "text": "आदेशपाइप्मार्गेणफलंस्थानसमूहनम्अग्रिमप्रक्रियास्थानेप्रेषयित्वाविशाम्यति",
+      "sourceOffset": 1689,
+      "nodes": [
+        {
+          "term": "आदेशपाइप",
+          "id": "adesa-pipe",
+          "role": "ipc",
+          "operation": "command-pipe",
+          "at": 0,
+          "end": 8,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "फलं",
+          "id": "phala",
+          "role": "runtime",
+          "operation": "result",
+          "at": 16,
+          "end": 19,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "समूह",
+          "id": "samuha",
+          "role": "data",
+          "operation": "group",
+          "at": 24,
+          "end": 28,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रक्रिया",
+          "id": "prakriya",
+          "role": "process",
+          "operation": "process",
+          "at": 37,
+          "end": 46,
+          "rule": "SUK-003"
+        },
+        {
+          "term": "प्रेषय",
+          "id": "preshaya",
+          "role": "ipc",
+          "operation": "send",
+          "at": 52,
+          "end": 58,
+          "rule": "SUK-003"
+        }
+      ],
+      "residualSpans": [
+        {
+          "text": "्मार्गेण",
+          "at": 8,
+          "end": 16,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "स्थान",
+          "at": 19,
+          "end": 24,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "नम्अग्रिम",
+          "at": 28,
+          "end": 37,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "स्थाने",
+          "at": 46,
+          "end": 52,
+          "rule": "SUK-004"
+        },
+        {
+          "text": "ित्वाविशाम्यति",
+          "at": 58,
+          "end": 72,
+          "rule": "SUK-004"
+        }
+      ],
+      "residual": "्मार्गेणस्थाननम्अग्रिमस्थानेित्वाविशाम्यति",
+      "operations": [
+        "adesa-pipe",
+        "phala",
+        "samuha",
+        "prakriya",
+        "preshaya"
+      ],
+      "operationCodes": [
+        "command-pipe",
+        "result",
+        "group",
+        "process",
+        "send"
+      ],
+      "status": "LEXICALLY_PARTIAL",
+      "rulesApplied": [
+        "SUK-001",
+        "SUK-002",
+        "SUK-003",
+        "SUK-006",
+        "SUK-008",
+        "SUK-004"
+      ]
+    }
+  ],
+  "verse_count": 22,
+  "recognized": 141,
+  "residual_chars": 814,
+  "diagnostics": [],
+  "semantic_status": "LEXICAL_IR_ONLY"
+}

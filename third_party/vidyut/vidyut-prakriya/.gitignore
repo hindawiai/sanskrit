@@ -1,0 +1,4 @@
+www/static/data/
+www/static/wasm/
+*.log
+*.msgpack

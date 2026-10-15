@@ -1,0 +1,8 @@
+﻿case,Devanagari,UTF16LE_pair,legacy_ACII_byte,acii_h_key,acii2rmn_result,rmn2acii_path,reverse_Devanagari,interpretation
+Independent अ,अ (U+0905),"{5,9}",¤,_a,_a,level1('_') -> level2c('a') -> lookup('_a'),अ,Independent vowel; not a matra
+क,क (U+0915),"{21,9}",³,ka,ka,level1('k') -> level2b emits 'ka' byte; inherent a consumed with no separate sign,क,Consonant letter carries inherent अ unless suppressed/replaced
+का,क + ा (U+0915 + U+093E),"{21,9} + {62,9}",³ + Ú,ka + ^aa,kaa,level2b emits consonant byte; matra('aa') emits '^aa' byte Ú,का,Dependent sign ा replaces the final inherent a in 'ka'
+कि,क + ि (U+0915 + U+093F),"{21,9} + {63,9}",³ + Û,ka + ^i,ki,level2b emits consonant byte; matra('i') emits '^i' byte Û,कि,Dependent sign ि replaces the final inherent a in 'ka'
+कु,क + ु (U+0915 + U+0941),"{21,9} + {65,9}",³ + Ý,ka + ^u,ku,level2b emits consonant byte; matra('u') emits '^u' byte Ý,कु,Dependent sign ु replaces the final inherent a in 'ka'
+क्,क + ् (U+0915 + U+094D),"{21,9} + {77,9}",³ + è,ka + ^,k,level1('k') emits consonant byte; terminal consonant path appends halant byte è,क्,Halant removes the inherent a; caret here represents virama
+ज्ञ,ज + ् + ञ,"{28,9} + {77,9} + {30,9}",º + è + ¼,ja + ^ + _yna; composite key j_yna,j_yna,composite value ºè¼; compositional sequence,ज्ञ,"The 'correct to g_yna' note concerns acii2hin, not a Romenagri mapping defect"

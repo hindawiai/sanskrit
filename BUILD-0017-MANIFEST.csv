@@ -1,0 +1,17 @@
+field,value,notes
+build,BUILD-0017,combined Pushkalāvatī/Hindawi/ILM build with front-end audit
+source_archive,BUILD-0016__pushkalavati-hindawi-ilm-2026-10-14.zip,SHA-256 0db293a3dc2f27be6a1ef2072e774ebf1db25d78cf619b9990e82c10046c670c
+source_identity,single distinct mounted archive,No separately identifiable Grok archive available for diff
+new_module,tools/transliteration/romenagri_document.py,Opt-in lossless document wrapper with reversible ~{HEX} Unicode scalar escapes
+decoder_optimization,tools/transliteration/romenagri.py,Precomputed longest-match decode table; mappings and order unchanged
+new_tests,tests/test_romenagri_document.py,10 tests for extension and malformed input
+regression_tests,tests/test_transliteration.py,Added four exact Grok terminal-virāma vectors
+coverage_script,scripts/test_romenagri_frontend_coverage.sh,100% statement and branch coverage for wrapper module
+benchmark,tools/transliteration/benchmark_frontend.py,"21 rounds; 200 repeats per 13-case fixture; synthetic 2,000-record lossless stress set"
+test_suite,scripts/test_all.sh,Existing integrated test suite plus focused front-end coverage step
+test_runner_status,component stages run independently,Do not claim monolithic test_all exit 0; execution window expired during prior one-shot run
+coverage_scope,romenagri_document.py only,"107 statements, 44 branches, 100% statement and branch coverage"
+unverified,legacy native Romenagri C/filter parity,Original kernel and exact named upstream filter sources absent from vendored path
+unverified,"Grok 2,000-word aggregate",Corpus and per-row outputs absent
+file_count_before_archive,1245,Includes all Hindawi files retained from the available source archive; excludes pycache/pyc/.coverage
+uncompressed_bytes_before_archive,76144290,Sum of included regular-file sizes

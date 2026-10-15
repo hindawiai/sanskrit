@@ -1,0 +1,85 @@
+﻿index,romenagri_key,acii_table_value,classification,source_based_notes
+1,,ïB,control/sentinel,Control should be at table index 0; source uses it in control handling.
+2,__,_,escape,Escape/expand underscore.
+3,_a,¤,independent vowel,Independent short-a token.
+4,^a,,Inherent-a convention / zero-width dependent form,"Devanagari has no dependent-vowel sign for अ. In rmn2acii.c, matra() consumes the inherent-a case without emitting a separate sign; in acii2rmn.c, dependent signs replace the final inherent a in the accumulated Romenagri spelling. acii.h carries a historical bug comment; the empty value alone is not proof of a defect in the full conversion path."
+5,_aa,¥,independent vowel,Independent long-a.
+6,^aa,Ú,dependent vowel,Dependent long-a.
+7,_i,¦,independent vowel,Independent i.
+8,^i,Û,dependent vowel,Dependent i.
+9,_ee,§,independent vowel,Independent e-class.
+10,^ee,Ü,dependent vowel,Dependent e-class.
+11,_u,¨,independent vowel,Independent u.
+12,^u,Ý,dependent vowel,Dependent u.
+13,_oo,©,independent vowel,Independent oo-class.
+14,^oo,Þ,dependent vowel,Dependent oo-class.
+15,_ri,ª,independent vowel,Independent ri-class.
+16,^_ri,ß,dependent vowel,Can replace a preceding halant in parser.
+17,_ae,«,independent vowel,Independent ae-class.
+18,^ae,à,dependent vowel,Dependent ae-class.
+19,_aee,¬,independent vowel,Independent aee-class.
+20,^aee,á,dependent vowel,Dependent aee-class.
+21,_ai,­,independent vowel,Independent ai.
+22,^ai,â,dependent vowel,Dependent ai.
+23,_ow,¯,independent vowel,Independent ow-class.
+24,^ow,ä,dependent vowel,Dependent ow-class.
+25,_oa,°,independent vowel,Independent oa-class.
+26,^oa,å,dependent vowel,Dependent oa-class.
+27,_ou,±,independent vowel,Independent ou-class.
+28,^ou,æ,dependent vowel,Dependent ou-class.
+29,_au,²,independent vowel,Independent au.
+30,^au,ç,dependent vowel,Dependent au.
+31,_ao,®,independent vowel,Independent ao-class.
+32,^ao,ã,dependent vowel,Dependent ao-class.
+33,ka,³,consonant + inherent vowel,Base consonant token.
+34,kha,´,aspirated consonant,Distinct kha token.
+35,ga,µ,consonant + inherent vowel,Base consonant token.
+36,gha,¶,aspirated consonant,Distinct gha token.
+37,_nga,·,special nasal,Underscore namespace.
+38,cha,¸,consonant + inherent vowel,Special c/ch parser path.
+39,chha,¹,aspirated consonant,Special c/ch parser path.
+40,ja,º,consonant + inherent vowel,Base consonant token.
+41,jha,»,aspirated consonant,Distinct jha token.
+42,_yna,¼,special nasal/palatal-class,Exact label needs canonical inventory.
+43,ta,½,retroflex consonant,Unmarked ta is retroflex.
+44,tha,¾,retroflex aspirated consonant,Unmarked tha belongs to retroflex series.
+45,da,¿,retroflex consonant,Unmarked da is retroflex.
+46,dha,À,retroflex aspirated consonant,Unmarked dha belongs to retroflex series.
+47,_nna,Á,special nasal / retroflex nasal class,Distinct underscore token.
+48,_ta,Â,dental consonant,Underscored ta is dental.
+49,_tha,Ã,dental aspirated consonant,Dental counterpart.
+50,_da,Ä,dental consonant,Underscored da is dental.
+51,_dha,Å,dental aspirated consonant,Dental counterpart.
+52,na,Æ,nasal + inherent vowel,Base n-class token.
+53,pa,È,consonant + inherent vowel,Base consonant token.
+54,pha,É,aspirated consonant,Distinct pha token.
+55,ba,Ê,consonant + inherent vowel,Base consonant token.
+56,bha,Ë,aspirated consonant,Distinct bha token.
+57,ma,Ì,nasal + inherent vowel,Base m-class token.
+58,ya,Í,consonant + inherent vowel,Base y-class token.
+59,ra,Ï,consonant + inherent vowel,Base r-class token.
+60,_rra,Ð,special r-class consonant,Distinct underscore token.
+61,la,Ñ,consonant + inherent vowel,Base l-class token.
+62,wa,Ô,consonant + inherent vowel,Source spelling w retained.
+63,lvra,Ò,special liquid/vocalic form,Dedicated v-path in level2b.
+64,sha,Õ,sibilant token,Use canonical sound inventory for exact phonetic label.
+65,xa,Ö,extended/sibilant token,Use canonical sound inventory for exact phonetic label.
+66,sa,×,sibilant token,Base s-class token.
+67,_ha,Ø,special h-class token,Underscore namespace.
+68,_m,¢,nasal sign / trailing bindu-related,Source comment says only for trailing bindu; context matters.
+69,_hh,£,special h-class token,Dedicated doubled-h branch.
+70,_na,¡,special nasal/sign token,Unicode table associates legacy character with U+0901; function needs context.
+71,^za,é,modifier / nukta-related,Unicode table maps é to U+093C; triggers contextual rewrite.
+72,|,ê,punctuation,Explicitly mapped punctuation token.
+73,^,è,halant/virama,Used for consonant termination and dependent state.
+74,_rda,¿é,composite: da + modifier,Base da byte followed by nukta-related byte.
+75,_rdha,Àé,composite: dha + modifier,Base dha byte followed by nukta-related byte.
+76,^ra,èÏ,composite: halant + ra,Order is meaningful.
+77,r,Ïè,composite: ra + halant,Distinct from ^ra.
+78,kxa,³èÖ,composite consonant sequence,ka + halant + xa.
+79,_tra,ÂèÏ,composite consonant sequence,_ta + halant + ra; _ta is dental.
+80,j_yna,ºè¼,Composite sequence: ja + halant + _yna,"Value ºè¼ composes ज + ् + ञ = ज्ञ. The adjacent 'correct to g_yna' comment is a note for the downstream acii2hin path, per project-author clarification; do not treat it as a Romenagri mapping defect."
+81,shra,ÕèÏ,composite consonant sequence,sha + halant + ra.
+82,_jza,€,extended Devanagari token,Unicode table comment associates with U+0979; exact phonetic label separate.
+83,_nza,Ç,special nasal/extended token,Unicode table maps legacy char to U+0929; preserve source key.
+84,_3,ë,avagraha,Explicit source comment identifies avagraha.

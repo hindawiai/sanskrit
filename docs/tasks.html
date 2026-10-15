@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tasks and Features · Pushkalāvatī</title><link rel="stylesheet" href="site.css"></head><body>
+<header class="hero"><p class="eyebrow">PROJECT CONTROL</p><h1>Task list and feature inventory</h1><p>Evidence-based status for the curated merge of the Pages build and Grok's curated build. “Done” means code exists and the listed test was run; it does not imply full language completeness.</p><nav><a href="index.html">Lab home</a><a href="tests.html">Test register</a><a href="specifications/index.html">Language specifications</a><a href="reference.html">Project handoff documents</a></nav></header>
+<main>
+<section class="panel"><h2>Feature list</h2><table><thead><tr><th>Feature</th><th>State</th><th>Evidence / boundary</th></tr></thead><tbody>
+<tr><td>Pushkalāvatī source inventory and rule IR</td><td>Implemented slice</td><td>3,983 source records; 12 rule operations are executable-tested. Most records remain unresolved or need semantic annotation.</td></tr>
+<tr><td>Sūtram rewrite interpreter</td><td>Implemented subset</td><td><code>lang/js/engine.js</code> and <code>interpreter.js</code>; numeric literals, karta, yoga/viyoga, dviguna, likh, phala and unary adhikara calls.</td></tr>
+<tr><td>Sūtram → C</td><td>Implemented subset; compiled</td><td>Standalone C generated from <code>lang/examples/ganana.su</code>, compiled with GCC, executed; output matches the interpreter for the fixture.</td></tr>
+<tr><td>Sūtram → Rust</td><td>Generated; compiler unavailable here</td><td>Rust source emitted and structurally checked. <code>rustc</code> is absent from this environment, so native Rust compilation is an open release gate.</td></tr>
+<tr><td>C/Rust → Sūtram</td><td>Constrained reverse frontend</td><td>Recognizes a small main-function subset: integer karta initialization, constant add/subtract, doubling, print and return. Unsupported constructs fail closed.</td></tr>
+<tr><td>Sanchalan Suktam parser</td><td>Lexical IR implemented</td><td>22 verses framed; 134 longest-first lexicon nodes in this build; 828 residual code points preserved. Not full Sanskrit parsing.</td></tr>
+<tr><td>Sanchalan Suktam → C</td><td>Compiled and executed</td><td>Generated C reports lexical IR per verse; it does not execute OS/process operations.</td></tr>
+<tr><td>Sanchalan Suktam → Rust</td><td>Generated; compiler unavailable here</td><td>Source generation covered by tests; rustc validation remains open.</td></tr>
+<tr><td>Romenagri native C and Perso-Arabic sed filter</td><td>Blocked on upstream source</td><td>Vendoring/bootstrap scripts are present. Original source and sed filter were not retrievable offline; no compatibility claim.</td></tr>
+<tr><td>GitHub Pages under <code>/docs</code></td><td>Pages package present</td><td>Workflow uploads <code>docs/</code>; local links, JS syntax and browser smoke tests run in CI. Actual remote deployment not claimed.</td></tr>
+</tbody></table></section>
+<section class="panel"><h2>Task backlog</h2><p>Use the task IDs in issues or handoffs; update status only when the acceptance test is evidenced.</p><table><thead><tr><th>ID</th><th>Priority</th><th>Task / acceptance condition</th><th>Status</th></tr></thead><tbody>
+<tr><td>T-001</td><td>P0</td><td>Run generated Rust through <code>rustc --edition=2021 -D warnings</code>; compare output/result with JS interpreter and C backend.</td><td>Open — toolchain absent</td></tr>
+<tr><td>T-002</td><td>P0</td><td>Vendor full <code>project-ilm/romenagri</code> source at a pinned commit; build original C utilities.</td><td>Blocked — network/source</td></tr>
+<tr><td>T-003</td><td>P0</td><td>Run original <code>fltr_ur_hi</code> sed filter on committed fixtures; assert byte-for-byte outputs and failure behavior.</td><td>Blocked — filter unavailable</td></tr>
+<tr><td>T-004</td><td>P1</td><td>Differentially test native Romenagri vs JavaScript adapter for vowels, consonants, matras, virāma, conjuncts, avagraha and unsupported sounds.</td><td>Open — depends on T-002</td></tr>
+<tr><td>T-005</td><td>P1</td><td>Expand Sūtram C/Rust parity to two or more fixtures and compile Rust in CI.</td><td>Partial — one fixture, C verified</td></tr>
+<tr><td>T-006</td><td>P1</td><td>Broaden C/Rust raisers with a real token/AST frontend, source spans, types, expressions, and explicit unsupported diagnostics.</td><td>Open — narrow subset exists</td></tr>
+<tr><td>T-007</td><td>P1</td><td>Replace Sanchalan lexical-only interpretation with a reviewed semantic specification for each verse and executable IR actions.</td><td>Open — source says V1.0 not final executable</td></tr>
+<tr><td>T-008</td><td>P1</td><td>Reduce Sanchalan residual text using source-verified padaccheda/sandhi rules; never delete residual without an audited rule.</td><td>Open — 828 residual code points</td></tr>
+<tr><td>T-009</td><td>P1</td><td>Define browser/runtime boundary for native tools; add WebAssembly only after source-level parity is demonstrated.</td><td>Open</td></tr>
+<tr><td>T-010</td><td>P2</td><td>Continue rule classification and annotation from the 3,983-record inventory; only promote rules after sourced positive/negative tests.</td><td>Ongoing — 12 executable-tested</td></tr>
+<tr><td>T-011</td><td>P2</td><td>Implement narrow, attested morphology and kāraka slices from the handoff requirements.</td><td>Open — stubs remain</td></tr>
+<tr><td>T-012</td><td>P2</td><td>Maintain generated documentation, specs, tests, and release gates on Pages under <code>/docs</code>.</td><td>Partially automated</td></tr>
+<tr><td>T-013</td><td>P1</td><td>Mirror every repository Markdown document under the <code>/docs</code> site and verify its links plus HTTP delivery.</td><td>Done — 47 documents indexed; 12 HTTP URLs smoke-tested.</td></tr>
+</tbody></table></section>
+<section class="panel"><h2>Release gates</h2><ul><li>Never mark a source record tested because it was serialized or classified.</li><li>Never claim Romenagri C/sed compatibility until upstream differential tests pass.</li><li>Never label the Sanchalan lexical IR as complete Sanskrit grammar or executable OS semantics.</li><li>Never claim GitHub Pages is live unless deployment reports a URL.</li></ul></section>
+</main><footer>Project task and feature inventory · Updated 2026-10-12</footer></body></html>

@@ -1,0 +1,20 @@
+#अगर_अघोषित SANCHALAN_H
+#घोषणा SANCHALAN_H
+
+/* Small runसमय library. The generated program calls these.
+   This is not a kernel. Sanskrit conversion comes later. */
+
+प्रकार काष्ठा अणु
+    पूर्णांक pid;
+    पूर्णांक memory_pages;
+    पूर्णांक pipes;
+    पूर्णांक sends;
+    पूर्णांक steps;
+    पूर्णांक deferred;
+पूर्ण Sanchalan;
+
+व्योम sanchalan_init(Sanchalan *m);
+पूर्णांक sanchalan_call(Sanchalan *m, स्थिर अक्षर *op);
+व्योम sanchalan_report(स्थिर Sanchalan *m, पूर्णांक verse);
+
+#पूर्ण_अगर

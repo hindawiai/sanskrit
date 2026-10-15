@@ -1,0 +1,73 @@
+{
+  "pack": "Nirgundi Source & Attribution Pack",
+  "prepared_on": "2026-10-09",
+  "purpose": "Identify source licensing and provide a reproducible path to acquire authentic lexeme sources for Nirgundi.",
+  "bundled_third_party_lexical_data": false,
+  "reason_not_bundled": "The execution environment could verify source pages but could not retrieve third-party source files into the working filesystem. The package does not misrepresent link-only sources as downloaded datasets.",
+  "sources": [
+    {
+      "source_id": "nighantu_sanskrit_library_2010",
+      "title": "Nighaṇṭu: First XML edition",
+      "source_class": "TRADITIONAL_LEXICAL_LIST",
+      "editor_contributor": "Peter M. Scharf",
+      "publication": "The Sanskrit Library, Providence, RI, 2010",
+      "version": "0.1",
+      "source_url": "https://sanskritlibrary.org/catalogsText/niGaRwu.html",
+      "license": "CC BY-NC-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "rights_status": "LICENSE_STATED_NONCOMMERCIAL_SHAREALIKE",
+      "redistribution_decision": "Do not bundle until the source XML is acquired and the CC BY-NC-SA 3.0 attribution/share-alike obligations are handled. Commercial use is not permitted by this licence.",
+      "required_attribution": "Nighaṇṭu: First XML edition. Editor/contributor: Peter M. Scharf. The Sanskrit Library, Providence, RI, 2010, version 0.1. Copyright © 2010 The Sanskrit Library. Licensed CC BY-NC-SA 3.0.",
+      "download_status": "NOT_DOWNLOADED_IN_THIS_ENVIRONMENT",
+      "evidence": "The catalogue page states the title, editor/contributor, version, publication, copyright, and CC BY-NC-SA 3.0 terms."
+    },
+    {
+      "source_id": "cdsl_csl_orig_mw",
+      "title": "Monier-Williams dictionary source text (CDSL csl-orig)",
+      "source_class": "MODERN_DICTIONARY",
+      "publisher_project": "Cologne Digital Sanskrit Dictionaries",
+      "repository": "https://github.com/sanskrit-lexicon/csl-orig",
+      "source_url": "https://raw.githubusercontent.com/sanskrit-lexicon/csl-orig/main/v02/mw/mw.txt",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://github.com/sanskrit-lexicon/csl-orig/blob/main/LICENSE",
+      "rights_status": "REPOSITORY_LICENSE_STATED_CC_BY_SA_4_0",
+      "redistribution_decision": "Download and redistribute with attribution and licence. Preserve source identity and ShareAlike obligations for adapted material.",
+      "required_attribution": "Cologne Digital Sanskrit Dictionaries (CDSL), csl-orig, Monier-Williams source text, accessed 2026-10-09. Licensed CC BY-SA 4.0.",
+      "download_status": "DOWNLOAD_SCRIPT_PROVIDED_NOT_DOWNLOADED_IN_THIS_ENVIRONMENT",
+      "notes": "The repository describes canonical source text files as UTF-8, SLP1, with one dictionary entry record wrapped in markup. This is dictionary data, not a traditional enumerated lexeme list."
+    },
+    {
+      "source_id": "amarakosha_sanskritdocuments",
+      "title": "Amarakośa / Nāmaliṅgānuśāsana",
+      "source_class": "TRADITIONAL_KOSA",
+      "source_url": "https://sanskritdocuments.org/amarakosha/",
+      "license": null,
+      "rights_status": "UNRESOLVED_ITEM_LEVEL_RIGHTS",
+      "redistribution_decision": "Link/reference only until the exact transcription or scan and its rights are identified.",
+      "required_attribution": "Cite the exact edition, editor, scan/transcription, and host after identifying the chosen asset.",
+      "download_status": "NOT_DOWNLOADED"
+    },
+    {
+      "source_id": "gretil_yaska_nirukta",
+      "title": "Yāska's Nirukta (GRETIL text)",
+      "source_class": "EXPLANATORY_OR_ETYMOLOGICAL_WORK",
+      "source_url": "https://www.gretil.uni-goettingen.de/gretil/corpustei/transformations/html/sa_yAska-nirukta.htm",
+      "license": null,
+      "rights_status": "ITEM_LEVEL_LICENSE_NOT_VERIFIED",
+      "redistribution_decision": "Link/reference only until the specific contributor/source and licence are verified. Do not assume a single platform-wide licence.",
+      "required_attribution": "Use the text's own contributor, edition, and source statement after checking the item record.",
+      "download_status": "NOT_DOWNLOADED"
+    },
+    {
+      "source_id": "niimh_ccras_e_nighantu",
+      "title": "e-Nighantu: Collection of Āyurvedic Lexicons",
+      "source_class": "OTHER_SPECIALIZED_LEXICON",
+      "source_url": "https://niimh.nic.in/ebooks/e-Nighantu/",
+      "license": "All Rights Reserved (site notice)",
+      "rights_status": "RESTRICTED_NO_REDISTRIBUTION_PERMISSION_IDENTIFIED",
+      "redistribution_decision": "Do not scrape or repackage its database without permission. Use as a discovery/reference interface only unless written permission or a separate open licence is established.",
+      "required_attribution": "National Institute of Indian Medical Heritage (NIIMH), Hyderabad; Central Council for Research in Ayurvedic Sciences (CCRAS), New Delhi. Attribution does not replace permission.",
+      "download_status": "NOT_DOWNLOADED"
+    }
+  ]
+}

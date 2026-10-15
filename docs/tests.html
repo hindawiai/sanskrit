@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Test Register · Pushkalāvatī</title><link rel="stylesheet" href="site.css"></head><body>
+<header class="hero"><p class="eyebrow">QUALITY / REGRESSION</p><h1>Test register</h1><p>Commands, coverage, assertions and known skips. This page is the test documentation; CI must run the same commands on each change.</p><nav><a href="index.html">Lab home</a><a href="tasks.html">Tasks and features</a><a href="pipeline.html">Pipeline</a><a href="validation.html">Validation</a></nav></header>
+<main>
+<section class="panel"><h2>Canonical local commands</h2><pre>./scripts/test_all.sh
+npm test
+npm run compile:rules
+npm run test:backend
+npm run test:suktam
+PYTHONPATH=tools:third_party/indic_transliteration python3 tools/transliteration/compare.py
+python3 tests/test_transliteration.py
+node lang/js/backend.js lang/examples/ganana.su c mula &gt; /tmp/ganana.c
+gcc -std=c11 -Wall -Wextra -Werror /tmp/ganana.c -o /tmp/ganana
+/tmp/ganana
+node lang/suktam/suktam.js
+</pre><p>Run from repository root. The integrated script runs the Sūtram suites, backend generation/compilation, Sanchalan parser/code generation, Pushkalāvatī compiler, Python tests, transliteration comparison/regressions, and static-page checks.</p></section>
+<section class="panel"><h2>Validation matrix</h2><table><thead><tr><th>Area</th><th>Positive assertions</th><th>Negative/regression assertions</th><th>Evidence boundary</th></tr></thead><tbody>
+<tr><td>Sūtram parser/interpreter</td><td><code>ganana.su</code> returns 13 and prints 12.</td><td>Existing parser, engine precedence, bootstrap and rule-example rejection tests.</td><td>Supported subset only; not complete self-hosting.</td></tr>
+<tr><td>C backend</td><td>Generated C compiles under GCC C11 with warnings-as-errors; executable prints 12 and reports result 13.</td><td>Unbound names, unknown callees, recursive call cycles, multiple/non-terminal phala are rejected by the backend validator.</td><td>Integer state and supported operations only.</td></tr>
+<tr><td>Rust backend</td><td>Generated source structure checked; if <code>rustc</code> exists, compile with warnings-as-errors and run parity.</td><td>Same front-end validation as C.</td><td>Native Rust compile is skipped here because rustc is not installed; not marked PASS.</td></tr>
+<tr><td>C/Rust raisers</td><td>Restricted arithmetic/print example converts into valid Sūtram-shaped source.</td><td>Unsupported loops/control flow and APIs are refused.</td><td>Not a general C or Rust parser.</td></tr>
+<tr><td>Sanchalan parser</td><td>22 verses parsed, technical lexicon recognized, generated C compiles and emits 22 verse records.</td><td>Verse sequence gaps reported; residual spans preserved; empty/unknown text is not silently discarded.</td><td>Lexical IR only; not semantic OS execution.</td></tr>
+<tr><td>Pushkalāvatī compiler / inverse reduction</td><td>Source-linked operation tests, 6.1.94 two-way round trip, compiler artifact consistency, Python/JS tests.</td><td>Rule-specific non-applicability cases and known pratyāhāra / rule-precedence regressions.</td><td>BUILD-0016: 20 executable-tested operations; 3 derivable-but-untested; most corpus still unresolved.</td></tr>
+<tr><td>Transliteration abstraction</td><td>13/13 Rahnuma expected Romenagri outputs; terminal virāma, avagraha, danda, postvocalic signs and unmapped-input regressions.</td><td>Known non-identical fixture round trips and adapter-unavailable errors are asserted rather than silently counted as matches.</td><td>Fixed-fixture round trips: Romenagri 12/13, IAST 11/13, HK 11/13, SLP1 12/13, ITRANS 11/13, Velthuis 11/13. Not phonetic-fidelity measurements; native C parity unverified.</td></tr>
+<tr><td>GitHub Pages</td><td>Local link checker, JS syntax checks, browser UI smoke tests.</td><td>Missing local links, missing required files and UI regression assertions fail CI.</td><td>Local/CI packaging verified; remote deployment not claimed until Actions returns a URL.</td></tr>
+<tr><td>Romenagri native integration</td><td>Static bootstrap/wrapper contract tests.</td><td>Filter wrapper fails if upstream filter absent or ambiguous.</td><td>Native C build and sed fixtures not yet run because upstream source was unavailable.</td></tr>
+</tbody></table></section>
+<section class="panel"><h2>Current measured Sanchalan result</h2><pre>verses: 22
+recognized lexical nodes: 134
+residual code points: 828
+semantic status: LEXICAL_IR_ONLY
+generated C: compiled with gcc -std=c11 -Wall -Wextra -Werror and executed
+generated Rust: source emitted; rustc unavailable in build environment</pre><p>Counts are build outputs, not grammatical accuracy measures. Changes to the lexicon should be reviewed against source spans and the residual report.</p></section>
+</main><footer>Test register · Updated 2026-10-14 (BUILD-0016)</footer></body></html>

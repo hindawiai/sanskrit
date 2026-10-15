@@ -1,0 +1,1478 @@
+[
+  {
+    "id": "1.1.1",
+    "sutra_krama": 11001,
+    "kaumudi_krama": 16,
+    "type": "samjna",
+    "term": "वृद्धिः",
+    "sutra": "वृद्धिरादैच् ।",
+    "padaccheda": "वृद्धिः १/१ आदैच् १/१"
+  },
+  {
+    "id": "1.1.2",
+    "sutra_krama": 11002,
+    "kaumudi_krama": 17,
+    "type": "samjna",
+    "term": "गुणः",
+    "sutra": "अदेङ् गुणः ।",
+    "padaccheda": "अदेङ् १/१ गुणः १/१"
+  },
+  {
+    "id": "1.1.3",
+    "sutra_krama": 11003,
+    "kaumudi_krama": 34,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "इको गुणवृद्धी ।",
+    "padaccheda": "इकः ६/१ गुणवृद्धी १/२"
+  },
+  {
+    "id": "1.1.4",
+    "sutra_krama": 11004,
+    "kaumudi_krama": 2656,
+    "type": null,
+    "term": null,
+    "sutra": "न धातुलोप आर्धधातुके ।",
+    "padaccheda": "न ०/० धातुलोपे ७/१ आर्धधातुके ७/१"
+  },
+  {
+    "id": "1.1.5",
+    "sutra_krama": 11005,
+    "kaumudi_krama": 2217,
+    "type": null,
+    "term": null,
+    "sutra": "क्ङिति च ।",
+    "padaccheda": "क्क्ङिति ७/१ च ०/०"
+  },
+  {
+    "id": "1.1.6",
+    "sutra_krama": 11006,
+    "kaumudi_krama": 2190,
+    "type": null,
+    "term": null,
+    "sutra": "दीधीवेवीटाम् ।",
+    "padaccheda": "दीधीवेवीटाम् ६/३"
+  },
+  {
+    "id": "1.1.7",
+    "sutra_krama": 11007,
+    "kaumudi_krama": 30,
+    "type": "samjna",
+    "term": "संयोगः",
+    "sutra": "हलोऽनन्तराः संयोगः ।",
+    "padaccheda": "हलः १/३ अनन्तराः १/३ संयोगः १/१"
+  },
+  {
+    "id": "1.1.8",
+    "sutra_krama": 11008,
+    "kaumudi_krama": 9,
+    "type": "samjna",
+    "term": "अनुनासिकः",
+    "sutra": "मुखनासिकावचनोऽनुनासिकः ।",
+    "padaccheda": "मुखनासिकावचनः १/१ अनुनासिकः १/१"
+  },
+  {
+    "id": "1.1.9",
+    "sutra_krama": 11009,
+    "kaumudi_krama": 10,
+    "type": "samjna",
+    "term": "सवर्णम्‌",
+    "sutra": "तुल्यास्यप्रयत्नं सवर्णम् ।",
+    "padaccheda": "तुल्यास्यप्रयत्नं १/१ सवर्णम् १/१"
+  },
+  {
+    "id": "1.1.10",
+    "sutra_krama": 11010,
+    "kaumudi_krama": 13,
+    "type": "samjna",
+    "term": "सवर्णम्‌",
+    "sutra": "नाज्झलौ ।",
+    "padaccheda": "न् ०/० अज्झलौ १/१२"
+  },
+  {
+    "id": "1.1.11",
+    "sutra_krama": 11011,
+    "kaumudi_krama": 100,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "ईदूदेद्द्विवचनं प्रगृह्यम् ।",
+    "padaccheda": "ईदूदेद् १/१ द्विवचनं १/१ प्रगृह्यम् १/१"
+  },
+  {
+    "id": "1.1.12",
+    "sutra_krama": 11012,
+    "kaumudi_krama": 101,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "अदसो मात् ।",
+    "padaccheda": "अदसः ६/१ मात् ५/१"
+  },
+  {
+    "id": "1.1.13",
+    "sutra_krama": 11013,
+    "kaumudi_krama": 102,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "शे ।",
+    "padaccheda": "शे (लुप्तप्रथमान्तो निर्देशः)"
+  },
+  {
+    "id": "1.1.14",
+    "sutra_krama": 11014,
+    "kaumudi_krama": 103,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "निपात एकाजनाङ् ।",
+    "padaccheda": "निपातः १/१ एकाच् १/१ अनाङ् १/१"
+  },
+  {
+    "id": "1.1.15",
+    "sutra_krama": 11015,
+    "kaumudi_krama": 104,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "ओत् ।",
+    "padaccheda": "ओत् १/१"
+  },
+  {
+    "id": "1.1.16",
+    "sutra_krama": 11016,
+    "kaumudi_krama": 105,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "सम्बुद्धौ शाकल्यस्येतावनार्षे ।",
+    "padaccheda": "सम्बुद्धौ ७/१ शाकल्यस्य ६/१ इतौ ७/१ अनार्षे ७/१"
+  },
+  {
+    "id": "1.1.17",
+    "sutra_krama": 11017,
+    "kaumudi_krama": 106,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "उञः ।",
+    "padaccheda": "उञः ६/१"
+  },
+  {
+    "id": "1.1.18",
+    "sutra_krama": 11018,
+    "kaumudi_krama": 107,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "ऊँ ।",
+    "padaccheda": "ऊँ (लुप्तविभक्तिकम्)"
+  },
+  {
+    "id": "1.1.19",
+    "sutra_krama": 11019,
+    "kaumudi_krama": 109,
+    "type": "samjna",
+    "term": "प्रगृह्यम्‌",
+    "sutra": "ईदूतौ च सप्तम्यर्थे ।",
+    "padaccheda": "ईदूतौ १/२ च ०/० सप्तम्यर्थे ७/१"
+  },
+  {
+    "id": "1.1.20",
+    "sutra_krama": 11020,
+    "kaumudi_krama": 2373,
+    "type": "samjna",
+    "term": "घुः",
+    "sutra": "दाधा घ्वदाप् ।",
+    "padaccheda": "दाधा १/३ घु १/१ अदाप् १/१"
+  },
+  {
+    "id": "1.1.21",
+    "sutra_krama": 11021,
+    "kaumudi_krama": 348,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "आद्यन्तवदेकस्मिन् ।",
+    "padaccheda": "आद्यन्तवत् ०/० एकस्मिन् ७/१"
+  },
+  {
+    "id": "1.1.22",
+    "sutra_krama": 11022,
+    "kaumudi_krama": 2003,
+    "type": "samjna",
+    "term": "घः",
+    "sutra": "तरप्तमपौ घः ।",
+    "padaccheda": "तरप्तमपौ १/२ घः १/१"
+  },
+  {
+    "id": "1.1.23",
+    "sutra_krama": 11023,
+    "kaumudi_krama": 258,
+    "type": "samjna",
+    "term": "संख्या",
+    "sutra": "बहुगणवतुडति संख्या ।",
+    "padaccheda": "बहुगणवतुडति १/१ संख्या १/१"
+  },
+  {
+    "id": "1.1.24",
+    "sutra_krama": 11024,
+    "kaumudi_krama": 369,
+    "type": "samjna",
+    "term": "षट्‌",
+    "sutra": "ष्णान्ता षट् ।",
+    "padaccheda": "ष्णान्ता १/१ षट् १/१"
+  },
+  {
+    "id": "1.1.25",
+    "sutra_krama": 11025,
+    "kaumudi_krama": 259,
+    "type": "samjna",
+    "term": "षट्‌",
+    "sutra": "डति च ।",
+    "padaccheda": "डति १/१ च ०/०"
+  },
+  {
+    "id": "1.1.26",
+    "sutra_krama": 11026,
+    "kaumudi_krama": 3012,
+    "type": "samjna",
+    "term": "निष्ठा",
+    "sutra": "क्तक्तवतू निष्ठा ।",
+    "padaccheda": "क्तक्तवतू १/२ निष्ठा १/१"
+  },
+  {
+    "id": "1.1.27",
+    "sutra_krama": 11027,
+    "kaumudi_krama": 213,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "सर्वादीनि सर्वनामानि ।",
+    "padaccheda": "सर्वादीनि १/३ सर्वनामानि १/३"
+  },
+  {
+    "id": "1.1.28",
+    "sutra_krama": 11028,
+    "kaumudi_krama": 292,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "विभाषा दिक्समासे बहुव्रीहौ ।",
+    "padaccheda": "विभाषा १/१ दिक्समासे ७/१ बहुव्रीहौ ७/१"
+  },
+  {
+    "id": "1.1.29",
+    "sutra_krama": 11029,
+    "kaumudi_krama": 222,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "न बहुव्रीहौ ।",
+    "padaccheda": "न ०/० बहुव्रीहौ ७/१"
+  },
+  {
+    "id": "1.1.30",
+    "sutra_krama": 11030,
+    "kaumudi_krama": 223,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "तृतीयासमासे ।",
+    "padaccheda": "तृतीयासमासे ७/१"
+  },
+  {
+    "id": "1.1.31",
+    "sutra_krama": 11031,
+    "kaumudi_krama": 224,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "द्वन्द्वे च ।",
+    "padaccheda": "द्वन्द्वे ७/१ च ०/०"
+  },
+  {
+    "id": "1.1.32",
+    "sutra_krama": 11032,
+    "kaumudi_krama": 225,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "विभाषा जसि ।",
+    "padaccheda": "विभाषा १/१ जसि ७/१"
+  },
+  {
+    "id": "1.1.33",
+    "sutra_krama": 11033,
+    "kaumudi_krama": 226,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "प्रथमचरमतयाल्पार्धकतिपयनेमाश्च ।",
+    "padaccheda": "प्रथमचरमतयाल्पार्धकतिपयनेमाः १/३ च ०/०"
+  },
+  {
+    "id": "1.1.34",
+    "sutra_krama": 11034,
+    "kaumudi_krama": 218,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "पूर्वपरावरदक्षिणोत्तरापराधराणि व्यवस्थायामसंज्ञायाम् ।",
+    "padaccheda": "पूर्वपरावरदक्षिणोत्तरापराधराणि १/३ व्यवस्थायाम् ७/१ असंज्ञायाम् ७/१"
+  },
+  {
+    "id": "1.1.35",
+    "sutra_krama": 11035,
+    "kaumudi_krama": 219,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "स्वमज्ञातिधनाख्यायाम् ।",
+    "padaccheda": "स्वम् १/१ अज्ञातिधनाख्यायाम् ७/१"
+  },
+  {
+    "id": "1.1.36",
+    "sutra_krama": 11036,
+    "kaumudi_krama": 220,
+    "type": "samjna",
+    "term": "सर्वनाम",
+    "sutra": "अन्तरं बहिर्योगोपसंव्यानयोः ।",
+    "padaccheda": "अन्तरं १/१ बहिर्योगोपसंव्यानयोः ७/२"
+  },
+  {
+    "id": "1.1.37",
+    "sutra_krama": 11037,
+    "kaumudi_krama": 447,
+    "type": "samjna",
+    "term": "अव्ययम्‌",
+    "sutra": "स्वरादिनिपातमव्ययम् ।",
+    "padaccheda": "स्वरादिनिपातम् १/१ अव्ययम् १/१"
+  },
+  {
+    "id": "1.1.38",
+    "sutra_krama": 11038,
+    "kaumudi_krama": 448,
+    "type": "samjna",
+    "term": "अव्ययम्‌",
+    "sutra": "तद्धितश्चासर्वविभक्तिः ।",
+    "padaccheda": "तद्धितः १/१ च ०/० असर्वविभक्तिः १/१"
+  },
+  {
+    "id": "1.1.39",
+    "sutra_krama": 11039,
+    "kaumudi_krama": 449,
+    "type": "samjna",
+    "term": "अव्ययम्‌",
+    "sutra": "कृन्मेजन्तः ।",
+    "padaccheda": "कृत् १/१ मेजन्तः १/१"
+  },
+  {
+    "id": "1.1.40",
+    "sutra_krama": 11040,
+    "kaumudi_krama": 450,
+    "type": "samjna",
+    "term": "अव्ययम्‌",
+    "sutra": "क्त्वातोसुन्कसुनः ।",
+    "padaccheda": "क्त्वातोसुन्कसुनः १/३"
+  },
+  {
+    "id": "1.1.41",
+    "sutra_krama": 11041,
+    "kaumudi_krama": 451,
+    "type": "samjna",
+    "term": "अव्ययम्‌",
+    "sutra": "अव्ययीभावश्च ।",
+    "padaccheda": "अव्ययीभावः १/१ च ०/०"
+  },
+  {
+    "id": "1.1.42",
+    "sutra_krama": 11042,
+    "kaumudi_krama": 313,
+    "type": "samjna",
+    "term": "सर्वनामस्थानम्",
+    "sutra": "शि सर्वनामस्थानम् ।",
+    "padaccheda": "शि १/१ सर्वनामस्थानम् १/१"
+  },
+  {
+    "id": "1.1.43",
+    "sutra_krama": 11043,
+    "kaumudi_krama": 229,
+    "type": "samjna",
+    "term": "सर्वनामस्थानम्",
+    "sutra": "सुडनपुंसकस्य ।",
+    "padaccheda": "सुट् १/१ अनपुंसकस्य ६/१"
+  },
+  {
+    "id": "1.1.44",
+    "sutra_krama": 11044,
+    "kaumudi_krama": 24,
+    "type": "samjna",
+    "term": "विभाषा",
+    "sutra": "न वेति विभाषा ।",
+    "padaccheda": "न ०/० वा ०/० इति ०/० विभाषा १/१"
+  },
+  {
+    "id": "1.1.45",
+    "sutra_krama": 11045,
+    "kaumudi_krama": 328,
+    "type": "samjna",
+    "term": "सम्प्रसारणम्",
+    "sutra": "इग्यणः सम्प्रसारणम् ।",
+    "padaccheda": "इक् १/१ यणः ६/१ सम्प्रसारणम् १/१"
+  },
+  {
+    "id": "1.1.46",
+    "sutra_krama": 11046,
+    "kaumudi_krama": 36,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "आद्यन्तौ टकितौ ।",
+    "padaccheda": "आद्यन्तौ १/२ टकितौ १/२"
+  },
+  {
+    "id": "1.1.47",
+    "sutra_krama": 11047,
+    "kaumudi_krama": 37,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "मिदचोऽन्त्यात्परः ।",
+    "padaccheda": "मित् १/१ अचः ६/१ अन्त्यात् ५/१ परः १/१"
+  },
+  {
+    "id": "1.1.48",
+    "sutra_krama": 11048,
+    "kaumudi_krama": 323,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "एच इग्घ्रस्वादेशे ।",
+    "padaccheda": "एचः ६/१ इक् १/१ ह्रस्वादेशे ७/१"
+  },
+  {
+    "id": "1.1.49",
+    "sutra_krama": 11049,
+    "kaumudi_krama": 38,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "षष्ठी स्थानेयोगा ।",
+    "padaccheda": "षष्ठी १/१ स्थानेयोगा १/१"
+  },
+  {
+    "id": "1.1.50",
+    "sutra_krama": 11050,
+    "kaumudi_krama": 39,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "स्थानेऽन्तरतमः ।",
+    "padaccheda": "स्थाने ७/१ अन्तरतमः १/१"
+  },
+  {
+    "id": "1.1.51",
+    "sutra_krama": 11051,
+    "kaumudi_krama": 70,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "उरण् रपरः ।",
+    "padaccheda": "उः ६/१ अण् १/१ रपरः १/१"
+  },
+  {
+    "id": "1.1.52",
+    "sutra_krama": 11052,
+    "kaumudi_krama": 42,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "अलोऽन्त्यस्य ।",
+    "padaccheda": "अलः ६/१ अन्त्यस्य ६/१"
+  },
+  {
+    "id": "1.1.53",
+    "sutra_krama": 11053,
+    "kaumudi_krama": 43,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "ङिच्च ।",
+    "padaccheda": "ङित् १/१ च ०/०"
+  },
+  {
+    "id": "1.1.54",
+    "sutra_krama": 11054,
+    "kaumudi_krama": 44,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "आदेः परस्य ।",
+    "padaccheda": "आदेः ६/१ परस्य ६/१"
+  },
+  {
+    "id": "1.1.55",
+    "sutra_krama": 11055,
+    "kaumudi_krama": 45,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "अनेकाल्शित्सर्वस्य ।",
+    "padaccheda": "अनेकाल्शित् १/१ सर्वस्य ६/१"
+  },
+  {
+    "id": "1.1.56",
+    "sutra_krama": 11056,
+    "kaumudi_krama": 49,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "स्थानिवदादेशोऽनल्विधौ ।",
+    "padaccheda": "स्थानिवत् ०/० आदेशः १/१ अनल्विधौ ७/१"
+  },
+  {
+    "id": "1.1.57",
+    "sutra_krama": 11057,
+    "kaumudi_krama": 50,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "अचः परस्मिन् पूर्वविधौ ।",
+    "padaccheda": "अचः ६/१ परस्मिन् ७/१ (निमित्त-सप्तमी) पूर्वविधौ ७/१ (विषय-सप्तमी)"
+  },
+  {
+    "id": "1.1.58",
+    "sutra_krama": 11058,
+    "kaumudi_krama": 51,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "न पदान्तद्विर्वचनवरेयलोपस्वरसवर्णानुस्वारदीर्घजश्चर्विधिषु ।",
+    "padaccheda": "न ०/० पदान्तद्विर्वचनवरेयलोपस्वरसवर्णानुस्वारदीर्घजश्चर्विधिषु ७/३"
+  },
+  {
+    "id": "1.1.59",
+    "sutra_krama": 11059,
+    "kaumudi_krama": 2243,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "द्विर्वचनेऽचि ।",
+    "padaccheda": "द्विर्वचने ७/१ अचि ७/१"
+  },
+  {
+    "id": "1.1.60",
+    "sutra_krama": 11060,
+    "kaumudi_krama": 53,
+    "type": "samjna",
+    "term": "लोपः",
+    "sutra": "अदर्शनं लोपः ।",
+    "padaccheda": "अदर्शनं १/१ लोपः १/१"
+  },
+  {
+    "id": "1.1.61",
+    "sutra_krama": 11061,
+    "kaumudi_krama": 260,
+    "type": "samjna",
+    "term": "लुक्‌ श्लु लुप्",
+    "sutra": "प्रत्ययस्य लुक्‌श्लुलुपः ।",
+    "padaccheda": "प्रत्ययस्य ६/१ लुक्‌श्लुलुपः १/३"
+  },
+  {
+    "id": "1.1.62",
+    "sutra_krama": 11062,
+    "kaumudi_krama": 262,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "प्रत्ययलोपे प्रत्ययलक्षणम् ।",
+    "padaccheda": "प्रत्ययलोपे ७/१ प्रत्ययलक्षणम् १/१"
+  },
+  {
+    "id": "1.1.63",
+    "sutra_krama": 11063,
+    "kaumudi_krama": 263,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "न लुमताऽङ्गस्य ।",
+    "padaccheda": "न ०/० लुमता ३/१ अङ्गस्य ६/१"
+  },
+  {
+    "id": "1.1.64",
+    "sutra_krama": 11064,
+    "kaumudi_krama": 79,
+    "type": "samjna",
+    "term": "टि",
+    "sutra": "अचोऽन्त्यादि टि ।",
+    "padaccheda": "अचः ६/१ (निर्धारणे षष्ठी) अन्त्यादि १/१ टि १/१"
+  },
+  {
+    "id": "1.1.65",
+    "sutra_krama": 11065,
+    "kaumudi_krama": 249,
+    "type": "samjna",
+    "term": "उपधा",
+    "sutra": "अलोऽन्त्यात् पूर्व उपधा ।",
+    "padaccheda": "अलः ५/१ अन्त्यात् ५/१ पूर्वः १/१ उपधा १/१"
+  },
+  {
+    "id": "1.1.66",
+    "sutra_krama": 11066,
+    "kaumudi_krama": 40,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "तस्मिन्निति निर्दिष्टे पूर्वस्य ।",
+    "padaccheda": "तस्मिन् ७/१ इति ०/० निर्दिष्टे ७/१ पूर्वस्य ६/१"
+  },
+  {
+    "id": "1.1.67",
+    "sutra_krama": 11067,
+    "kaumudi_krama": 41,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "तस्मादित्युत्तरस्य ।",
+    "padaccheda": "तस्मात् ५/१ इति ०/० उत्तरस्य ६/१"
+  },
+  {
+    "id": "1.1.68",
+    "sutra_krama": 11068,
+    "kaumudi_krama": 25,
+    "type": null,
+    "term": null,
+    "sutra": "स्वं रूपं शब्दस्याशब्दसंज्ञा ।",
+    "padaccheda": "स्वम् १/१ रूपम् १/१ शब्दस्य ६/१ अशब्दसंज्ञा १/१"
+  },
+  {
+    "id": "1.1.69",
+    "sutra_krama": 11069,
+    "kaumudi_krama": 14,
+    "type": null,
+    "term": null,
+    "sutra": "अणुदित् सवर्णस्य चाप्रत्ययः ।",
+    "padaccheda": "अणुदित् १/१ सवर्णस्य ६/१ च ०/० अप्रत्ययः १/१"
+  },
+  {
+    "id": "1.1.70",
+    "sutra_krama": 11070,
+    "kaumudi_krama": 15,
+    "type": null,
+    "term": null,
+    "sutra": "तपरस्तत्कालस्य ।",
+    "padaccheda": "तपरः १/१ तत्कालस्य ६/१"
+  },
+  {
+    "id": "1.1.71",
+    "sutra_krama": 11071,
+    "kaumudi_krama": 2,
+    "type": "samjna",
+    "term": "प्रत्याहारः",
+    "sutra": "आदिरन्त्येन सहेता ।",
+    "padaccheda": "आदिः १/१ अन्त्येन ३/१ सह ०/० इता ३/१"
+  },
+  {
+    "id": "1.1.72",
+    "sutra_krama": 11072,
+    "kaumudi_krama": 26,
+    "type": "samjna",
+    "term": "प्रत्याहारः",
+    "sutra": "येन विधिस्तदन्तस्य ।",
+    "padaccheda": "येन ३/१ विधिः १/१ तदन्तस्य ६/१"
+  },
+  {
+    "id": "1.1.73",
+    "sutra_krama": 11073,
+    "kaumudi_krama": 1335,
+    "type": "samjna",
+    "term": "वृद्ध‌म्‌",
+    "sutra": "वृद्धिर्यस्याचामादिस्तद् वृद्धम् ।",
+    "padaccheda": "वृद्धिः १/१ यस्य ६/१ अचाम् ६/३ (निर्धारणे षष्ठी) आदिः १/१ तत् १/१ वृद्धम् १/१"
+  },
+  {
+    "id": "1.1.74",
+    "sutra_krama": 11074,
+    "kaumudi_krama": 1336,
+    "type": "samjna",
+    "term": "वृद्ध‌म्‌",
+    "sutra": "त्यदादीनि च ।",
+    "padaccheda": "त्यदादीनि १/३ च ०/०"
+  },
+  {
+    "id": "1.1.75",
+    "sutra_krama": 11075,
+    "kaumudi_krama": 1338,
+    "type": "samjna",
+    "term": "वृद्ध‌म्‌",
+    "sutra": "एङ् प्राचां देशे ।",
+    "padaccheda": "एङ् १/१ प्राचाम् ६/३ देशे ७/१"
+  },
+  {
+    "id": "1.2.1",
+    "sutra_krama": 12001,
+    "kaumudi_krama": 2461,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "गाङ्कुटादिभ्योऽञ्णिन्ङ् इत् ।",
+    "padaccheda": "गाङ्-कुटादिभ्यः ५/३ अञ्णित् १/१ ङित् १/१"
+  },
+  {
+    "id": "1.2.2",
+    "sutra_krama": 12002,
+    "kaumudi_krama": 2536,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "विज इट् ।",
+    "padaccheda": "विजः ५/१ इट् १/१"
+  },
+  {
+    "id": "1.2.3",
+    "sutra_krama": 12003,
+    "kaumudi_krama": 2447,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "विभाषोर्णोः ।",
+    "padaccheda": "विभाषा १/१ ऊर्णोः ५/१"
+  },
+  {
+    "id": "1.2.4",
+    "sutra_krama": 12004,
+    "kaumudi_krama": 2234,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "सार्वधातुकमपित् ।",
+    "padaccheda": "सार्वधातुकम् १/१ अपित् १/१"
+  },
+  {
+    "id": "1.2.5",
+    "sutra_krama": 12005,
+    "kaumudi_krama": 2242,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "असंयोगाल्लिट् कित् ।",
+    "padaccheda": "असंयोगात् ५/१ लिट् १/१ कित् १/१"
+  },
+  {
+    "id": "1.2.6",
+    "sutra_krama": 12006,
+    "kaumudi_krama": 3393,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "ईन्धिभवतिभ्यां च ।",
+    "padaccheda": "ईन्धिभवतिभ्यां ५/२ च ०/०"
+  },
+  {
+    "id": "1.2.7",
+    "sutra_krama": 12007,
+    "kaumudi_krama": 3323,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "मृडमृदगुधकुषक्लिशवदवसः क्त्वा ।",
+    "padaccheda": "मृडमृदगुधकुषक्लिशवदवसः ५/१ क्त्वा १/१"
+  },
+  {
+    "id": "1.2.8",
+    "sutra_krama": 12008,
+    "kaumudi_krama": 2609,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "रुदविदमुषग्रहिस्वपिप्रच्छः सँश्च ।",
+    "padaccheda": "रुदविदमुषग्रहिस्वपिप्रच्छः ५/१ सन् १/१ च ०/०"
+  },
+  {
+    "id": "1.2.9",
+    "sutra_krama": 12009,
+    "kaumudi_krama": 2612,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "इको झल् ।",
+    "padaccheda": "इकः ५/१ झल् १/१"
+  },
+  {
+    "id": "1.2.10",
+    "sutra_krama": 12010,
+    "kaumudi_krama": 2613,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "हलन्ताच्च ।",
+    "padaccheda": "हलन्तात् ५/१ च ०/०"
+  },
+  {
+    "id": "1.2.11",
+    "sutra_krama": 12011,
+    "kaumudi_krama": 2300,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "लिङ्सिचावात्मनेपदेषु ।",
+    "padaccheda": "लिङ्-सिचौ १/२ आत्मनेपदेषु ७/३"
+  },
+  {
+    "id": "1.2.12",
+    "sutra_krama": 12012,
+    "kaumudi_krama": 2368,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "उश्च ।",
+    "padaccheda": "उः ५/१ च ०/०"
+  },
+  {
+    "id": "1.2.13",
+    "sutra_krama": 12013,
+    "kaumudi_krama": 2700,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "वा गमः ।",
+    "padaccheda": "वा ०/० गमः ५/१"
+  },
+  {
+    "id": "1.2.14",
+    "sutra_krama": 12014,
+    "kaumudi_krama": 2697,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "हनः सिच् ।",
+    "padaccheda": "हनः ५/१ सिच् १/१"
+  },
+  {
+    "id": "1.2.15",
+    "sutra_krama": 12015,
+    "kaumudi_krama": 2698,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "यमो गन्धने ।",
+    "padaccheda": "यमः ५/१ गन्धने ७/१"
+  },
+  {
+    "id": "1.2.16",
+    "sutra_krama": 12016,
+    "kaumudi_krama": 2730,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "विभाषोपयमने ।",
+    "padaccheda": "विभाषा १/१ उपयमने ७/२"
+  },
+  {
+    "id": "1.2.17",
+    "sutra_krama": 12017,
+    "kaumudi_krama": 2389,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "स्था घ्वोरिच्च ।",
+    "padaccheda": "स्था-घ्वोः ६/२ इत् १/१ च ०/०"
+  },
+  {
+    "id": "1.2.18",
+    "sutra_krama": 12018,
+    "kaumudi_krama": 3322,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "न क्त्वा सेट् ।",
+    "padaccheda": "न ०/० क्त्वा (लुप्तविभक्तिनिर्देशः) सेट् १/१"
+  },
+  {
+    "id": "1.2.19",
+    "sutra_krama": 12019,
+    "kaumudi_krama": 3052,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "निष्ठा शीङ्स्विदिमिदिक्ष्विदिधृषः ।",
+    "padaccheda": "निष्ठा १/१ शीङ्-स्विदिमिदिक्ष्विदिधृषः ५/१"
+  },
+  {
+    "id": "1.2.20",
+    "sutra_krama": 12020,
+    "kaumudi_krama": 3055,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "मृषस्तितिक्षायाम् ।",
+    "padaccheda": "मृषः ५/१ तितिक्षायाम् ७/१"
+  },
+  {
+    "id": "1.2.21",
+    "sutra_krama": 12021,
+    "kaumudi_krama": 3056,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "उदुपधाद्भावादिकर्मणोरन्यतरस्याम् ।",
+    "padaccheda": "उदुपधात् ५/१ भावादिकर्मणोः ७/२ अन्यतरस्याम् ०/०"
+  },
+  {
+    "id": "1.2.22",
+    "sutra_krama": 12022,
+    "kaumudi_krama": 3051,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "पूङः क्त्वा च ।",
+    "padaccheda": "पूङः ५/१ क्त्वा (लुप्तविभक्तः) च ०/०"
+  },
+  {
+    "id": "1.2.23",
+    "sutra_krama": 12023,
+    "kaumudi_krama": 3324,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "नोपधात्थफान्ताद्वा ।",
+    "padaccheda": "नोपधात् ५/१ थफान्तात् ५/१ वा ०/०"
+  },
+  {
+    "id": "1.2.24",
+    "sutra_krama": 12024,
+    "kaumudi_krama": 3325,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "वञ्चिलुञ्च्यृतश्च ।",
+    "padaccheda": "वञ्चिलुञ्च्यृतः ५/१ च ०/०"
+  },
+  {
+    "id": "1.2.25",
+    "sutra_krama": 12025,
+    "kaumudi_krama": 3326,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "तृषिमृषिकृशेः काश्यपस्य ।",
+    "padaccheda": "तृषिमृषिकृशेः ५/१ काश्यपस्य ६/१"
+  },
+  {
+    "id": "1.2.26",
+    "sutra_krama": 12026,
+    "kaumudi_krama": 2617,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "रलो व्युपधाद्धलादेः संश्च ।",
+    "padaccheda": "रलः ५/१ व्युपधाद्त् ५/१ हलादेः ५/१ सन् १/१ च ०/०"
+  },
+  {
+    "id": "1.2.27",
+    "sutra_krama": 12027,
+    "kaumudi_krama": 4,
+    "type": "samjna",
+    "term": "ह्रस्वः दीर्घः प्लुतः",
+    "sutra": "ऊकालोऽज्झ्रस्वदीर्घप्लुतः ।",
+    "padaccheda": "ऊकालः १/१ अच् १/१ ह्रस्वदीर्घप्लुतः १/१"
+  },
+  {
+    "id": "1.2.28",
+    "sutra_krama": 12028,
+    "kaumudi_krama": 35,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "अचश्च ।",
+    "padaccheda": "अचः ६/१ च ०/०"
+  },
+  {
+    "id": "1.2.29",
+    "sutra_krama": 12029,
+    "kaumudi_krama": 5,
+    "type": "samjna",
+    "term": "उदात्तः",
+    "sutra": "उच्चैरुदात्तः ।",
+    "padaccheda": "उच्चैः ०/० उदात्तः १/१"
+  },
+  {
+    "id": "1.2.30",
+    "sutra_krama": 12030,
+    "kaumudi_krama": 6,
+    "type": "samjna",
+    "term": "अनुदात्तः",
+    "sutra": "नीचैरनुदात्तः ।",
+    "padaccheda": "नीचैः ०/० अनुदात्तः १/१"
+  },
+  {
+    "id": "1.2.31",
+    "sutra_krama": 12031,
+    "kaumudi_krama": 7,
+    "type": "samjna",
+    "term": "स्वरितः",
+    "sutra": "समाहारः स्वरितः ।",
+    "padaccheda": "समाहारः १/१ स्वरितः १/१"
+  },
+  {
+    "id": "1.2.32",
+    "sutra_krama": 12032,
+    "kaumudi_krama": 8,
+    "type": null,
+    "term": null,
+    "sutra": "तस्यादित उदात्तमर्धह्रस्वम् ।",
+    "padaccheda": "तस्य ६/१ आदितः ०/० उदात्तम् १/१ अर्धह्रस्वम् १/१"
+  },
+  {
+    "id": "1.2.33",
+    "sutra_krama": 12033,
+    "kaumudi_krama": 3662,
+    "type": null,
+    "term": null,
+    "sutra": "एकश्रुति दूरात् सम्बुद्धौ ।",
+    "padaccheda": "एकश्रुति १/१ दूरात् ५/१ सम्बुद्धौ ७/१"
+  },
+  {
+    "id": "1.2.34",
+    "sutra_krama": 12034,
+    "kaumudi_krama": 3663,
+    "type": null,
+    "term": null,
+    "sutra": "यज्ञकर्मण्यजपन्यूङ्खसामसु ।",
+    "padaccheda": "यज्ञकर्मणि ७/१ अयजपन्यूङ्खसामसु ७/३"
+  },
+  {
+    "id": "1.2.35",
+    "sutra_krama": 12035,
+    "kaumudi_krama": 3664,
+    "type": null,
+    "term": null,
+    "sutra": "उच्चैस्तरां वा वषट्कारः ।",
+    "padaccheda": "उच्चैस्तराम् ०/० वा ०/० वषट्कारः १/१"
+  },
+  {
+    "id": "1.2.36",
+    "sutra_krama": 12036,
+    "kaumudi_krama": 3665,
+    "type": null,
+    "term": null,
+    "sutra": "विभाषा छन्दसि ।",
+    "padaccheda": "विभाषा १/१ छन्दसि ७/१"
+  },
+  {
+    "id": "1.2.37",
+    "sutra_krama": 12037,
+    "kaumudi_krama": 3666,
+    "type": null,
+    "term": null,
+    "sutra": "न सुब्रह्मण्यायां स्वरितस्य तूदात्तः ।",
+    "padaccheda": "न ०/० सुब्रह्मण्यायाम् ७/१ स्वरितस्य ६/१ तु ०/० उदात्तः १/१"
+  },
+  {
+    "id": "1.2.38",
+    "sutra_krama": 12038,
+    "kaumudi_krama": 3667,
+    "type": null,
+    "term": null,
+    "sutra": "देवब्रह्मणोरनुदात्तः ।",
+    "padaccheda": "देवब्रह्मणोः ७/२ अनुदात्तः १/१"
+  },
+  {
+    "id": "1.2.39",
+    "sutra_krama": 12039,
+    "kaumudi_krama": 3668,
+    "type": null,
+    "term": null,
+    "sutra": "स्वरितात् संहितायामनुदात्तानाम् ।",
+    "padaccheda": "स्वरितात् ५/१ संहितायाम् ७/१ अनुदात्तानाम् ६/३"
+  },
+  {
+    "id": "1.2.40",
+    "sutra_krama": 12040,
+    "kaumudi_krama": 3669,
+    "type": null,
+    "term": null,
+    "sutra": "उदात्तस्वरितपरस्य सन्नतरः ।",
+    "padaccheda": "उदात्तस्वरितपरस्य ६/१ सन्नतरः १/१"
+  },
+  {
+    "id": "1.2.41",
+    "sutra_krama": 12041,
+    "kaumudi_krama": 251,
+    "type": "samjna",
+    "term": "अपृक्तः",
+    "sutra": "अपृक्त एकाल् प्रत्ययः ।",
+    "padaccheda": "अपृक्तः १/१ एकाल् १/१ प्रत्ययः १/१"
+  },
+  {
+    "id": "1.2.42",
+    "sutra_krama": 12042,
+    "kaumudi_krama": 745,
+    "type": "samjna",
+    "term": "कर्मधारयः",
+    "sutra": "तत्पुरुषः समानाधिकरणः कर्मधारयः ।",
+    "padaccheda": "तत्पुरुषः १/१ समानाधिकरणः १/१ कर्मधारयः १/१"
+  },
+  {
+    "id": "1.2.43",
+    "sutra_krama": 12043,
+    "kaumudi_krama": 653,
+    "type": "samjna",
+    "term": "उपसर्जनम्‌",
+    "sutra": "प्रथमानिर्दिष्टं समास उपसर्जनम् ।",
+    "padaccheda": "प्रथमानिर्दिष्टम् १/१ समासे ७/१ उपसर्जनम् १/१"
+  },
+  {
+    "id": "1.2.44",
+    "sutra_krama": 12044,
+    "kaumudi_krama": 655,
+    "type": "samjna",
+    "term": "उपसर्जनम्‌",
+    "sutra": "एकविभक्ति चापूर्वनिपाते ।",
+    "padaccheda": "एकविभक्ति १/१ च ०/० आपूर्वनिपाते ७/१"
+  },
+  {
+    "id": "1.2.45",
+    "sutra_krama": 12045,
+    "kaumudi_krama": 178,
+    "type": "samjna",
+    "term": "प्रातिपदिकम्‌",
+    "sutra": "अर्थवदधातुरप्रत्ययः प्रातिपदिकम् ।",
+    "padaccheda": "अर्थवत् १/१ अधातुः १/१ अप्रत्ययः १/१ प्रातिपदिकम् १/१॥ अर्थोऽस्यास्तीत्यर्थवत् तदस्या० (५.२.९४) इति मतुप्-प्रत्ययः॥"
+  },
+  {
+    "id": "1.2.46",
+    "sutra_krama": 12046,
+    "kaumudi_krama": 179,
+    "type": "samjna",
+    "term": "प्रातिपदिकम्‌",
+    "sutra": "कृत्तद्धितसमासाश्च ।",
+    "padaccheda": "कृत्तद्धितसमासाः १/३ च ०/०"
+  },
+  {
+    "id": "1.2.47",
+    "sutra_krama": 12047,
+    "kaumudi_krama": 318,
+    "type": null,
+    "term": null,
+    "sutra": "ह्रस्वो नपुंसके प्रातिपदिकस्य ।",
+    "padaccheda": "ह्रस्वः १/१ नपुंसके ७/१ प्रातिपदिकस्य ६/१"
+  },
+  {
+    "id": "1.2.48",
+    "sutra_krama": 12048,
+    "kaumudi_krama": 656,
+    "type": null,
+    "term": null,
+    "sutra": "गोस्त्रियोरुपसर्ज्जनस्य ।",
+    "padaccheda": "गोस्त्रियोः ६/१ उपसर्जनस्य ६/१"
+  },
+  {
+    "id": "1.2.49",
+    "sutra_krama": 12049,
+    "kaumudi_krama": 1408,
+    "type": null,
+    "term": null,
+    "sutra": "लुक् तद्धितलुकि ।",
+    "padaccheda": "लुक् १/१ तद्धितलुकि ७/१"
+  },
+  {
+    "id": "1.2.50",
+    "sutra_krama": 12050,
+    "kaumudi_krama": 1703,
+    "type": null,
+    "term": null,
+    "sutra": "इद्गोण्याः ।",
+    "padaccheda": "इत् १/१ गोण्याः ६/१"
+  },
+  {
+    "id": "1.2.51",
+    "sutra_krama": 12051,
+    "kaumudi_krama": 1294,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "लुपि युक्तवद्व्यक्तिवचने ।",
+    "padaccheda": "लुपि ७/१ युक्तवत् ०/० व्यक्तिवचने १/२"
+  },
+  {
+    "id": "1.2.52",
+    "sutra_krama": 12052,
+    "kaumudi_krama": 1300,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "विशेषणानां चाजातेः ।",
+    "padaccheda": "विशेषणानाम् ६/३ च ०/० आ ०/० जातेः ५/१"
+  },
+  {
+    "id": "1.2.53",
+    "sutra_krama": 12053,
+    "kaumudi_krama": 1295,
+    "type": null,
+    "term": null,
+    "sutra": "तदशिष्यं संज्ञाप्रमाणत्वात् ।",
+    "padaccheda": "तत् १/१ अशिष्यम् १/१ संज्ञाप्रमाणत्वात् ५/१"
+  },
+  {
+    "id": "1.2.54",
+    "sutra_krama": 12054,
+    "kaumudi_krama": 1296,
+    "type": null,
+    "term": null,
+    "sutra": "लुब्योगाप्रख्यानात् ।",
+    "padaccheda": "लुप् १/१ योगाप्रख्यानात् ५/१"
+  },
+  {
+    "id": "1.2.55",
+    "sutra_krama": 12055,
+    "kaumudi_krama": 1297,
+    "type": null,
+    "term": null,
+    "sutra": "योगप्रमाणे च तदभावेऽदर्शनं स्यात् ।",
+    "padaccheda": "योगप्रमाणे ७/१ च ०/० तदभावे ७/१ अदर्शनम् १/१ स्यात्"
+  },
+  {
+    "id": "1.2.56",
+    "sutra_krama": 12056,
+    "kaumudi_krama": 1298,
+    "type": null,
+    "term": null,
+    "sutra": "प्रधानप्रत्ययार्थवचनमर्थस्यान्यप्रमाणत्वात् ।",
+    "padaccheda": "प्रधानप्रत्ययार्थवचनम् १/१ अर्थस्य ६/१ अन्यप्रमाणत्वात् ५/१"
+  },
+  {
+    "id": "1.2.57",
+    "sutra_krama": 12057,
+    "kaumudi_krama": 1299,
+    "type": null,
+    "term": null,
+    "sutra": "कालोपसर्जने च तुल्यम् ।",
+    "padaccheda": "कालोपसर्जने १/२ च ०/० तुल्यम् १/१"
+  },
+  {
+    "id": "1.2.58",
+    "sutra_krama": 12058,
+    "kaumudi_krama": 817,
+    "type": null,
+    "term": null,
+    "sutra": "जात्याख्यायामेकस्मिन् बहुवचनमन्यतरस्याम् ।",
+    "padaccheda": "जात्याख्यायाम् ७/१ एकस्मिन् ७/१ बहुवचनम् १/१ अन्यतरस्याम् ०/०"
+  },
+  {
+    "id": "1.2.59",
+    "sutra_krama": 12059,
+    "kaumudi_krama": 818,
+    "type": null,
+    "term": null,
+    "sutra": "अस्मदो द्वायोश्च ।",
+    "padaccheda": "अस्मदः ६/१ द्वायोः ७/२ च ०/०"
+  },
+  {
+    "id": "1.2.60",
+    "sutra_krama": 12060,
+    "kaumudi_krama": 819,
+    "type": null,
+    "term": null,
+    "sutra": "फल्गुनीप्रोष्ठपदानां च नक्षत्रे ।",
+    "padaccheda": "फल्गुनीप्रोष्ठपदानाम् ६/३ च ०/० नक्षत्रे ७/१"
+  },
+  {
+    "id": "1.2.61",
+    "sutra_krama": 12061,
+    "kaumudi_krama": 3387,
+    "type": null,
+    "term": null,
+    "sutra": "छन्दसि पुनर्वस्वोरेकवचनम् ।",
+    "padaccheda": "छन्दसि ७/१ पुनर्वस्वोः ६/२ एकवचनम् १/१"
+  },
+  {
+    "id": "1.2.62",
+    "sutra_krama": 12062,
+    "kaumudi_krama": 3388,
+    "type": null,
+    "term": null,
+    "sutra": "विशाखयोश्च ।",
+    "padaccheda": "विशाखयोः ६/२ च ०/०"
+  },
+  {
+    "id": "1.2.63",
+    "sutra_krama": 12063,
+    "kaumudi_krama": 820,
+    "type": null,
+    "term": null,
+    "sutra": "तिष्यपुनर्वस्वोर्नक्षत्रद्वंद्वे बहुवचनस्य द्विवचनं नित्यम् ।",
+    "padaccheda": "तिष्यपुनर्वस्वोः ६/२ नक्षत्रद्वंद्वे ७/१ बहुवचनस्य ६/१ द्विवचनम् १/१ नित्यम् १/१"
+  },
+  {
+    "id": "1.2.64",
+    "sutra_krama": 12064,
+    "kaumudi_krama": 188,
+    "type": null,
+    "term": null,
+    "sutra": "सरूपाणामेकशेष एकविभक्तौ ।",
+    "padaccheda": "सरूपाणाम् ६/३ एकशेषः १/१ एकविभक्तौ ७/१"
+  },
+  {
+    "id": "1.2.65",
+    "sutra_krama": 12065,
+    "kaumudi_krama": 931,
+    "type": null,
+    "term": null,
+    "sutra": "वृद्धो यूना तल्लक्षणश्चेदेव विशेषः ।",
+    "padaccheda": "वृद्धः १/१ यूना ३/१ तल्लक्षणः १/१ चेत् ०/० एव ०/० विशेषः १/१"
+  },
+  {
+    "id": "1.2.66",
+    "sutra_krama": 12066,
+    "kaumudi_krama": 932,
+    "type": "atidesha",
+    "term": null,
+    "sutra": "स्त्री पुंवच्च ।",
+    "padaccheda": "स्त्री १/१ पुंवत् ०/० च ०/०"
+  },
+  {
+    "id": "1.2.67",
+    "sutra_krama": 12067,
+    "kaumudi_krama": 933,
+    "type": null,
+    "term": null,
+    "sutra": "पुमान् स्त्रिया ।",
+    "padaccheda": "पुमान् १/१ स्त्रिया ३/१"
+  },
+  {
+    "id": "1.2.68",
+    "sutra_krama": 12068,
+    "kaumudi_krama": 934,
+    "type": null,
+    "term": null,
+    "sutra": "भ्रातृपुत्रौ स्वसृदुहितृभ्याम् ।",
+    "padaccheda": "भ्रातृपुत्रौ १/२ स्वसृदुहितृभ्याम् ३/२"
+  },
+  {
+    "id": "1.2.69",
+    "sutra_krama": 12069,
+    "kaumudi_krama": 935,
+    "type": null,
+    "term": null,
+    "sutra": "नपुंसकमनपुंसकेनैकवच्चास्यान्यतरस्याम् ।",
+    "padaccheda": "नपुंसकम् १/१ अनपुंसकेन ३/१ एकवत् ०/० च ०/० अस्य ६/१ अन्यतरस्याम् ०/०"
+  },
+  {
+    "id": "1.2.70",
+    "sutra_krama": 12070,
+    "kaumudi_krama": 936,
+    "type": null,
+    "term": null,
+    "sutra": "पिता मात्रा ।",
+    "padaccheda": "पिता १/१ मात्रा ३/१"
+  },
+  {
+    "id": "1.2.71",
+    "sutra_krama": 12071,
+    "kaumudi_krama": 937,
+    "type": null,
+    "term": null,
+    "sutra": "श्वशुरः श्वश्र्वा ।",
+    "padaccheda": "श्वशुरः १/१ श्वश्र्वा ३/१"
+  },
+  {
+    "id": "1.2.72",
+    "sutra_krama": 12072,
+    "kaumudi_krama": 938,
+    "type": null,
+    "term": null,
+    "sutra": "त्यदादीनि सर्वैर्नित्यम् ।",
+    "padaccheda": "त्यदादीनि १/३ सर्वैः ३/३ नित्यम् १/१"
+  },
+  {
+    "id": "1.2.73",
+    "sutra_krama": 12073,
+    "kaumudi_krama": 939,
+    "type": null,
+    "term": null,
+    "sutra": "ग्राम्यपशुसंघेषु अतरुणेषु स्त्री ।",
+    "padaccheda": "ग्राम्यपशुसंघेषु ७/३ अतरुणेषु १/१ स्त्री १/१॥ ग्रामे भवा ग्राम्याः ग्रामाद्यखञौ (४.२.९३) इत्यनेन यत् प्रत्ययः॥"
+  },
+  {
+    "id": "1.3.1",
+    "sutra_krama": 13001,
+    "kaumudi_krama": 18,
+    "type": "samjna",
+    "term": "धातुः",
+    "sutra": "भूवादयो धातवः ।",
+    "padaccheda": "भूवादयः १/३ धातवः १/३"
+  },
+  {
+    "id": "1.3.2",
+    "sutra_krama": 13002,
+    "kaumudi_krama": 3,
+    "type": "samjna",
+    "term": "इत्‌",
+    "sutra": "उपदेशेऽजनुनासिक इत् ।",
+    "padaccheda": "उपदेशे ७/१ अच् १/१ अनुनासिकः १/१ इत् १/१"
+  },
+  {
+    "id": "1.3.3",
+    "sutra_krama": 13003,
+    "kaumudi_krama": 1,
+    "type": "samjna",
+    "term": "इत्‌",
+    "sutra": "हलन्त्यम् ।",
+    "padaccheda": "हल् १/१ अन्त्यम् १/१॥ अन्ते भवमन्त्यं दिगादित्वात् (४.३।५४) यत् प्रत्ययः॥"
+  },
+  {
+    "id": "1.3.4",
+    "sutra_krama": 13004,
+    "kaumudi_krama": 190,
+    "type": "samjna",
+    "term": "इत्‌",
+    "sutra": "न विभक्तौ तुस्माः ।",
+    "padaccheda": null
+  },
+  {
+    "id": "1.3.5",
+    "sutra_krama": 13005,
+    "kaumudi_krama": 2289,
+    "type": "samjna",
+    "term": "इत्",
+    "sutra": "आदिर्ञिटुडवः",
+    "padaccheda": "आदिः १/१ ञि-टु-डवः १/३"
+  },
+  {
+    "id": "1.3.6",
+    "sutra_krama": 13006,
+    "kaumudi_krama": 474,
+    "type": "samjna",
+    "term": "इत्",
+    "sutra": "षः प्रत्ययस्य",
+    "padaccheda": "षः १/१ प्रत्ययस्य ६/१"
+  },
+  {
+    "id": "1.3.7",
+    "sutra_krama": 13007,
+    "kaumudi_krama": 189,
+    "type": "samjna",
+    "term": "इत्",
+    "sutra": "चुटू",
+    "padaccheda": "चु-टू १/२"
+  },
+  {
+    "id": "1.3.8",
+    "sutra_krama": 13008,
+    "kaumudi_krama": 195,
+    "type": "samjna",
+    "term": "इत्",
+    "sutra": "लशक्वतद्धिते",
+    "padaccheda": "ल-श-कु १/१ अतद्धिते ७/१"
+  },
+  {
+    "id": "1.3.9",
+    "sutra_krama": 13009,
+    "kaumudi_krama": 62,
+    "type": "vidhi",
+    "term": null,
+    "sutra": "तस्य लोपः",
+    "padaccheda": "तस्य ६/१ लोपः १/१"
+  },
+  {
+    "id": "1.3.10",
+    "sutra_krama": 13010,
+    "kaumudi_krama": 128,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "यथासंख्यमनुदेशः समानाम्",
+    "padaccheda": "यथासंख्यम् ०/० अनुदेशः १/१ समानाम् ६/३"
+  },
+  {
+    "id": "1.3.11",
+    "sutra_krama": 13011,
+    "kaumudi_krama": 46,
+    "type": "paribhasha",
+    "term": null,
+    "sutra": "स्वरितेनाधिकारः",
+    "padaccheda": "स्वरितेन ३/१ अधिकारः १/१"
+  },
+  {
+    "id": "1.3.12",
+    "sutra_krama": 13012,
+    "kaumudi_krama": 2157,
+    "type": "vidhi",
+    "term": null,
+    "sutra": "अनुदात्तङित आत्मनेपदम्",
+    "padaccheda": "अनुदात्त-ङितः ५/१ आत्मनेपदम् १/१"
+  },
+  {
+    "id": "1.3.13",
+    "sutra_krama": 13013,
+    "kaumudi_krama": 2679,
+    "type": "vidhi",
+    "term": null,
+    "sutra": "भावकर्मणोः",
+    "padaccheda": "भाव-कर्मणोः ७/२"
+  },
+  {
+    "id": "1.3.14",
+    "sutra_krama": 13014,
+    "kaumudi_krama": 2680,
+    "type": "vidhi",
+    "term": null,
+    "sutra": "कर्तरि कर्मव्यतिहारे",
+    "padaccheda": "कर्तरि ७/१ कर्म-व्यतिहारे ७/१"
+  },
+  {
+    "id": "1.3.15",
+    "sutra_krama": 13015,
+    "kaumudi_krama": 2681,
+    "type": "vidhi",
+    "term": null,
+    "sutra": "न गतिहिंसार्थेभ्यः",
+    "padaccheda": "न ०/० गति-हिंसा-अर्थेभ्यः ५/३"
+  },
+  {
+    "id": "1.3.16",
+    "sutra_krama": 13016,
+    "kaumudi_krama": 2682,
+    "type": "vidhi",
+    "term": null,
+    "sutra": "इतरेतरान्योन्योपपदाच्च",
+    "padaccheda": "इतरेतर-अन्योन्य-उपपदात् ५/१ च ०/०"
+  }
+]

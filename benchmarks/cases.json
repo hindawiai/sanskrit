@@ -1,0 +1,15 @@
+{
+  "sandhi": [
+    {"id": "6.1.77", "left": "dadhi", "right": "atra", "context": {"vowel_following": true}, "expected": "dadhyatra"},
+    {"id": "6.1.87", "left": "deva", "right": "indra", "expected": "devendra"},
+    {"id": "8.3.15", "left": "devar", "right": "", "context": {"avasana_or_khar": true}, "expected": "devaḥ"}
+  ],
+  "generation": [
+    {"id": "bhavati", "dhatu": "BU", "gana": "Bhvadi", "lakara": "Lat", "expected": "Bavati"},
+    {"id": "gacchati", "dhatu": "gam", "gana": "Bhvadi", "lakara": "Lat", "expected": "gacCati"}
+  ],
+  "analysis": [
+    {"id": "dadhyatra", "surface": "dadhyatra", "expected_contains": ["dadhi", "atra"]},
+    {"id": "bhavati", "surface": "bhavati", "expected_root": "BU"}
+  ]
+}

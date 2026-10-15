@@ -1,0 +1,94 @@
+BUILD-0017 COMPONENT TEST LOG
+Date: 2026-10-14
+Source archive SHA-256: 0db293a3dc2f27be6a1ef2072e774ebf1db25d78cf619b9990e82c10046c670c
+
+ENVIRONMENT
+Node v22.16.0
+npm 10.9.2
+Python 3.13.5
+GCC 14.2.0
+rustc: unavailable
+flex: unavailable
+QEMU: not run
+
+IMPORTANT EXECUTION NOTE
+A prior one-shot invocation of the integrated suite did not finish within the available execution window. This log records the independently executed component stages. The current scripts/test_all.sh includes the new coverage step, but its exact final version has not been recorded completing with exit 0. Do not infer a successful monolithic exit status.
+
+PASS — JavaScript/Sūtram and Sanchalan C runtime
+Commands: node lang/js/test_shivasutras.js; node lang/js/test_padartha.js; node lang/js/demo.js; node lang/js/test_interpreter.js; node lang/js/test_bootstrap.js; node lang/js/test_convert.js; node lang/js/test_engine_precedence.js; node lang/js/test_oop.js; node lang/js/test_paradigms.js; node lang/js/test_backend.js; node lang/suktam/test/suktam.test.js; GCC compile/run of lang/suktam/test/runtime.test.c with -std=c11 -Wall -Wextra -Werror.
+Result: PASS. Rust compilation explicitly skipped because rustc is unavailable.
+
+PASS — Romenagri integration contract
+Command: bash ./tests/test_romenagri_integration.sh
+Result: PASS. This is a static wrapper/vendoring contract, not native C execution.
+
+PASS — Rahnuma transliteration fixtures
+Command: PYTHONPATH=tools:third_party/indic_transliteration python3 tools/transliteration/compare.py
+Result: 13/13 expected Romenagri outputs matched. Exact round trips on the 13-item fixture: Romenagri 12/13; IAST 11/13; HK 11/13; SLP1 12/13; ITRANS 11/13; Velthuis 11/13.
+
+PASS — Hindawi keyword-table integrity
+Command: python3 lang/hindawi/test_ports.py
+Result: 68 profiles; zero failures.
+
+PASS WITH EXPLICIT INCOMPLETE PROFILES — Sanchalan/Hindawi port audit
+Command: python3 lang/hindawi/test_sanchalan_ports.py
+Result: exit 0. Eight profiles report incomplete keyword inventories: Aramaic, Assamese, Hebrew, Nepali, Pali, Phoenician, Prakrit, Syriac. These are visible gaps, not counted as complete support.
+
+PASS — Pushkalāvatī rule compilation
+Command: npm run compile:rules
+Result: 3,983 source records; executable_tested=20; derivable_untested=3; definition_resolved=30; meta_rule=23; blocked_unresolved_class=473; needs_semantic_annotation=3,434. Serialization is not execution.
+
+PASS — Pushkalāvatī compiler tests
+Command: npm --prefix tools/pushkalavati-compiler test
+Result: compiler tests passed; two-way 6.1.94 passed.
+
+PASS WITH ONE SKIP — Python suite
+Command: python3 -m unittest discover -s tests -p 'test_*.py' -v
+Result: 46 tests run; 45 passed; 1 skipped. The skipped experiment requires external Cologne MW lexicon and prior RV artifacts not included in the archive.
+
+PASS — Python rule-IR parity
+Command: (cd tools/pushkalavati-compiler && python3 python/execute.py)
+Result: python parity passed, records=3983.
+
+PASS — Python Sūtram smoke test
+Command: PYTHONPATH=lang python3 scripts/test_python_sutram_smoke.py
+Result: ganana.su -> 13.
+
+PASS — Shaili Robot static runner
+Command: npm run test:logo-static
+Result: square, nested parser, colour, invalid argument, unmatched bracket, heading.
+
+PASS — Pages/browser validation
+Command: bash ./tests/test_static_pages.sh
+Result: 29 HTML files checked; 12 HTTP smoke-test URLs returned 200; browser lab regression tests passed; browser app smoke tests passed.
+
+PASS — Lossless front-end test suite
+Command: PYTHONPATH=tools:third_party/indic_transliteration python3 -m unittest tests/test_romenagri_document.py -v
+Result: 10 tests passed.
+
+PASS — 100% branch coverage for the lossless wrapper module
+Command: ./scripts/test_romenagri_frontend_coverage.sh
+Result: tools/transliteration/romenagri_document.py — 107 statements, 44 branches, 100% statement and branch coverage.
+
+PASS — Grok terminal-virāma vectors against current strict Python encoder/decoder
+चेत् -> chaee_t -> चेत् (exact)
+सर्वम् -> sarwam -> सर्वम् (exact)
+पापम् -> paapam -> पापम् (exact)
+उद्धरणम् -> _u_d_dhara_nnam -> उद्धरणम् (exact)
+
+PASS — Avagraha vector
+ऽ -> _3 -> ऽ (exact)
+
+PASS — Strict base encoder gap checks
+U+201C, U+201D, U+2018, U+0949, U+2013, U+2014, U+200D, U+093C, U+0945, U+0965 are reported unmapped by the strict base encoder. The lossless document wrapper preserves them using explicit ~{HEX} Unicode escapes.
+
+PASS — Repeated timing benchmark
+Command: PYTHONPATH=tools:third_party/indic_transliteration python3 tools/transliteration/benchmark_frontend.py
+Parameters: 21 measured rounds; 200 repeats over the 13 attested records per round and scheme; one warm-up; median and nearest-rank p95. Separate synthetic lossless workload: 2,000 deterministic records per round, exact 2,000/2,000 round trips.
+Latest medians: Romenagri encode 1.458 us/record; Romenagri round trip 37.176 us/record; synthetic lossless wrapper round trip 49.463 us/record. See frontend-timings.csv for all schemes and p95 values.
+
+UNRESOLVED / NOT CLAIMED
+- Grok's 2,000-word corpus and per-row output are absent; its 156-failure aggregate was not reproduced.
+- Only one distinct BUILD-0016 archive was mounted, with the same SHA-256 as the prior assistant-produced archive; no Grok source diff is claimed.
+- Native Romenagri C/filter parity is unverified because the relevant original source/filter files are absent from the integration vendor path.
+- Full-repository 100% coverage is not claimed.

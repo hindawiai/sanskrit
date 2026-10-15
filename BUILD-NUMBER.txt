@@ -1,0 +1,6 @@
+BUILD-0024
+Project: Pushkalavati / Hindawi / ILM
+Build date: 2026-10-14
+Base: BUILD-0023__pushkalavati-hindawi-ilm-2026-10-14.zip
+Change: restore Pages workflow; correct stale registry and rule-count metadata; add native legacy Romenagri C probes; expand collision and Unicode coverage audits; record per-file changes and provenance limits.
+Source BUILD-0023 SHA-256: 6bcdcf6a3b4df7e6e0566ca2016d6b5fdcd4cd0159f9495880f2a55d130964a7

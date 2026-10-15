@@ -1,0 +1,61 @@
+{
+  "records": 3983,
+  "counts": {
+    "definition_resolved": 30,
+    "meta_rule": 23,
+    "needs_semantic_annotation": 3433,
+    "blocked_unresolved_class": 470,
+    "derivable_untested": 3,
+    "executable_tested": 24
+  },
+  "note": "executable_tested is the only status that ran against an attested example. Serialization is not execution.",
+  "generated_rules": {
+    "executable_tested": 24,
+    "derivable_untested": 3,
+    "unresolved": 3903
+  },
+  "functional_classification": {
+    "source_records": 3983,
+    "classified_records": 2826,
+    "multi_classified_records": 855,
+    "unclassified_records": 302,
+    "category_counts": {
+      "combine": 31,
+      "split": 2,
+      "substitute": 33,
+      "insert": 3,
+      "delete": 152,
+      "affix": 215,
+      "transform": 195,
+      "derive": 290,
+      "relate": 103,
+      "constrain": 3,
+      "define": 200,
+      "scope_inherit": 3489,
+      "override": 1,
+      "transfer": 67,
+      "interpret": 23
+    },
+    "rule_count": 26
+  },
+  "meta_expansion": {
+    "converged": true,
+    "rounds": 16,
+    "total_expanded_facts": 68870,
+    "records_with_non_surface_terms": 1755,
+    "adhikara_head_candidates": 1609,
+    "adhikara_scope_candidates": 2370,
+    "unresolved_edges": 0
+  },
+  "meta_compiler": {
+    "candidate_count": 290,
+    "candidate_counts_by_type": {
+      "samjna": 200,
+      "paribhasha": 23,
+      "atidesha": 67
+    },
+    "first_adhyaya_candidate_count": 222,
+    "executable_candidates": 0,
+    "operators": 18
+  }
+}

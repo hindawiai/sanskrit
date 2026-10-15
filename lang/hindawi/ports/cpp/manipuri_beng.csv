@@ -1,0 +1,26 @@
+profile_code,language_name,script,construct_id,native_keyword,romenagri,programming_language_token,category,source_file,status
+manipuri_beng,Manipuri (Bengali),Bengali,KW_IF,যদি,yadi,if,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_ELSE,অন্যথা,anyathaa,else,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_WHILE,যা঵ত্,yaavat,while,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_DO,কুরু,kuru,do,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_FOR,প্রতি,prati,for,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_BREAK,ভঙ্গ,bha_nga,break,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_CONTINUE,অনু঵র্ত,anuvarta,continue,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_SWITCH,঵িকল্প,vikalpa,switch,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_CASE,পক্ষ,pak_sa,case,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_DEFAULT,স্঵ভা঵,svabhaava,default,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_RETURN,প্রত্যাগম,pratyaagama,return,control_flow,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_CONST,ধ্রু঵,dhruva,const,declaration,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_INT,পূর্ণাঙ্ক,puur_naa_nka,int,type,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_FLOAT,ভিন্ন,bhinna,float,type,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_DOUBLE,দ্঵িগুণ,dviguu_na,double,type,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_CHAR,঵র্ণ,var_na,char,type,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_VOID,শূন্য,shuunya,void,type,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_STATIC,স্থির,sthira,static,storage,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_STRUCT,সংরচনা,sa_nracanaa,struct,type_def,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_INCLUDE,অন্তর্ভা঵,antarbhaava,include,preprocessor,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_CLASS,঵র্গ,varga,class,type_def,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_NEW,নূতন,nuutana,new,instantiation,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_PUBLIC,সার্঵জনিক,saarvajanika,public,access,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_PRIVATE,গুপ্ত,gupta,private,access,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified
+manipuri_beng,Manipuri (Bengali),Bengali,KW_VIRTUAL,আভাস,aabhaasa,virtual,modifier,lang_manipuri_beng.csv,derived-keyword-data; compiler integration unverified

@@ -1,0 +1,14 @@
+stage,elapsed_seconds,max_rss_kb,method,notes
+compile_rules,28.33,393968,/usr/bin/time -f %e %M,npm run compile:rules on BUILD-0023-derived working tree
+python_unittest_discovery,32.222,,unittest internal timing,56 tests run; 55 passed; 1 skipped due missing external Cologne MW/RV artifacts
+hindawi_keyword_table_audit,4,,wall-clock measured earlier,68 profiles; zero failures
+sanchalan_port_audit,3,,wall-clock measured earlier,8 profiles remain explicitly incomplete; script exits zero
+collision_audit,3.00,104716,/usr/bin/time,36 curated cases x 12 schemes; writes collisions.json
+unicode_inventory_sweep,4.10,102924,/usr/bin/time,309 code points x 12 schemes = 3708 rows
+collision_microbenchmark,5.72,99980,/usr/bin/time,3 warmups + 31 measured rounds; 85 input occurrences per round per scheme
+numeral_compare,4.00,99620,/usr/bin/time,"500 repeats x 6 cases x 6 schemes; exploratory timing, not ranking"
+compiler_tests,34,,instrumented compileAll plus fixed-point pass,Compiler tests passed after expected executable count updated from 20 to 24
+full_integrated_suite,,,scripts/test_all.sh,ALL AVAILABLE TESTS PASSED; total wall time not separately captured
+native_c_core_probes,0.1,,gcc direct compile and run,Terminal-stem and avagraha probes passed
+native_make_all,,,Makefile target attempted; exit 2,flex unavailable; core C objects compiled before filter target failed
+static_pages_supplemental,~10,,bash tests/test_static_pages.sh,130 Markdown indexed; 29 HTML checked; 12 HTTP URLs returned 200; browser tests passed

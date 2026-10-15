@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sūtram Compiler · C and Rust</title><link rel="stylesheet" href="site.css"></head><body>
+<header class="hero"><p class="eyebrow">SŪTRAM / BACKENDS</p><h1>Compile and raise</h1><p>Browser-side compiler for the documented Sūtram subset. It generates standalone C and Rust source; the browser does not contain a native C/Rust compiler.</p><nav><a href="index.html">Lab home</a><a href="tasks.html">Tasks</a><a href="tests.html">Tests</a><a href="specifications/sutram.html">Sūtram specification</a></nav></header>
+<main>
+<section class="panel"><h2>1 · Sūtram → C / Rust</h2><p>Supported: <code>adhyaya</code>, <code>pada</code>, <code>adhikara</code>, integer/laghu/guru/netra/veda literals, one positional parameter, <code>karta</code>, <code>yoga</code>, <code>viyoga</code>, <code>dviguna</code>, <code>likh</code>, <code>phala</code>, and non-recursive unary calls.</p>
+<textarea id="source" rows="18" spellcheck="false">adhyaya ganana:
+  pada prathama:
+    adhikara dviguna_karoti(x):
+      karta: x
+      dviguna
+      phala
+    iti
+    adhikara mula():
+      karta: netra
+      yoga veda
+      dviguna_karoti
+      likh
+      yoga 1
+      phala
+    iti
+  iti
+iti</textarea>
+<div class="actions"><button id="to-c">Generate C</button><button id="to-rust">Generate Rust</button><button id="run">Run subset in browser</button></div>
+<pre id="result" aria-live="polite">Choose a target.</pre>
+<label for="generated">Generated source</label><textarea id="generated" rows="18" spellcheck="false" readonly></textarea></section>
+<section class="panel"><h2>2 · Raise restricted C / Rust → Sūtram</h2><p>This is a deliberately narrow reverse frontend. It accepts straight-line integer <code>karta</code> code, constant addition/subtraction, doubling and printing. Unsupported control flow, pointers, APIs and types are rejected. It is not a general C or Rust parser.</p>
+<div class="inputs"><div><label for="c-source">C subset</label><textarea id="c-source" rows="9" spellcheck="false">#include &lt;stdio.h&gt;
+int main(void) {
+  int karta = 5;
+  karta += 7;
+  printf("%d\\n", karta);
+  return 0;
+}</textarea><button id="raise-c">Raise C</button></div><div><label for="rust-source">Rust subset</label><textarea id="rust-source" rows="9" spellcheck="false">fn main() {
+  let mut karta: i64 = 5;
+  karta += 7;
+  println!("{}", karta);
+}</textarea><button id="raise-rust">Raise Rust</button></div></div><pre id="raise-result" aria-live="polite">Raised Sūtram will appear here.</pre></section>
+<section class="panel"><h2>Native compilation contract</h2><ul><li>CLI: <code>node lang/js/backend.js lang/examples/ganana.su c mula &gt; /tmp/ganana.c</code></li><li>Compile and run C: <code>gcc -std=c11 -Wall -Wextra -Werror /tmp/ganana.c -o /tmp/ganana &amp;&amp; /tmp/ganana</code></li><li>Generate Rust: <code>node lang/js/backend.js lang/examples/ganana.su rust mula &gt; /tmp/ganana.rs</code></li><li>Rust release gate: <code>rustc --edition=2021 -D warnings /tmp/ganana.rs -o /tmp/ganana-rs</code>, then compare stdout/result to the JS interpreter. <code>rustc</code> was unavailable in the build environment and has not been marked compiled.</li></ul></section>
+</main><footer>Compiler subset · generated code is not full language support</footer><script src="sutram-compiler.js"></script><script src="compiler-page.js"></script></body></html>

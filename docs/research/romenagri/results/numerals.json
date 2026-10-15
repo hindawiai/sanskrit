@@ -1,0 +1,324 @@
+{
+  "cases": [
+    {
+      "kind": "ascii",
+      "scheme": "romenagri",
+      "input": "36",
+      "forward": "36",
+      "back": "36",
+      "identical": true
+    },
+    {
+      "kind": "ascii",
+      "scheme": "iast",
+      "input": "36",
+      "forward": "36",
+      "back": "३६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "hk",
+      "input": "36",
+      "forward": "36",
+      "back": "३६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "slp1",
+      "input": "36",
+      "forward": "36",
+      "back": "३६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "itrans",
+      "input": "36",
+      "forward": "36",
+      "back": "३६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "velthuis",
+      "input": "36",
+      "forward": "36",
+      "back": "३६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "romenagri",
+      "input": "2026",
+      "forward": "2026",
+      "back": "2026",
+      "identical": true
+    },
+    {
+      "kind": "ascii",
+      "scheme": "iast",
+      "input": "2026",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "hk",
+      "input": "2026",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "slp1",
+      "input": "2026",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "itrans",
+      "input": "2026",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": false
+    },
+    {
+      "kind": "ascii",
+      "scheme": "velthuis",
+      "input": "2026",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": false
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "romenagri",
+      "input": "३६",
+      "forward": "36",
+      "back": "36",
+      "identical": false
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "iast",
+      "input": "३६",
+      "forward": "36",
+      "back": "३६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "hk",
+      "input": "३६",
+      "forward": "36",
+      "back": "३६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "slp1",
+      "input": "३६",
+      "forward": "36",
+      "back": "३६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "itrans",
+      "input": "३६",
+      "forward": "36",
+      "back": "३६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "velthuis",
+      "input": "३६",
+      "forward": "36",
+      "back": "३६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "romenagri",
+      "input": "२०२६",
+      "forward": "2026",
+      "back": "2026",
+      "identical": false
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "iast",
+      "input": "२०२६",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "hk",
+      "input": "२०२६",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "slp1",
+      "input": "२०२६",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "itrans",
+      "input": "२०२६",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": true
+    },
+    {
+      "kind": "devanagari",
+      "scheme": "velthuis",
+      "input": "२०२६",
+      "forward": "2026",
+      "back": "२०२६",
+      "identical": true
+    },
+    {
+      "kind": "mixed",
+      "scheme": "romenagri",
+      "input": "अध्याय ३",
+      "forward": "_a_dhyaaya 3",
+      "back": "अध्याय 3",
+      "identical": false
+    },
+    {
+      "kind": "mixed",
+      "scheme": "iast",
+      "input": "अध्याय ३",
+      "forward": "adhyāya 3",
+      "back": "अध्याय ३",
+      "identical": true
+    },
+    {
+      "kind": "mixed",
+      "scheme": "hk",
+      "input": "अध्याय ३",
+      "forward": "adhyAya 3",
+      "back": "अध्याय ३",
+      "identical": true
+    },
+    {
+      "kind": "mixed",
+      "scheme": "slp1",
+      "input": "अध्याय ३",
+      "forward": "aDyAya 3",
+      "back": "अध्याय ३",
+      "identical": true
+    },
+    {
+      "kind": "mixed",
+      "scheme": "itrans",
+      "input": "अध्याय ३",
+      "forward": "adhyAya 3",
+      "back": "अध्याय ३",
+      "identical": true
+    },
+    {
+      "kind": "mixed",
+      "scheme": "velthuis",
+      "input": "अध्याय ३",
+      "forward": "adhyaaya 3",
+      "back": "अध्याय ३",
+      "identical": true
+    },
+    {
+      "kind": "mixed",
+      "scheme": "romenagri",
+      "input": "adhyaya 3",
+      "forward": null,
+      "back": null,
+      "identical": false
+    },
+    {
+      "kind": "mixed",
+      "scheme": "iast",
+      "input": "adhyaya 3",
+      "forward": "adhyaya 3",
+      "back": "अध्यय ३",
+      "identical": false
+    },
+    {
+      "kind": "mixed",
+      "scheme": "hk",
+      "input": "adhyaya 3",
+      "forward": "adhyaya 3",
+      "back": "अध्यय ३",
+      "identical": false
+    },
+    {
+      "kind": "mixed",
+      "scheme": "slp1",
+      "input": "adhyaya 3",
+      "forward": "adhyaya 3",
+      "back": "अद्ह्यय ३",
+      "identical": false
+    },
+    {
+      "kind": "mixed",
+      "scheme": "itrans",
+      "input": "adhyaya 3",
+      "forward": "adhyaya 3",
+      "back": "अध्यय ३",
+      "identical": false
+    },
+    {
+      "kind": "mixed",
+      "scheme": "velthuis",
+      "input": "adhyaya 3",
+      "forward": "adhyaya 3",
+      "back": "अध्यय ३",
+      "identical": false
+    }
+  ],
+  "timing": [
+    {
+      "scheme": "romenagri",
+      "calls": 3000,
+      "us_per_call": 4.2
+    },
+    {
+      "scheme": "iast",
+      "calls": 3000,
+      "us_per_call": 44.9
+    },
+    {
+      "scheme": "hk",
+      "calls": 3000,
+      "us_per_call": 23.1
+    },
+    {
+      "scheme": "slp1",
+      "calls": 3000,
+      "us_per_call": 18.6
+    },
+    {
+      "scheme": "itrans",
+      "calls": 3000,
+      "us_per_call": 45.8
+    },
+    {
+      "scheme": "velthuis",
+      "calls": 3000,
+      "us_per_call": 23.1
+    }
+  ]
+}

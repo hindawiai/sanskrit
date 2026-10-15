@@ -1,0 +1,14 @@
+workload,scheme,records_per_round,rounds,repeats_per_record,timed_calls_per_round,min_us_per_record,median_us_per_record,p95_us_per_record,max_us_per_record,exact_roundtrips,python
+encode_13_attested,romenagri,13,21,200,2600,1.340,1.458,1.663,2.116,,3.13.5
+roundtrip_13_attested,romenagri,13,21,200,2600,35.193,37.176,42.306,44.827,12/13,3.13.5
+encode_13_attested,iast,13,21,200,2600,9.943,11.130,13.457,14.905,,3.13.5
+roundtrip_13_attested,iast,13,21,200,2600,25.438,28.107,37.902,40.264,11/13,3.13.5
+encode_13_attested,hk,13,21,200,2600,4.240,4.495,5.316,5.773,,3.13.5
+roundtrip_13_attested,hk,13,21,200,2600,9.456,10.268,13.250,17.327,11/13,3.13.5
+encode_13_attested,slp1,13,21,200,2600,4.278,4.784,5.316,5.342,,3.13.5
+roundtrip_13_attested,slp1,13,21,200,2600,9.949,10.804,11.720,12.108,12/13,3.13.5
+encode_13_attested,itrans,13,21,200,2600,9.269,10.571,11.771,12.556,,3.13.5
+roundtrip_13_attested,itrans,13,21,200,2600,19.037,21.906,24.521,26.295,11/13,3.13.5
+encode_13_attested,velthuis,13,21,200,2600,4.306,4.669,5.412,6.927,,3.13.5
+roundtrip_13_attested,velthuis,13,21,200,2600,9.826,10.405,11.724,13.379,11/13,3.13.5
+lossless_roundtrip_synthetic_2000,romenagri_document_extension,2000,21,1,2000,45.059,49.463,58.676,61.401,2000/2000,3.13.5

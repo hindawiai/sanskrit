@@ -1,0 +1,25 @@
+key,value,notes
+build,BUILD-0024,Combined Pushkalavati / Hindawi / ILM build
+build_date,2026-10-14,Local project date
+source_build,BUILD-0023__pushkalavati-hindawi-ilm-2026-10-14.zip,Supplied Grok archive used as base
+source_build_sha256,6bcdcf6a3b4df7e6e0566ca2016d6b5fdcd4cd0159f9495880f2a55d130964a7,Verified SHA-256 of supplied BUILD-0023 archive
+comparison_build,BUILD-0017__pushkalavati-hindawi-ilm-2026-10-14.zip,Previous assistant build used for full change audit
+comparison_build_sha256,af32a335d8056f06ad4fb73e21113f2fad0e688a8aac9f623c560d2bcb4676eb,Verified SHA-256 of BUILD-0017 archive
+comparison_build_file_count,1245,Regular files in BUILD-0017 archive
+source_build_file_count,1537,Regular files in BUILD-0023 archive
+build24_file_count_final,1579,Includes BUILD-0024-MANIFEST.csv and BUILD-0024_FILE_CHANGE_MANIFEST.csv
+added_vs_build23_final,42,Includes the two build manifests
+content_modified_vs_build23,29,File content differs from BUILD-0023
+removed_vs_build23,0,No source files removed in BUILD-0024
+mode_only_changes_vs_build23,17,Sixteen shell scripts restored to executable mode; collision_tests.py is also marked executable.
+full_integrated_suite,PASS,scripts/test_all.sh exit 0; ALL AVAILABLE TESTS PASSED
+python_unittest,56 run; 55 passed; 1 skipped,Skipped test needs external Cologne MW and prior RV artifacts
+collision_cases,36,"Curated adversarial test cases, not representative corpus score"
+transliteration_schemes,12,Romenagri plus 11 FOSS schemes
+codepoints_in_sweep,309,"Devanagari, Vedic extensions, combining marks, controls, punctuation and digits"
+unicode_sweep_evaluations,3708,Code points multiplied by schemes
+collision_benchmark,3 warm-ups; 31 measured rounds; 85 inputs/round,Per-scheme encode and encode+decode medians and p95 in results CSV
+native_romenagri_c_core,DIRECT PROBES PASS,Full make all blocked by unavailable flex
+rust_compilation,SKIPPED,rustc unavailable; structural checks passed
+file_change_manifest_sha256,cc1fa4faab590e28aa6eab43b0e2c0004b92471cd796157d57c59c0365df307c,SHA-256 of BUILD-0024_FILE_CHANGE_MANIFEST.csv; this file excludes the metadata manifest hash to avoid circularity.
+archive_sha256,EXTERNAL FILE,See BUILD-0024-SHA256.txt after ZIP packaging

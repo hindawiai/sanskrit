@@ -1,0 +1,8 @@
+[workspace]
+members = ["vidyut-akshara", "vidyut-lipi", "vidyut-prakriya"]
+resolver = "2"
+
+[workspace.dependencies]
+rustc-hash = "1.1"
+rayon = "1.6"
+rmp-serde = "1.1"

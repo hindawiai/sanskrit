@@ -1,0 +1,26 @@
+profile_code,language_name,script,construct_id,native_keyword,romenagri,programming_language_token,category,source_file,status
+hausa_ajami,Hausa (Ajami),Ajami,KW_IF,إذا,izaa,if,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_ELSE,وإلا,vaillaa,else,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_WHILE,طالما,taalamaa,while,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_DO,افعل,ifaela,do,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_FOR,لكل,likulli,for,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_BREAK,اكسر,iksira,break,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_CONTINUE,استمر,istamirra,continue,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_SWITCH,بدل,baddila,switch,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_CASE,حالة,haalah,case,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_DEFAULT,افتراضي,iftiraadii,default,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_RETURN,أرجع,arjie,return,control_flow,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_CONST,ثابت,saabita,const,declaration,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_INT,صحيح,sahiiha,int,type,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_FLOAT,عائم,aaima,float,type,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_DOUBLE,مزدوج,muzdavija,double,type,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_CHAR,حرف,harfa,char,type,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_VOID,فراغ,faraagha,void,type,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_STATIC,ساكن,saakina,static,storage,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_STRUCT,بنية,binyah,struct,type_def,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_INCLUDE,ضمن,dammina,include,preprocessor,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_CLASS,صنف,sanfa,class,type_def,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_NEW,جديد,jadiida,new,instantiation,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_PUBLIC,عام,aamma,public,access,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_PRIVATE,خاص,khaassa,private,access,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified
+hausa_ajami,Hausa (Ajami),Ajami,KW_VIRTUAL,افتراضي,iftiraadii,virtual,modifier,lang_hausa_ajami.csv,derived-keyword-data; compiler integration unverified

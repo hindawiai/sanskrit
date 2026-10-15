@@ -1,0 +1,90 @@
+{
+  "build": "BUILD-0016",
+  "date": "2026-10-14",
+  "base": "BUILD-0015 with BUILD-0014 Pages workflow restored",
+  "input_sha256": {
+    "BUILD-0014__pushkalavati-hindawi-ilm-2026-10-13.zip": "780e9c13eb86090adfc38d5d695ab3d009eda9ad68c2fcd124000faa3dfd0b84",
+    "BUILD-0015__pushkalavati-hindawi-ilm-2026-10-14.zip": "99a6ef9d11628a8e131f6d7c8884abee0e82a24ce9559a4972743347f5e640ef"
+  },
+  "test_command": "./scripts/test_all.sh",
+  "test_result": "PASS: ALL AVAILABLE TESTS PASSED",
+  "python_tests": {
+    "total": 35,
+    "passed": 34,
+    "skipped": 1,
+    "skip_reason": "external Cologne MW lexicon and prior RV experiment artifacts are not bundled"
+  },
+  "transliteration_tests": {
+    "passed": 9,
+    "attested_romenagri_outputs": "13/13",
+    "round_trip_fixture": {
+      "romenagri": "12/13",
+      "iast": "11/13",
+      "hk": "11/13",
+      "slp1": "12/13",
+      "itrans": "11/13",
+      "velthuis": "11/13"
+    }
+  },
+  "compiler_status": {
+    "source_records": 3983,
+    "executable_tested": 20,
+    "derivable_untested": 3,
+    "definition_resolved": 30,
+    "meta_rule": 23,
+    "blocked_unresolved_class": 473,
+    "needs_semantic_annotation": 3434
+  },
+  "pages_validation": {
+    "html_files_checked": 29,
+    "http_smoke_urls_passed": 12
+  },
+  "rust_compile": "SKIPPED: rustc unavailable",
+  "native_romenagri_c_filter_parity": "NOT RUN: upstream C source and fltr_ur_hi absent from vendor path",
+  "included_artifacts": [
+    "BUILD-NUMBER.txt",
+    "README.md",
+    "CHANGELOG.md",
+    "PROJECT_OVERVIEW.md",
+    "IMPLEMENTATION_STATUS.md",
+    "tools/transliteration/romenagri.py",
+    "tools/transliteration/__init__.py",
+    "tools/transliteration/adapters.py",
+    "tools/transliteration/compare.py",
+    "tools/transliteration/results/transliteration.json",
+    "tools/pushkalavati-compiler/src/romenagri.js",
+    "tools/pushkalavati-compiler/data/romenagri/acii-table.json",
+    "tools/pushkalavati-compiler/out/progress.json",
+    "tools/pushkalavati-compiler/out/generated-rules.json",
+    "tests/test_transliteration.py",
+    "docs/research/romenagri/Romenagri_Phoneme_Manipulation_and_Panini_Dossier_BUILD-0016_COMBINED_2026-10-14.md",
+    "docs/research/romenagri/Romenagri_84_Token_Inventory_BUILD-0016_CORRELATED_2026-10-14.csv",
+    "docs/research/romenagri/Romenagri_Devanagari_ACII_Romenagri_Trace_Matrix_BUILD-0016_2026-10-14.csv",
+    "docs/research/romenagri/BUILD-0016_CORRELATION_AND_TEST_REPORT.md",
+    "docs/research/romenagri/BUILD-0016_Correlation_Audit_2026-10-14.csv",
+    "docs/research/romenagri/BUILD-0016_TEST_LOG.txt"
+  ],
+  "sha256": {
+    "BUILD-NUMBER.txt": "23141ca096d067a9d5192f44a42ef966f22baac2b8fc407a27afbf9d1198c5a4",
+    "README.md": "a3bdfb95f21f2b8a168ebe7615d0ea30ef0ff3f5e9f5d24ef0dd4069dac443c5",
+    "CHANGELOG.md": "a20d20eeaf2497322c401f987ab71d8efdcc34c3488413df8f844816356fe2ee",
+    "PROJECT_OVERVIEW.md": "32dde6d33f6ff86d50ae69c01a95ff3d99fa37520093b34da64174a6eca1dbf7",
+    "IMPLEMENTATION_STATUS.md": "d9af98221e190567c58928d457016fba7e365c7326a66e2c376f71f5c21f41bd",
+    "tools/transliteration/romenagri.py": "6558c748a9a5bf17105eb3e1819a4c7265f1ba842b40c1cfbaa85fb28fdeb673",
+    "tools/transliteration/__init__.py": "2d046e6f80b379546750ac2fca09e035b2ef33fc923a8a545a52dab8c80277ba",
+    "tools/transliteration/adapters.py": "8434f71d3671207314f3d24202c495a9e74a4959f4e3a3cdcddcb4a330084997",
+    "tools/transliteration/compare.py": "3f9d846ce1d4b8e1aeb5c2eba74a83740e3fab23f736f66cb6a633c239efec1d",
+    "tools/transliteration/results/transliteration.json": "b52fc587c667c0d5ce6ce45077217f2d3b6a5043ed38823dfac1acac0ab27999",
+    "tools/pushkalavati-compiler/src/romenagri.js": "5c21bc37721ab5716cc41ae3db1f4212679fd425d2b2181c1111d99ae7846a89",
+    "tools/pushkalavati-compiler/data/romenagri/acii-table.json": "ac8955e67a60f63056b833a8f5c7c08eb5ba4b034944c96dabcabd8bbe9e0b4c",
+    "tools/pushkalavati-compiler/out/progress.json": "6c4765f219bd8299107eed65ae9bbff337b695bfee8899a13e8bcfcda2bfff68",
+    "tools/pushkalavati-compiler/out/generated-rules.json": "a0540b77fc0e8e092475c9b4fa0df8926fd78cbac7d3f818abfb5116b56711fe",
+    "tests/test_transliteration.py": "a8bc7d0ffd840721166cd7fa120deeafbc0810b90721ef39f9e9dbb05173c8e3",
+    "docs/research/romenagri/Romenagri_Phoneme_Manipulation_and_Panini_Dossier_BUILD-0016_COMBINED_2026-10-14.md": "8686c5ec86e56e6ef0238a14650e47b3e303da093201b5ae916a818a7926d1e4",
+    "docs/research/romenagri/Romenagri_84_Token_Inventory_BUILD-0016_CORRELATED_2026-10-14.csv": "403dc42f439c2429cf0308d59459ac000a357c288ecdb679f787d67d2ed226ae",
+    "docs/research/romenagri/Romenagri_Devanagari_ACII_Romenagri_Trace_Matrix_BUILD-0016_2026-10-14.csv": "e0db0ca17cfcf8e545118bbc36d55b73ecbb3e47e0b28919b43675eaaa585e97",
+    "docs/research/romenagri/BUILD-0016_CORRELATION_AND_TEST_REPORT.md": "e72ab3ff12cdccee44678e34a7deb608ab328e12f02b0042ae6f9f24cbb1c73e",
+    "docs/research/romenagri/BUILD-0016_Correlation_Audit_2026-10-14.csv": "ec7a9bbca32109686a1b2ce88dca96a290ddfae717e9dca3c6273b886d0e74ef",
+    "docs/research/romenagri/BUILD-0016_TEST_LOG.txt": "f39c49806e6b5625812186642ab3375c12d3c39af859944b815abb4e9f5f4736"
+  }
+}

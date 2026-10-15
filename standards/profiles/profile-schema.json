@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hindawi ILM language-standard profile metadata",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "language_region",
+    "scripts",
+    "base_standard",
+    "frontend",
+    "backend",
+    "status",
+    "version"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "language_region": {
+      "type": "string"
+    },
+    "scripts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "base_standard": {
+      "type": "string"
+    },
+    "frontend": {
+      "type": "string"
+    },
+    "backend": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "PROPOSED",
+        "DRAFT",
+        "PARTIAL",
+        "TESTED",
+        "ADOPTED"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "adopting_authority": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_lexicon": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "filter_pipeline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

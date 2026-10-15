@@ -1,0 +1,137 @@
+profile_code,language_name,script,programming_language,mapped_constructs,target_constructs,status,missing_construct_ids,native_collisions,romenagri_collisions,compiler_integration
+hindi,Hindi,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+hindi,Hindi,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+bengali,Bengali,Bengali,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+bengali,Bengali,Bengali,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+marathi,Marathi,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+marathi,Marathi,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+gujarati,Gujarati,Gujarati,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+gujarati,Gujarati,Gujarati,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+punjabi,Punjabi,Gurmukhi,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+punjabi,Punjabi,Gurmukhi,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+odia,Odia,Odia,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+odia,Odia,Odia,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+assamese,Assamese,Bengali-Assamese,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+assamese,Assamese,Bengali-Assamese,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+nepali,Nepali,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+nepali,Nepali,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sinhala,Sinhala,Sinhala,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sinhala,Sinhala,Sinhala,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+maithili,Maithili,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+maithili,Maithili,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+bhojpuri,Bhojpuri,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+bhojpuri,Bhojpuri,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+magahi,Magahi,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+magahi,Magahi,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+awadhi,Awadhi,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+awadhi,Awadhi,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+chhattisgarhi,Chhattisgarhi,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+chhattisgarhi,Chhattisgarhi,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+rajasthani,Rajasthani,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+rajasthani,Rajasthani,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+marwari,Marwari,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+marwari,Marwari,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+konkani,Konkani,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+konkani,Konkani,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+dogri,Dogri,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+dogri,Dogri,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+kashmiri_dev,Kashmiri (Devanagari),Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+kashmiri_dev,Kashmiri (Devanagari),Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sindhi_dev,Sindhi (Devanagari),Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sindhi_dev,Sindhi (Devanagari),Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+santali,Santali,Ol Chiki,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+santali,Santali,Ol Chiki,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+bodo,Bodo,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+bodo,Bodo,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+manipuri_beng,Manipuri (Bengali),Bengali,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+manipuri_beng,Manipuri (Bengali),Bengali,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tamil,Tamil,Tamil,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tamil,Tamil,Tamil,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+telugu,Telugu,Telugu,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+telugu,Telugu,Telugu,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+kannada,Kannada,Kannada,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+kannada,Kannada,Kannada,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+malayalam,Malayalam,Malayalam,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+malayalam,Malayalam,Malayalam,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tulu,Tulu,Kannada,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tulu,Tulu,Kannada,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sanskrit,Sanskrit,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sanskrit,Sanskrit,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+pali,Pali,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+pali,Pali,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+prakrit,Prakrit,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+prakrit,Prakrit,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tibetan,Tibetan,Tibetan,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tibetan,Tibetan,Tibetan,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+dzongkha,Dzongkha,Tibetan,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+dzongkha,Dzongkha,Tibetan,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+newari,Newari,Devanagari,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+newari,Newari,Devanagari,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+limbu,Limbu,Limbu,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+limbu,Limbu,Limbu,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+lepcha,Lepcha,Lepcha,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+lepcha,Lepcha,Lepcha,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+thai,Thai,Thai,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+thai,Thai,Thai,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+lao,Lao,Lao,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+lao,Lao,Lao,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+khmer,Khmer,Khmer,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+khmer,Khmer,Khmer,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+burmese,Burmese,Myanmar,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+burmese,Burmese,Myanmar,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+shan,Shan,Myanmar,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+shan,Shan,Myanmar,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+balinese,Balinese,Balinese,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+balinese,Balinese,Balinese,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+javanese,Javanese,Javanese,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+javanese,Javanese,Javanese,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sundanese,Sundanese,Sundanese,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sundanese,Sundanese,Sundanese,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+buginese,Buginese,Lontara,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+buginese,Buginese,Lontara,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+batak,Batak,Batak,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+batak,Batak,Batak,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tagalog,Tagalog,Baybayin,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+tagalog,Tagalog,Baybayin,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+arabic,Arabic,Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+arabic,Arabic,Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+urdu,Urdu,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+urdu,Urdu,Perso-Arabic,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+persian,Persian,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+persian,Persian,Perso-Arabic,cpp,25,25,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+pashto,Pashto,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+pashto,Pashto,Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+sindhi,Sindhi,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+sindhi,Sindhi,Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+saraiki,Saraiki,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+saraiki,Saraiki,Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+kashmiri,Kashmiri,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+kashmiri,Kashmiri,Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+uyghur,Uyghur,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+uyghur,Uyghur,Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+kurdish_sorani,Kurdish (Sorani),Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+kurdish_sorani,Kurdish (Sorani),Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+balochi,Balochi,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+balochi,Balochi,Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+punjabi_shahmukhi,Punjabi (Shahmukhi),Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+malay_jawi,Malay (Jawi),Jawi,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+malay_jawi,Malay (Jawi),Jawi,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+hausa_ajami,Hausa (Ajami),Ajami,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+hausa_ajami,Hausa (Ajami),Ajami,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+dari,Dari,Perso-Arabic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+dari,Dari,Perso-Arabic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+hebrew,Hebrew,Hebrew,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+hebrew,Hebrew,Hebrew,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+syriac,Syriac,Syriac,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+syriac,Syriac,Syriac,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+aramaic,Imperial Aramaic,Imperial Aramaic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+aramaic,Imperial Aramaic,Imperial Aramaic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+phoenician,Phoenician,Phoenician,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+phoenician,Phoenician,Phoenician,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+samaritan,Samaritan,Samaritan,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+samaritan,Samaritan,Samaritan,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+mandaic,Mandaic,Mandaic,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+mandaic,Mandaic,Mandaic,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific
+nabataean,Nabataean,Nabataean,c,20,20,candidate-keyword-table,,,,not-tested; Chintamani adapters remain Hindi-specific
+nabataean,Nabataean,Nabataean,cpp,25,25,needs-review,,افتراضي:KW_DEFAULT/KW_VIRTUAL,iftiraadii:KW_DEFAULT/KW_VIRTUAL,not-tested; Chintamani adapters remain Hindi-specific

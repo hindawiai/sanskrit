@@ -1,0 +1,20 @@
+topic,artifact_or_layer,observation,resolution_or_limit
+Archive identity,BUILD-0014,SHA-256 780e9c13eb86090adfc38d5d695ab3d009eda9ad68c2fcd124000faa3dfd0b84,Static baseline retained; prior correlation preserved
+Archive identity,BUILD-0015,SHA-256 99a6ef9d11628a8e131f6d7c8884abee0e82a24ce9559a4972743347f5e640ef,New word-level transliteration subsystem and FOSS comparison harness
+Table cardinality,84 source rows,83 JSON entries plus source_table_length=84,Consistent if row-zero sentinel is excluded from JSON entries
+Architecture boundary,Compiler src/romenagri.js,Sound-token to audited table-key mapping,Not a word encoder and not native C parser parity
+Architecture boundary,tools/transliteration/romenagri.py,Rahnuma-derived word-level encode/decode,Separate implementation; legacy C differential tests not run
+Attested outputs,Rahnuma chapter 17,13/13 expected Romenagri strings match,Output matching is not round-trip identity
+Round-trip,Romenagri,12/13 identical on fixed fixture,ज्ञाान → j_ynaana → ज्ञान; one canonicalization/loss case
+Round-trip,IAST/HK/ITRANS/Velthuis,11/13 each,ज्ञाान normalization and क्ह→ख ambiguity on fixed fixture
+Round-trip,SLP1,12/13,ज्ञाान normalization on fixed fixture
+Terminal virāma,BUILD-0015 initial decoder,k decoded as क,Incorrectly stripped final virāma; BUILD-0016 fixed and regression-tested as क्
+Punctuation,BUILD-0015 initial word layer,AVAGRAHA constant unused; danda not mapped,BUILD-0016 maps ऽ↔_3 and ।↔| with regression tests
+Empty ^a,Legacy table / adapter,Empty value labelled hazard in prior JSON,Corrected wording: no dependent sign for inherent अ; empty value alone is not proven defect
+Sound token chh,JS sound inventory,Declared token lacked exact table key; omitted from unsupported list,Now included in unsupported_sanskrit_sounds; no mapping invented
+Vowel mapping,JS adapter vs Python encoder,e→_ae and ai→_aee versus ए→_aee and ऐ→_ai,"Unresolved cross-layer semantic discrepancy; preserve and investigate, do not silently align"
+Dependency,indic_transliteration,Runtime import failed without toml module,Added narrow read-only tomllib shim for Python 3.11+; Python 3.10 needs toml package
+Workflow,BUILD-0015 archive, .github/workflows/pages.yml absent though test expects it,Restored workflow from BUILD-0014 into combined build
+Test permissions,ZIP extraction,Shell scripts lacked executable mode bits,Restored executable bits on required scripts; test runner checks now exercise them
+Compiler status,Fresh BUILD-0016 compile:rules,20 executable_tested; 3 derivable_untested; 30 definition_resolved; 23 meta_rule; 473 blocked; 3434 semantic annotation,Generated status supersedes stale README and handoff snapshots; not full Aṣṭādhyāyī execution
+Native C parity,Legacy Romenagri C / filter,Original C source and fltr_ur_hi absent from current ZIP under vendor path,Not tested; no byte-level compatibility claim

@@ -1,0 +1,15 @@
+{
+  "source": "zistgah/tajziya modules/cls/data/ashtadhyayi/sutraani.tsv",
+  "upstream": "ashtadhyayi.com data, free with credit",
+  "crosscheck": "vidyut-prakriya sutrapatha, MIT",
+  "total": 3983,
+  "matched_to_ours": 3983,
+  "missing_from_ours": [],
+  "by_type": {
+    "samjna": 200,
+    "paribhasha": 23,
+    "vidhi": 3629,
+    "atidesha": 67,
+    "adhikara": 64
+  }
+}

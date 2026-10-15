@@ -1,0 +1,9 @@
+profile_code,language_name,script,construct_id,native_keyword,romenagri,c_cpp_keyword,category,source_file,port_status
+hindi,Hindi,Devanagari,KW_IF,अगर,agar,if,control_flow,lang_hindi.csv,keyword-table-derived; compiler integration unverified
+hindi,Hindi,Devanagari,KW_ELSE,अन्यथा,anya_thaa,else,control_flow,lang_hindi.csv,keyword-table-derived; compiler integration unverified
+hindi,Hindi,Devanagari,KW_WHILE,जबतक,jabataka,while,control_flow,lang_hindi.csv,keyword-table-derived; compiler integration unverified
+hindi,Hindi,Devanagari,KW_FOR,क्रम,krama,for,control_flow,lang_hindi.csv,keyword-table-derived; compiler integration unverified
+hindi,Hindi,Devanagari,KW_BREAK,तोड़ो,toa_rdoa,break,control_flow,lang_hindi.csv,keyword-table-derived; compiler integration unverified
+hindi,Hindi,Devanagari,KW_RETURN,वापस,waapasa,return,control_flow,lang_hindi.csv,keyword-table-derived; compiler integration unverified
+hindi,Hindi,Devanagari,KW_INT,पूर्णांक,poor_naa_nka,int,type,lang_hindi.csv,keyword-table-derived; compiler integration unverified
+hindi,Hindi,Devanagari,KW_VOID,व्योम,wyoma,void,type,lang_hindi.csv,keyword-table-derived; compiler integration unverified

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shaili Robot · Browser laboratory</title><link rel="stylesheet" href="site.css">
+<style>
+.logo-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,1fr);gap:1rem}
+#logo-source{width:100%;min-height:230px;font:1rem/1.5 ui-monospace,monospace}
+#logo-canvas{display:block;width:100%;height:auto;border:1px solid #ccd4dd;border-radius:.5rem;background:#fff}
+#logo-output{white-space:pre-wrap;min-height:4rem}
+.logo-buttons{display:flex;gap:.5rem;flex-wrap:wrap}
+@media(max-width:760px){.logo-grid{grid-template-columns:1fr}}
+</style></head><body>
+<header class="hero"><p class="eyebrow">HINDAWI · SHAILI</p><h1>Shaili Robot</h1>
+<p>A server-free browser demonstrator for the Shaili Robot paradigm: LOGO-like turtle graphics that can also serve as a programming interface for robots. This page implements an explicitly bounded subset, not a recovered clone of the historical frontend.</p>
+<nav><a href="index.html">Lab home</a><a href="specifications/index.html">Language specifications</a><a href="hindawi-history.html">Hindawi history and references</a><a href="specifications/logo.html">LOGO specification</a><a href="tests.html">Test register</a></nav></header>
+<main>
+<section class="panel"><h2>Run a program</h2><p>Commands are parsed as tokens, not evaluated as JavaScript. Comments begin with <code>;</code> and continue to the end of the line. <code>REPEAT n [ ... ]</code> supports nested blocks.</p>
+<div class="logo-grid"><div><label for="logo-source">LOGO source</label>
+<textarea id="logo-source" spellcheck="false">; Draw a square
+CLEARSCREEN
+REPEAT 4 [
+  FORWARD 100
+  RIGHT 90
+]</textarea>
+<div class="logo-buttons"><button id="logo-run">Run program</button><button id="logo-square" class="secondary">Square sample</button><button id="logo-star" class="secondary">Rosette sample</button><button id="logo-clear" class="secondary">Clear</button></div>
+<pre id="logo-output" aria-live="polite">Ready. Run the sample.</pre></div>
+<div><label>Drawing surface (600 × 420)</label><svg id="logo-canvas" viewBox="0 0 600 420" role="img" aria-label="Turtle graphics drawing surface"></svg><p class="muted">The orange triangle marks the turtle and its heading. The line drawing is generated locally in this browser.</p></div></div></section>
+<section class="panel"><h2>Supported command subset</h2>
+<table><thead><tr><th>Command</th><th>Aliases</th><th>Effect</th></tr></thead><tbody>
+<tr><td><code>FORWARD n</code></td><td><code>FD n</code></td><td>Move forward by n units.</td></tr><tr><td><code>BACK n</code></td><td><code>BK n</code></td><td>Move backward by n units.</td></tr>
+<tr><td><code>RIGHT n</code></td><td><code>RT n</code></td><td>Turn clockwise n degrees.</td></tr><tr><td><code>LEFT n</code></td><td><code>LT n</code></td><td>Turn counter-clockwise n degrees.</td></tr>
+<tr><td><code>PENUP</code></td><td><code>PU</code></td><td>Move without drawing.</td></tr><tr><td><code>PENDOWN</code></td><td><code>PD</code></td><td>Resume drawing.</td></tr>
+<tr><td><code>HOME</code></td><td>—</td><td>Return to the centre and face north without clearing the drawing.</td></tr><tr><td><code>CLEARSCREEN</code></td><td><code>CS</code></td><td>Clear drawing and reset turtle.</td></tr>
+<tr><td><code>REPEAT n [ ... ]</code></td><td>—</td><td>Repeat a nested block; n must be 0–1000.</td></tr><tr><td><code>SETPENCOLOR name</code></td><td>—</td><td>BLACK, BLUE, RED, GREEN, ORANGE, PURPLE or <code>#RRGGBB</code>.</td></tr><tr><td><code>SETHEADING n</code></td><td>—</td><td>Set heading in degrees clockwise from north.</td></tr>
+</tbody></table>
+<p><strong>Scope:</strong> This is a deliberately small teaching subset. It does not yet implement variables, procedures, arithmetic expressions, interactive input, or full historical Shaili Robot syntax.</p></section>
+<section class="panel"><h2>Relationship to historical Hindawi</h2><p>Contemporary public descriptions identify Shaili Robot as <strong>Shaili Robot</strong>, part of the Hindawi programming suite, with localized frontend translation to a compiler-acceptable counterpart as the broader HPS mechanism. This page is a new static-browser teaching and smoke-test surface; it does not claim compatibility with archived Shaili Robot source, its localized keyword vocabulary, or its original backend.</p><p>To establish parity, vendor and inspect the historical LOGO frontend, its native-script/Romenagri filters, sample programs, exact translator/backend versions, and license. Then add fixtures before enabling localized aliases. Do not infer Telugu or Bangla commands from the C/C++ ports.</p><p>See <a href="hindawi-history.html">dated historical references</a> and the <a href="specifications/logo.html">recovery specification</a>.</p></section>
+</main><footer>Hindawi / Pushkalāvatī · static browser-only demonstrator · no server required</footer>
+<script src="shaili-robot.js"></script></body></html>

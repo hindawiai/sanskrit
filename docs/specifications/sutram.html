@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sūtram language specification</title><link rel="stylesheet" href="../site.css"></head><body><header class="hero"><p class="eyebrow">REWRITE-ORIENTED DSL</p><h1>Sūtram</h1><p><a href="index.html">Specification index</a></p></header><main>
+<section class="panel"><h2>Purpose</h2><p>Sūtram is the repository's rule-rewrite language prototype. It is distinct from the full Aṣṭādhyāyī and from Pushkalāvatī's corpus compiler.</p></section>
+<section class="panel"><h2>Current JavaScript subset</h2><ul><li>Scopes: <code>adhyaya</code>, <code>pada</code>, <code>adhikara</code>, closed by <code>iti</code>.</li><li>Operations: <code>karta</code>, <code>yoga</code>, <code>viyoga</code>, <code>dviguna</code>, <code>likh</code>, <code>phala</code>, unary calls.</li><li>Literals: integers, <code>laghu</code>/<code>guru</code>, <code>netra</code>, <code>veda</code>; parameters and Unicode identifiers in the JS parser.</li><li>Execution uses state-transition rewrite rules and precedence; the tested subset is not a general-purpose production language.</li></ul></section>
+<section class="panel"><h2>Grammar sketch</h2><pre>adhyaya NAME:
+pada NAME:
+adhikara NAME(PARAM, ...):
+  karta: EXPR
+  yoga EXPR
+  viyoga EXPR
+  dviguna
+  likh
+  phala
+iti
+iti
+iti</pre><p>Consult <code>lang/SPEC.md</code> for the fuller repository specification. Python and JavaScript frontends are not yet fully equivalent: the Python lexer currently has a narrower identifier grammar.</p></section></main></body></html>

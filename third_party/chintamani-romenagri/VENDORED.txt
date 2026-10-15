@@ -1,0 +1,1 @@
+Vendored from hindawiai/chintamani Romenagri/ (GPL). fixuninum.lex maps all Indic digits to ASCII 0-9.

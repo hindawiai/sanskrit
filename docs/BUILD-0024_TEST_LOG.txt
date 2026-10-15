@@ -1,0 +1,515 @@
+== JavaScript / Sūtram tests ==
+aC: PASS  (9 phonemes)
+haL: PASS  (34 phonemes)
+yaN: PASS  (4 phonemes)
+
+All three confirmed pratyaharas reproduced correctly by the algorithm.
+dravya: 5 guna: odd -> dviguna gives dravya: 10
+vishesha distinguishes same-samanya instances: true
+[abhava:pragabhava] sankhya declared but not yet given a value
+[abhava:pradhvamsabhava] sankhya existed and was released
+[abhava:anyonyabhava] wanted sankhya, this is vakya
+[abhava:atyantabhava] a number that is its own negation under addition and also > 0
+
+anyonyabhava fires for real, not just as a label: {"abhava":"anyonyabhava","detail":"sankhya has no karma 'no_such_karma'"}
+ai -> vrddhi
+e -> guna
+i -> neither
+a -> guna
+"a" resolved via: 1.1.2 guna-samjna
+Correctly rejected a rule whose own example fails: rule 'broken rule': udaharana failed self-test -- expected {"vowel":"x","class":"RIGHT"}, got {"vowel":"x","class":"WRONG"}
+Sūtram interpreter tests passed: ganana.su => output [12], result 13; nested adhikara call and validation passed
+Self-hosting cycle slice PASS: 22 sutras, 56 steps, provenance guard, four examples, refusal before expansion.
+Scope: prototype fixture only; this does not establish full Aṣṭādhyāyī self-hosting.
+{
+  "sutras": 25,
+  "steps": 53,
+  "licenses": {
+    "1.1.49": "षष्ठी स्थानेयोगा",
+    "1.1.66": "तस्मिन्निति निर्दिष्टे पूर्वस्य",
+    "1.1.67": "तस्मादित्युत्तरस्य",
+    "1.4.2": "विप्रतिषेधे परं कार्यम्",
+    "1.1.71": "आदिरन्त्येन सहेता"
+  },
+  "refused": [
+    "3.1.2 pratyayah not propagated: nominative heading is not a structural adhikara",
+    "1.4.54 karake unconfirmed",
+    "7.3.84 angasya not invented",
+    "2.3.2 unchanged"
+  ],
+  "applications": {
+    "nadyaa": {
+      "form": "nadyaa",
+      "rule": "6.1.77"
+    },
+    "upendra": {
+      "form": "upendra",
+      "rule": "6.1.87"
+    },
+    "vidyalaya": {
+      "form": "vidyaalaya",
+      "rule": "6.1.101"
+    }
+  }
+}
+CONVERT PASS
+Engine precedence PASS: explicit sutra order wins equal-specificity ties; registration order is fallback.
+Scope: specificity remains an explicit project heuristic, not a proven complete implementation of vipratishedha.
+OOP mapping PASS: 3-level inheritance, override, composition, distinct identity
+Paradigms PASS: 3-function pure composition; rewrite-driven accumulator (5 steps -> 15)
+Fit note: pure derivation composition is a natural fit; mutable accumulator is expressible but state-encoding is more awkward.
+SKIP rustc compile: rustc is not installed in this environment; generated Rust is structurally checked only
+Sūtram C/Rust lower/raise tests passed; C compiled and executed.
+SKIP Sanchalan Rust compilation: rustc unavailable; generated source structurally checked
+Sanchalan Suktam parse/lower passed: 22 verses, 286 lexical nodes, 0 residual code points; C compiled and ran.
+sanchalan: unknown operation 'not-a-runtime-operation'
+Sanchalan runtime dispatch tests passed
+== Romenagri integration contract ==
+Romenagri vendoring and Perso-Arabic wrapper contract passed
+== Vendored legacy Romenagri C profile probes ==
+PASS bare stem means inherent input=[k] output=[ka ]
+PASS explicit halant marker   input=[k^] output=[k ]
+PASS Grok vector चेत् input=[chaee_t] output=[chaee_ta ]
+PASS Grok vector सर्वम् input=[sarwam] output=[sarwama ]
+PASS Grok vector पापम् input=[paapam] output=[paapama ]
+PASS Grok vector उद्धरणम् input=[_u_d_dhara_nnam] output=[_u_d_dhara_nnama ]
+PASS explicit dental halant   input=[chaee_t^] output=[chaee_t ]
+PASS aspirate versus cluster  input=[kha] output=[kha ]
+PASS cluster with explicit halant input=[k_ha] output=[k_ha ]
+PASS avagraha ACII decode     ACII=0xEB output=[_3]
+KNOWN GAP reverse parser accepts [_3] as [3 ], while ACII byte 0xEB decodes to [_3]
+legacy Romenagri C probes passed; terminal-stem profile boundary recorded
+== Romenagri lossless front-end branch coverage ==
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.021s
+
+OK
+Name                                          Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------------------------------
+tools/transliteration/romenagri_document.py     107      0     44      0   100%
+-----------------------------------------------------------------------------------------
+TOTAL                                           107      0     44      0   100%
+== Expanded transliteration collision and normalization audit ==
+cases=36 schemes=12 input-encodes=1020
+romenagri  encodes= 68 rejects= 17 exact-rt= 65 native-collision-cases= 2 transform-collision-cases=17
+iast       encodes= 85 rejects=  0 exact-rt= 67 native-collision-cases=13 transform-collision-cases=25
+hk         encodes= 85 rejects=  0 exact-rt= 68 native-collision-cases=13 transform-collision-cases=24
+slp1       encodes= 85 rejects=  0 exact-rt= 76 native-collision-cases= 4 transform-collision-cases=11
+itrans     encodes= 85 rejects=  0 exact-rt= 68 native-collision-cases=12 transform-collision-cases=25
+velthuis   encodes= 85 rejects=  0 exact-rt= 69 native-collision-cases=12 transform-collision-cases=24
+iso        encodes= 85 rejects=  0 exact-rt= 69 native-collision-cases=11 transform-collision-cases=26
+iso_vedic  encodes= 85 rejects=  0 exact-rt= 69 native-collision-cases=11 transform-collision-cases=26
+wx         encodes= 85 rejects=  0 exact-rt= 76 native-collision-cases= 4 transform-collision-cases=12
+titus      encodes= 85 rejects=  0 exact-rt= 75 native-collision-cases= 4 transform-collision-cases=17
+kolkata    encodes= 85 rejects=  0 exact-rt= 67 native-collision-cases=13 transform-collision-cases=25
+optitrans  encodes= 85 rejects=  0 exact-rt= 68 native-collision-cases=13 transform-collision-cases=24
+cross-scheme ambiguities: 634 (records capped at 200)
+wrote /tmp/b24/pushkalavati-integrated/tools/transliteration/results/collisions.json
+codepoints=309 schemes=12 evaluations=3708
+romenagri  encoded= 82/309 passthrough=  0 unresolved=227 exact-rt= 59 collision-groups= 11
+iast       encoded=119/309 passthrough=190 unresolved=  0 exact-rt= 88 collision-groups= 28
+hk         encoded=114/309 passthrough=195 unresolved=  0 exact-rt= 86 collision-groups= 27
+slp1       encoded=114/309 passthrough=195 unresolved=  0 exact-rt= 86 collision-groups= 26
+itrans     encoded=116/309 passthrough=193 unresolved=  0 exact-rt= 89 collision-groups= 26
+velthuis   encoded=110/309 passthrough=199 unresolved=  0 exact-rt= 83 collision-groups= 26
+iso        encoded=122/309 passthrough=187 unresolved=  0 exact-rt= 92 collision-groups= 29
+iso_vedic  encoded=122/309 passthrough=187 unresolved=  0 exact-rt= 91 collision-groups= 29
+wx         encoded=117/309 passthrough=192 unresolved=  0 exact-rt= 90 collision-groups= 26
+titus      encoded=122/309 passthrough=187 unresolved=  0 exact-rt= 91 collision-groups= 29
+kolkata    encoded=119/309 passthrough=190 unresolved=  0 exact-rt= 90 collision-groups= 28
+optitrans  encoded=121/309 passthrough=188 unresolved=  0 exact-rt= 92 collision-groups= 28
+wrote /tmp/b24/pushkalavati-integrated/tools/transliteration/results/unicode_inventory_sweep.csv
+wrote /tmp/b24/pushkalavati-integrated/tools/transliteration/results/unicode_inventory_collisions.csv (313 collision groups)
+test_avagraha_apostrophe_collision_is_scheme_specific (__main__.CollisionAuditTests.test_avagraha_apostrophe_collision_is_scheme_specific) ... ok
+test_canonical_equivalence_is_separated_from_phonological_collision (__main__.CollisionAuditTests.test_canonical_equivalence_is_separated_from_phonological_collision) ... ok
+test_cross_scheme_ambiguities_require_different_decoded_inputs (__main__.CollisionAuditTests.test_cross_scheme_ambiguities_require_different_decoded_inputs) ... ok
+test_digit_script_collision_is_reported (__main__.CollisionAuditTests.test_digit_script_collision_is_reported) ... ok
+test_downstream_normalization_hazards_are_separate (__main__.CollisionAuditTests.test_downstream_normalization_hazards_are_separate) ... ok
+test_exact_round_trip_field_exists_for_every_case_input (__main__.CollisionAuditTests.test_exact_round_trip_field_exists_for_every_case_input) ... ok
+test_failed_encodes_are_not_counted_as_collisions (__main__.CollisionAuditTests.test_failed_encodes_are_not_counted_as_collisions) ... ok
+test_known_aspirate_cluster_collisions (__main__.CollisionAuditTests.test_known_aspirate_cluster_collisions) ... ok
+test_report_schema_and_inventory (__main__.CollisionAuditTests.test_report_schema_and_inventory) ... ok
+test_unicode_sweep_covers_all_declared_schemes_and_codepoints (__main__.CollisionAuditTests.test_unicode_sweep_covers_all_declared_schemes_and_codepoints) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.073s
+
+OK
+== Transliteration abstraction and attested fixtures ==
+scheme       rt       us/call   
+romenagri    12/13     2.9
+iast         11/13     37.9
+hk           11/13     14.4
+slp1         12/13     11.3
+itrans       11/13     30.4
+velthuis     11/13     10.6
+romenagri attested 13/13
+wrote /tmp/b24/pushkalavati-integrated/tools/transliteration/results/transliteration.json
+== Hindawi C/C++ keyword-table integrity ==
+PASS c/hindi rows=20
+PASS cpp/hindi rows=25
+PASS c/bengali rows=20
+PASS cpp/bengali rows=25
+PASS c/marathi rows=20
+PASS cpp/marathi rows=25
+PASS c/gujarati rows=20
+PASS cpp/gujarati rows=25
+PASS c/punjabi rows=20
+PASS cpp/punjabi rows=25
+PASS c/odia rows=20
+PASS cpp/odia rows=25
+PASS c/assamese rows=20
+PASS cpp/assamese rows=25
+PASS c/nepali rows=20
+PASS cpp/nepali rows=25
+PASS c/sinhala rows=20
+PASS cpp/sinhala rows=25
+PASS c/maithili rows=20
+PASS cpp/maithili rows=25
+PASS c/bhojpuri rows=20
+PASS cpp/bhojpuri rows=25
+PASS c/magahi rows=20
+PASS cpp/magahi rows=25
+PASS c/awadhi rows=20
+PASS cpp/awadhi rows=25
+PASS c/chhattisgarhi rows=20
+PASS cpp/chhattisgarhi rows=25
+PASS c/rajasthani rows=20
+PASS cpp/rajasthani rows=25
+PASS c/marwari rows=20
+PASS cpp/marwari rows=25
+PASS c/konkani rows=20
+PASS cpp/konkani rows=25
+PASS c/dogri rows=20
+PASS cpp/dogri rows=25
+PASS c/kashmiri_dev rows=20
+PASS cpp/kashmiri_dev rows=25
+PASS c/sindhi_dev rows=20
+PASS cpp/sindhi_dev rows=25
+PASS c/santali rows=20
+PASS cpp/santali rows=25
+PASS c/bodo rows=20
+PASS cpp/bodo rows=25
+PASS c/manipuri_beng rows=20
+PASS cpp/manipuri_beng rows=25
+PASS c/tamil rows=20
+PASS cpp/tamil rows=25
+PASS c/telugu rows=20
+PASS cpp/telugu rows=25
+PASS c/kannada rows=20
+PASS cpp/kannada rows=25
+PASS c/malayalam rows=20
+PASS cpp/malayalam rows=25
+PASS c/tulu rows=20
+PASS cpp/tulu rows=25
+PASS c/sanskrit rows=20
+PASS cpp/sanskrit rows=25
+PASS c/pali rows=20
+PASS cpp/pali rows=25
+PASS c/prakrit rows=20
+PASS cpp/prakrit rows=25
+PASS c/tibetan rows=20
+PASS cpp/tibetan rows=25
+PASS c/dzongkha rows=20
+PASS cpp/dzongkha rows=25
+PASS c/newari rows=20
+PASS cpp/newari rows=25
+PASS c/limbu rows=20
+PASS cpp/limbu rows=25
+PASS c/lepcha rows=20
+PASS cpp/lepcha rows=25
+PASS c/thai rows=20
+PASS cpp/thai rows=25
+PASS c/lao rows=20
+PASS cpp/lao rows=25
+PASS c/khmer rows=20
+PASS cpp/khmer rows=25
+PASS c/burmese rows=20
+PASS cpp/burmese rows=25
+PASS c/shan rows=20
+PASS cpp/shan rows=25
+PASS c/balinese rows=20
+PASS cpp/balinese rows=25
+PASS c/javanese rows=20
+PASS cpp/javanese rows=25
+PASS c/sundanese rows=20
+PASS cpp/sundanese rows=25
+PASS c/buginese rows=20
+PASS cpp/buginese rows=25
+PASS c/batak rows=20
+PASS cpp/batak rows=25
+PASS c/tagalog rows=20
+PASS cpp/tagalog rows=25
+PASS c/arabic rows=20
+PASS cpp/arabic rows=25
+PASS c/urdu rows=20
+PASS cpp/urdu rows=25
+PASS c/persian rows=20
+PASS cpp/persian rows=25
+PASS c/pashto rows=20
+PASS cpp/pashto rows=25
+PASS c/sindhi rows=20
+PASS cpp/sindhi rows=25
+PASS c/saraiki rows=20
+PASS cpp/saraiki rows=25
+PASS c/kashmiri rows=20
+PASS cpp/kashmiri rows=25
+PASS c/uyghur rows=20
+PASS cpp/uyghur rows=25
+PASS c/kurdish_sorani rows=20
+PASS cpp/kurdish_sorani rows=25
+PASS c/balochi rows=20
+PASS cpp/balochi rows=25
+PASS c/punjabi_shahmukhi rows=20
+PASS cpp/punjabi_shahmukhi rows=25
+PASS c/malay_jawi rows=20
+PASS cpp/malay_jawi rows=25
+PASS c/hausa_ajami rows=20
+PASS cpp/hausa_ajami rows=25
+PASS c/dari rows=20
+PASS cpp/dari rows=25
+PASS c/hebrew rows=20
+PASS cpp/hebrew rows=25
+PASS c/syriac rows=20
+PASS cpp/syriac rows=25
+PASS c/aramaic rows=20
+PASS cpp/aramaic rows=25
+PASS c/phoenician rows=20
+PASS cpp/phoenician rows=25
+PASS c/samaritan rows=20
+PASS cpp/samaritan rows=25
+PASS c/mandaic rows=20
+PASS cpp/mandaic rows=25
+PASS c/nabataean rows=20
+PASS cpp/nabataean rows=25
+profiles=68 failures=0
+== Sanchalan against vendored Hindawi C ports ==
+PASS arabic_c.tsv keywords=9
+INCOMPLETE aramaic_c.tsv missing=['int', 'void', 'else', 'return', 'const', 'static', 'for', 'char']
+INCOMPLETE assamese_c.tsv missing=['int', 'const', 'static', 'char']
+PASS bengali_c.tsv keywords=9
+PASS gujarati_c.tsv keywords=9
+INCOMPLETE hebrew_c.tsv missing=['int', 'const', 'static', 'char']
+PASS hindi_c.tsv keywords=9
+PASS kannada_c.tsv keywords=9
+PASS malayalam_c.tsv keywords=9
+PASS marathi_c.tsv keywords=9
+INCOMPLETE nepali_c.tsv missing=['int', 'static', 'char']
+PASS odia_c.tsv keywords=9
+INCOMPLETE pali_c.tsv missing=['int', 'const', 'static', 'char']
+PASS persian_c.tsv keywords=9
+INCOMPLETE phoenician_c.tsv missing=['int', 'void', 'else', 'return', 'const', 'static', 'for', 'char']
+INCOMPLETE prakrit_c.tsv missing=['int', 'void', 'return', 'const', 'static', 'for', 'char']
+PASS punjabi_c.tsv keywords=9
+PASS sanskrit_c.tsv keywords=9
+INCOMPLETE syriac_c.tsv missing=['int', 'void', 'const', 'static', 'for', 'char']
+PASS tamil_c.tsv keywords=9
+PASS telugu_c.tsv keywords=9
+PASS urdu_c.tsv keywords=9
+== Regenerate Pushkalāvatī compiler artifacts ==
+
+> compile:rules
+> npm --prefix tools/pushkalavati-compiler run compile
+
+
+> pushkalavati-compiler@0.2.0 compile
+> node src/cli.js
+
+{
+  "records": 3983,
+  "counts": {
+    "definition_resolved": 30,
+    "meta_rule": 23,
+    "needs_semantic_annotation": 3433,
+    "blocked_unresolved_class": 470,
+    "derivable_untested": 3,
+    "executable_tested": 24
+  },
+  "note": "executable_tested is the only status that ran against an attested example. Serialization is not execution.",
+  "generated_rules": {
+    "executable_tested": 24,
+    "derivable_untested": 3,
+    "unresolved": 3903
+  },
+  "functional_classification": {
+    "source_records": 3983,
+    "classified_records": 2826,
+    "multi_classified_records": 855,
+    "unclassified_records": 302,
+    "category_counts": {
+      "combine": 31,
+      "split": 2,
+      "substitute": 33,
+      "insert": 3,
+      "delete": 152,
+      "affix": 215,
+      "transform": 195,
+      "derive": 290,
+      "relate": 103,
+      "constrain": 3,
+      "define": 200,
+      "scope_inherit": 3489,
+      "override": 1,
+      "transfer": 67,
+      "interpret": 23
+    },
+    "rule_count": 26
+  },
+  "meta_expansion": {
+    "converged": true,
+    "rounds": 16,
+    "total_expanded_facts": 68870,
+    "records_with_non_surface_terms": 1755,
+    "adhikara_head_candidates": 1609,
+    "adhikara_scope_candidates": 2370,
+    "unresolved_edges": 0
+  },
+  "meta_compiler": {
+    "candidate_count": 290,
+    "candidate_counts_by_type": {
+      "samjna": 200,
+      "paribhasha": 23,
+      "atidesha": 67
+    },
+    "first_adhyaya_candidate_count": 222,
+    "executable_candidates": 0,
+    "operators": 18
+  }
+}
+== Pushkalāvatī compiler and inverse-reduction tests ==
+
+> pushkalavati-compiler@0.2.0 test
+> node tests/compiler.test.js && node tests/two-way.test.js
+
+{
+  "records": 3983,
+  "counts": {
+    "definition_resolved": 30,
+    "meta_rule": 23,
+    "needs_semantic_annotation": 3433,
+    "blocked_unresolved_class": 470,
+    "derivable_untested": 3,
+    "executable_tested": 24
+  },
+  "note": "executable_tested is the only status that ran against an attested example. Serialization is not execution."
+}
+compiler tests passed
+two-way 6.1.94 passed
+== Python tests ==
+test_avagraha_apostrophe_collision_is_scheme_specific (test_collision_audit.CollisionAuditTests.test_avagraha_apostrophe_collision_is_scheme_specific) ... ok
+test_canonical_equivalence_is_separated_from_phonological_collision (test_collision_audit.CollisionAuditTests.test_canonical_equivalence_is_separated_from_phonological_collision) ... ok
+test_cross_scheme_ambiguities_require_different_decoded_inputs (test_collision_audit.CollisionAuditTests.test_cross_scheme_ambiguities_require_different_decoded_inputs) ... ok
+test_digit_script_collision_is_reported (test_collision_audit.CollisionAuditTests.test_digit_script_collision_is_reported) ... ok
+test_downstream_normalization_hazards_are_separate (test_collision_audit.CollisionAuditTests.test_downstream_normalization_hazards_are_separate) ... ok
+test_exact_round_trip_field_exists_for_every_case_input (test_collision_audit.CollisionAuditTests.test_exact_round_trip_field_exists_for_every_case_input) ... ok
+test_failed_encodes_are_not_counted_as_collisions (test_collision_audit.CollisionAuditTests.test_failed_encodes_are_not_counted_as_collisions) ... ok
+test_known_aspirate_cluster_collisions (test_collision_audit.CollisionAuditTests.test_known_aspirate_cluster_collisions) ... ok
+test_report_schema_and_inventory (test_collision_audit.CollisionAuditTests.test_report_schema_and_inventory) ... ok
+test_unicode_sweep_covers_all_declared_schemes_and_codepoints (test_collision_audit.CollisionAuditTests.test_unicode_sweep_covers_all_declared_schemes_and_codepoints) ... ok
+test_classifies_actual_architecture_without_faking_support (test_hindawi_language_port_audit.LanguagePortAuditTests.test_classifies_actual_architecture_without_faking_support) ... ok
+test_duplicate_registry_code_fails (test_hindawi_language_port_audit.LanguagePortAuditTests.test_duplicate_registry_code_fails) ... ok
+test_missing_keyword_file_is_explicit (test_hindawi_language_port_audit.LanguagePortAuditTests.test_missing_keyword_file_is_explicit) ... ok
+test_strict_mode_fails_on_unverified_profiles (test_hindawi_language_port_audit.LanguagePortAuditTests.test_strict_mode_fails_on_unverified_profiles) ... ok
+test_csv_tables_have_headers_unique_keys_and_utf8_content (test_hindawi_multilingual.HindawiMultilingualTests.test_csv_tables_have_headers_unique_keys_and_utf8_content) ... ok
+test_hebrew_filter_file_input_matches_stdin (test_hindawi_multilingual.HindawiMultilingualTests.test_hebrew_filter_file_input_matches_stdin) ... ok
+test_hebrew_filter_longest_match_and_unmapped_preservation (test_hindawi_multilingual.HindawiMultilingualTests.test_hebrew_filter_longest_match_and_unmapped_preservation) ... ok
+test_hebrew_mapping_covers_multicodepoint_graphemes (test_hindawi_multilingual.HindawiMultilingualTests.test_hebrew_mapping_covers_multicodepoint_graphemes) ... ok
+test_hindi_and_sanskrit_sources_remain_separate_and_unmodified (test_hindawi_multilingual.HindawiMultilingualTests.test_hindi_and_sanskrit_sources_remain_separate_and_unmodified) ... ok
+test_no_json_in_multilingual_payload (test_hindawi_multilingual.HindawiMultilingualTests.test_no_json_in_multilingual_payload) ... ok
+test_registry_is_csv_and_profiles_are_distinct (test_hindawi_multilingual.HindawiMultilingualTests.test_registry_is_csv_and_profiles_are_distinct) ... ok
+test_sanskrit_keyword_inventory_is_csv_and_source_is_preserved (test_hindawi_multilingual.HindawiMultilingualTests.test_sanskrit_keyword_inventory_is_csv_and_source_is_preserved) ... ok
+test_duplicate_surface_requires_explicit_policy (test_nirgundi_baseline.NirgundiBaselineTests.test_duplicate_surface_requires_explicit_policy) ... ok
+test_empty_form_rejected (test_nirgundi_baseline.NirgundiBaselineTests.test_empty_form_rejected) ... ok
+test_longest_first_and_stable_ids (test_nirgundi_baseline.NirgundiBaselineTests.test_longest_first_and_stable_ids) ... ok
+test_longest_first_prevents_short_form_stealing_longer_form (test_nirgundi_baseline.NirgundiBaselineTests.test_longest_first_prevents_short_form_stealing_longer_form) ... ok
+test_occurrences_only_report_matches_that_actually_fire (test_nirgundi_baseline.NirgundiBaselineTests.test_occurrences_only_report_matches_that_actually_fire) ... ok
+test_residual_is_preserved (test_nirgundi_baseline.NirgundiBaselineTests.test_residual_is_preserved) ... ok
+test_shorter_form_does_not_match_inside_longer_token (test_nirgundi_baseline.NirgundiBaselineTests.test_shorter_form_does_not_match_inside_longer_token) ... ok
+test_evam_does_not_consume_devam_and_vichheda_can (test_nirgundi_cycle.CycleTests.test_evam_does_not_consume_devam_and_vichheda_can) ... ok
+test_next_rules_consume_only_listed_stems (test_nirgundi_cycle.CycleTests.test_next_rules_consume_only_listed_stems) ... ok
+test_stops_when_no_rule_consumes (test_nirgundi_cycle.CycleTests.test_stops_when_no_rule_consumes) ... ok
+test_residual_agrees_with_statistics (test_nirgundi_experiment.ExperimentArtifactTests.test_residual_agrees_with_statistics) ... skipped 'the external Cologne MW lexicon and prior RV experiment artifacts are not bundled; see docs/nirgundi/source-gaps.md'
+test_sutra_conversion_covers_every_record (test_nirgundi_experiment.ExperimentArtifactTests.test_sutra_conversion_covers_every_record) ... ok
+test_extract_deduplicates_and_sorts_longest_first (test_observed_form_bootstrap.ObservedFormBootstrapTests.test_extract_deduplicates_and_sorts_longest_first) ... ok
+test_full_corpus_run_is_repeatable_and_keeps_all_records (test_observed_form_bootstrap.ObservedFormBootstrapTests.test_full_corpus_run_is_repeatable_and_keeps_all_records) ... ok
+test_ascii_punctuation_digits_latin_and_literal_escape_marker (test_romenagri_document.RomenagriDocumentTests.test_ascii_punctuation_digits_latin_and_literal_escape_marker) ... ok
+test_cluster_fallback_preserves_noncanonical_doubled_matra (test_romenagri_document.RomenagriDocumentTests.test_cluster_fallback_preserves_noncanonical_doubled_matra) ... ok
+test_core_devanagari_and_attested_conventions (test_romenagri_document.RomenagriDocumentTests.test_core_devanagari_and_attested_conventions) ... ok
+test_empty_and_whitespace (test_romenagri_document.RomenagriDocumentTests.test_empty_and_whitespace) ... ok
+test_escape_decoder_rejects_invalid_base_segment (test_romenagri_document.RomenagriDocumentTests.test_escape_decoder_rejects_invalid_base_segment) ... ok
+test_escape_decoder_rejects_malformed_syntax (test_romenagri_document.RomenagriDocumentTests.test_escape_decoder_rejects_malformed_syntax) ... ok
+test_escape_decoder_rejects_unescaped_non_token_characters (test_romenagri_document.RomenagriDocumentTests.test_escape_decoder_rejects_unescaped_non_token_characters) ... ok
+test_every_unicode_scalar_fallback_boundary (test_romenagri_document.RomenagriDocumentTests.test_every_unicode_scalar_fallback_boundary) ... ok
+test_exactly_preserves_the_reported_word_examples (test_romenagri_document.RomenagriDocumentTests.test_exactly_preserves_the_reported_word_examples) ... ok
+test_reported_extended_symbols_are_losslessly_escaped (test_romenagri_document.RomenagriDocumentTests.test_reported_extended_symbols_are_losslessly_escaped) ... ok
+test_all_thirteen_rahnuma_attested_outputs_match (test_transliteration.TransliterationTests.test_all_thirteen_rahnuma_attested_outputs_match) ... ok
+test_avagraha_and_danda_round_trip (test_transliteration.TransliterationTests.test_avagraha_and_danda_round_trip) ... ok
+test_basic_vowel_matra_and_conjunct_vectors (test_transliteration.TransliterationTests.test_basic_vowel_matra_and_conjunct_vectors) ... ok
+test_external_schemes_have_no_silent_adapter_errors (test_transliteration.TransliterationTests.test_external_schemes_have_no_silent_adapter_errors) ... ok
+test_grok_reported_terminal_virama_examples_round_trip_exactly (test_transliteration.TransliterationTests.test_grok_reported_terminal_virama_examples_round_trip_exactly) ... ok
+test_legacy_sound_table_audit_reports_chh_gap (test_transliteration.TransliterationTests.test_legacy_sound_table_audit_reports_chh_gap) ... ok
+test_postvocalic_signs_round_trip (test_transliteration.TransliterationTests.test_postvocalic_signs_round_trip) ... ok
+test_romenagri_reports_unmapped_input (test_transliteration.TransliterationTests.test_romenagri_reports_unmapped_input) ... ok
+test_romenagri_round_trip_loss_is_explicit_and_reproducible (test_transliteration.TransliterationTests.test_romenagri_round_trip_loss_is_explicit_and_reproducible) ... ok
+test_terminal_virama_round_trips (test_transliteration.TransliterationTests.test_terminal_virama_round_trips) ... ok
+
+----------------------------------------------------------------------
+Ran 56 tests in 28.060s
+
+OK (skipped=1)
+Pages HTTP smoke test passed: 12 URLs returned HTTP 200
+python parity passed records 3983
+== Python Sūtram interpreter smoke test ==
+12
+Python Sūtram interpreter passed: ganana.su -> 13
+== Shaili Robot static runner tests ==
+
+> test:logo-static
+> node tests/test_shaili_robot.js
+
+Shaili Robot static tests: PASS (square, nested parser, color, invalid argument, unmatched bracket, heading)
+== GitHub Pages / browser smoke tests ==
+Indexed 129 Markdown documents for GitHub Pages.
+Static page links passed: 29 HTML files
+Pages HTTP smoke test passed: 12 URLs returned HTTP 200
+Browser lab regression tests passed: Sūtram→C compiled/executed; C→Sūtram raised; Sanchalan browser parser and generated C compiled/executed.
+Browser app smoke tests passed: Sūtram, sound audit, rule execution, unsupported mapping
+Static pages validation passed
+ALL AVAILABLE TESTS PASSED
+
+== Supplemental static-pages rerun after documentation-index update ==
+$ bash tests/test_static_pages.sh
+Indexed 129 Markdown documents for GitHub Pages.
+Static page links passed: 29 HTML files
+Pages HTTP smoke test passed: 12 URLs returned HTTP 200
+Browser lab regression tests passed: Sūtram→C compiled/executed; C→Sūtram raised; Sanchalan browser parser and generated C compiled/executed.
+Browser app smoke tests passed: Sūtram, sound audit, rule execution, unsupported mapping
+Static pages validation passed
+
+== Supplemental static-pages rerun after BUILD-0024 dossier/results publication ==
+$ bash tests/test_static_pages.sh
+Indexed 130 Markdown documents for GitHub Pages.
+Static page links passed: 29 HTML files
+Pages HTTP smoke test passed: 12 URLs returned HTTP 200
+Browser lab regression tests passed: Sūtram→C compiled/executed; C→Sūtram raised; Sanchalan browser parser and generated C compiled/executed.
+Browser app smoke tests passed: Sūtram, sound audit, rule execution, unsupported mapping
+Static pages validation passed
+
+== Supplemental static-pages rerun after final correlation-manifest edit ==
+$ bash tests/test_static_pages.sh
+Indexed 130 Markdown documents for GitHub Pages.
+Static page links passed: 29 HTML files
+Pages HTTP smoke test passed: 12 URLs returned HTTP 200
+Browser lab regression tests passed: Sūtram→C compiled/executed; C→Sūtram raised; Sanchalan browser parser and generated C compiled/executed.
+Browser app smoke tests passed: Sūtram, sound audit, rule execution, unsupported mapping
+Static pages validation passed
+
+== Supplemental static-pages rerun after timing-table reconciliation ==
+$ bash tests/test_static_pages.sh
+Indexed 130 Markdown documents for GitHub Pages.
+Static page links passed: 29 HTML files
+Pages HTTP smoke test passed: 12 URLs returned HTTP 200
+Browser lab regression tests passed: Sūtram→C compiled/executed; C→Sūtram raised; Sanchalan browser parser and generated C compiled/executed.
+Browser app smoke tests passed: Sūtram, sound audit, rule execution, unsupported mapping
+Static pages validation passed

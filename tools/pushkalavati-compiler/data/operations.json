@@ -1,0 +1,619 @@
+{
+  "schema": "pushkalavati.operation-tables/1",
+  "description": "Source-grounded operation specifications. The engine interprets these data records; per-sūtra mappings and test vectors are not hard-coded in compiler control flow.",
+  "ATTESTED": {
+    "6.1.77": {
+      "mode": "replace_left",
+      "map": {
+        "i": "y",
+        "ī": "y",
+        "u": "v",
+        "ū": "v",
+        "ṛ": "r",
+        "ṝ": "r",
+        "ḷ": "l"
+      },
+      "examples": [
+        [
+          "dadhi",
+          "atra",
+          "dadhyatra"
+        ],
+        [
+          "madhu",
+          "atra",
+          "madhvatra"
+        ]
+      ]
+    },
+    "6.1.87": {
+      "mode": "fuse",
+      "map": {
+        "i": "e",
+        "ī": "e",
+        "u": "o",
+        "ū": "o",
+        "ṛ": "ar",
+        "ṝ": "ar",
+        "ḷ": "al"
+      },
+      "left": [
+        "a",
+        "ā"
+      ],
+      "examples": [
+        [
+          "upa",
+          "indra",
+          "upendra"
+        ],
+        [
+          "gaṅgā",
+          "udaka",
+          "gaṅgodaka"
+        ],
+        [
+          "mahā",
+          "ṛṣi",
+          "maharṣi"
+        ]
+      ]
+    },
+    "6.1.88": {
+      "mode": "fuse",
+      "map": {
+        "e": "ai",
+        "o": "au",
+        "ai": "ai",
+        "au": "au"
+      },
+      "left": [
+        "a",
+        "ā"
+      ],
+      "examples": [
+        [
+          "kṛṣṇa",
+          "eka",
+          "kṛṣṇaika"
+        ],
+        [
+          "gaṅgā",
+          "ogha",
+          "gaṅgaugha"
+        ]
+      ]
+    },
+    "6.1.101": {
+      "mode": "fuse",
+      "map": {
+        "a": "ā",
+        "ā": "ā",
+        "i": "ī",
+        "ī": "ī",
+        "u": "ū",
+        "ū": "ū",
+        "ṛ": "ṝ",
+        "ṝ": "ṝ"
+      },
+      "examples": [
+        [
+          "daṇḍa",
+          "agra",
+          "daṇḍāgra"
+        ],
+        [
+          "muni",
+          "indra",
+          "munīndra"
+        ]
+      ]
+    }
+  },
+  "MORPH_ATTESTED": {
+    "6.1.45": {
+      "kind": "morph_substitution",
+      "mode": "replace_final_ec_with_aa",
+      "requires": {
+        "upadesha_dhatu": true,
+        "following_affix_shit": false
+      },
+      "examples": [
+        {
+          "input": "glai",
+          "context": {
+            "upadesha_dhatu": true,
+            "following_affix_shit": false
+          },
+          "expected": "glā"
+        },
+        {
+          "input": "śo",
+          "context": {
+            "upadesha_dhatu": true,
+            "following_affix_shit": false
+          },
+          "expected": "śā"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/6/1/45"
+    },
+    "6.1.131": {
+      "kind": "morph_substitution",
+      "mode": "div_to_diu_in_pada",
+      "requires": {
+        "pada": true
+      },
+      "examples": [
+        {
+          "input": "div",
+          "context": {
+            "pada": true
+          },
+          "expected": "diu"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/6/1/131"
+    },
+    "6.4.81": {
+      "kind": "morph_substitution",
+      "mode": "iṇ_final_i_to_y_before_vowel_affix",
+      "requires": {
+        "root": "iṇ",
+        "vowel_initial_affix": true
+      },
+      "examples": [
+        {
+          "input": "i",
+          "context": {
+            "root": "iṇ",
+            "vowel_initial_affix": true,
+            "affix": "anti"
+          },
+          "expected": "yanti"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/lp600"
+    },
+    "6.4.110": {
+      "kind": "morph_substitution",
+      "mode": "kṛ_a_to_u_before_kṅit_sarvadhātuka",
+      "requires": {
+        "root": "kṛ",
+        "u_pratyaya": true,
+        "sarvadhatuka": true,
+        "kṅit": true
+      },
+      "examples": [
+        {
+          "input": "vidāṅkaru",
+          "context": {
+            "root": "kṛ",
+            "u_pratyaya": true,
+            "sarvadhatuka": true,
+            "kṅit": true,
+            "affix": "tām"
+          },
+          "expected": "vidāṅkurutām"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/6/4/110?expand=sutra-commentary-kashika-region&focus=sutra-commentary-kashika-region&highlight=%E0%A4%B0%E0%A5%8B%E0%A4%B7"
+    },
+    "7.1.86": {
+      "kind": "morph_substitution",
+      "mode": "pathin_family_i_to_a_in_strong_case",
+      "requires": {
+        "strong_case": true,
+        "sarvanamasthana": true
+      },
+      "examples": [
+        {
+          "input": "supathin",
+          "context": {
+            "strong_case": true,
+            "sarvanamasthana": true
+          },
+          "expected": "supathan"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/ssk273"
+    }
+  },
+  "SANDHI_ATTESTED": {
+    "6.1.78": {
+      "kind": "sandhi_substitution",
+      "mode": "ec_to_ayavayav_before_vowel",
+      "requires": {
+        "vowel_following": true
+      },
+      "examples": [
+        {
+          "left": "ce",
+          "right": "anam",
+          "context": {
+            "vowel_following": true,
+            "pada_final": false
+          },
+          "expected": "cayanam"
+        },
+        {
+          "left": "lo",
+          "right": "anam",
+          "context": {
+            "vowel_following": true,
+            "pada_final": false
+          },
+          "expected": "lavanam"
+        },
+        {
+          "left": "cai",
+          "right": "aka",
+          "context": {
+            "vowel_following": true,
+            "pada_final": false
+          },
+          "expected": "cāyaka"
+        },
+        {
+          "left": "lau",
+          "right": "aka",
+          "context": {
+            "vowel_following": true,
+            "pada_final": false
+          },
+          "expected": "lāvaka"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/6/1/78"
+    },
+    "6.1.109": {
+      "kind": "sandhi_substitution",
+      "mode": "pada_final_eo_before_short_a_purvarupa",
+      "requires": {
+        "pada_final": true,
+        "following_short_a": true
+      },
+      "examples": [
+        {
+          "left": "agne",
+          "right": "atra",
+          "context": {
+            "pada_final": true,
+            "following_short_a": true
+          },
+          "expected": "agneऽtra"
+        },
+        {
+          "left": "vāyo",
+          "right": "atra",
+          "context": {
+            "pada_final": true,
+            "following_short_a": true
+          },
+          "expected": "vāyoऽtra"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/6/1/109"
+    },
+    "6.1.94": {
+      "kind": "sandhi_substitution",
+      "mode": "upasarga_final_a_before_dhatu_initial_en_pararupa",
+      "requires": {
+        "upasarga": true,
+        "dhatu": true
+      },
+      "examples": [
+        {
+          "left": "pra",
+          "right": "ejate",
+          "context": {
+            "upasarga": true,
+            "dhatu": true
+          },
+          "expected": "prejate"
+        },
+        {
+          "left": "parā",
+          "right": "ejate",
+          "context": {
+            "upasarga": true,
+            "dhatu": true
+          },
+          "expected": "parejate"
+        },
+        {
+          "left": "upa",
+          "right": "oṣati",
+          "context": {
+            "upasarga": true,
+            "dhatu": true
+          },
+          "expected": "upoṣati"
+        },
+        {
+          "left": "pra",
+          "right": "oṣati",
+          "context": {
+            "upasarga": true,
+            "dhatu": true
+          },
+          "expected": "proṣati"
+        }
+      ],
+      "source": "https://ashtadhyayi.com/sutraani/6/1/94",
+      "note": "Pararūpa replaces the final a/ā of an upasarga and initial e/o of a following dhātu with the latter vowel. This is an exception to vṛddhi under 6.1.88; context is mandatory."
+    },
+    "8.3.15": {
+      "kind": "sandhi_substitution",
+      "mode": "ra_to_visarga_before_khar_or_avasana",
+      "requires": {
+        "avasana_or_khar": true
+      },
+      "examples": [
+        {
+          "left": "devar",
+          "right": "",
+          "context": {
+            "avasana_or_khar": true
+          },
+          "expected": "devaḥ"
+        },
+        {
+          "left": "agnir",
+          "right": "ca",
+          "context": {
+            "avasana_or_khar": true
+          },
+          "expected": "agniḥca"
+        }
+      ],
+      "source": "data/sutras.json 8.3.15 खरवसानयोर्विसर्जनीयः",
+      "note": "Final r becomes visarga before khar or at pause. Does not apply the later palatal change."
+    },
+    "8.4.40": {
+      "kind": "sandhi_substitution",
+      "mode": "sto_scu_before_scu",
+      "requires": {
+        "scu_following": true
+      },
+      "examples": [
+        {
+          "left": "agnis",
+          "right": "ca",
+          "context": {
+            "scu_following": true
+          },
+          "expected": "agniśca"
+        }
+      ],
+      "source": "data/sutras.json 8.4.40 स्तोः श्चुना श्चुः",
+      "note": "Dental s becomes ś before palatal c. Input is the intermediate from 8.3.34, not visarga."
+    },
+    "8.3.34": {
+      "kind": "sandhi_substitution",
+      "mode": "visarga_to_s_before_khar",
+      "requires": {
+        "khar_following": true
+      },
+      "examples": [
+        {
+          "left": "agniḥ",
+          "right": "ca",
+          "context": {
+            "khar_following": true
+          },
+          "expected": "agnis"
+        }
+      ],
+      "source": "data/sutras.json 8.3.34 विसर्जनीयस्य सः",
+      "note": "Visarga becomes s before khar. This is the first step. It does not perform the palatal change."
+    },
+    "6.1.66": {
+      "kind": "sandhi_substitution",
+      "mode": "v_y_lopa_before_val",
+      "requires": {
+        "val_following": true
+      },
+      "examples": [
+        {
+          "left": "kay",
+          "right": "ta",
+          "context": {
+            "val_following": true
+          },
+          "expected": "kata"
+        }
+      ],
+      "source": "data/sutras.json 6.1.66 लोपो व्योर्वलि",
+      "note": "v or y is deleted before a val consonant. This is the phonological substitution only."
+    },
+    "8.4.41": {
+      "kind": "sandhi_substitution",
+      "mode": "sto_stu_before_stu",
+      "requires": {
+        "stu_following": true
+      },
+      "examples": [
+        {
+          "left": "agnis",
+          "right": "ṭa",
+          "context": {
+            "stu_following": true
+          },
+          "expected": "agniṣṭa"
+        }
+      ],
+      "source": "data/sutras.json 8.4.41 ष्टुना ष्टुः",
+      "note": "Dental s becomes ṣ before retroflex ṭ. Input is the intermediate s, not visarga."
+    },
+    "8.3.23": {
+      "kind": "sandhi_substitution",
+      "mode": "m_to_anusvara_before_hal",
+      "requires": {
+        "hal_following": true
+      },
+      "examples": [
+        {
+          "left": "ramam",
+          "right": "gacchati",
+          "context": {
+            "hal_following": true
+          },
+          "expected": "ramaṃgacchati"
+        }
+      ],
+      "source": "data/sutras.json 8.3.23 मोऽनुस्वारः",
+      "note": "Final m becomes anusvara before a consonant. The right side is unchanged."
+    },
+    "8.4.58": {
+      "kind": "sandhi_substitution",
+      "mode": "anusvara_to_class_nasal_before_yay",
+      "requires": {
+        "yay_following": true
+      },
+      "examples": [
+        {
+          "left": "ramaṃ",
+          "right": "gacchati",
+          "context": {
+            "yay_following": true,
+            "class_nasal": "ṅ"
+          },
+          "expected": "ramaṅgacchati"
+        }
+      ],
+      "source": "data/sutras.json 8.4.58 अनुस्वारस्य ययि परसवर्णः",
+      "note": "Anusvara becomes the class nasal of the following stop. The class nasal is supplied in context."
+    },
+    "8.4.55": {
+      "kind": "sandhi_substitution",
+      "mode": "jhal_to_car_before_khar",
+      "requires": {
+        "khar_following": true
+      },
+      "examples": [
+        {
+          "left": "vag",
+          "right": "ka",
+          "context": {
+            "khar_following": true
+          },
+          "expected": "vakka"
+        }
+      ],
+      "source": "data/sutras.json 8.4.55 खरि च",
+      "note": "Final g becomes k before unvoiced k. Closed to this pair. Doubling is not applied."
+    },
+    "8.2.66": {
+      "kind": "sandhi_substitution",
+      "mode": "final_s_to_ru",
+      "requires": {
+        "pada_final": true
+      },
+      "examples": [
+        {
+          "left": "agnis",
+          "right": "",
+          "context": {
+            "pada_final": true
+          },
+          "expected": "agnir"
+        }
+      ],
+      "source": "8.2.66 ससजुषो रुः",
+      "status": "executable_tested",
+      "note": "Final s becomes r. Later rules may turn r into visarga."
+    },
+    "8.3.17": {
+      "kind": "sandhi_substitution",
+      "mode": "visarga_to_y_before_ash",
+      "requires": {
+        "ash_following": true
+      },
+      "examples": [
+        {
+          "left": "devaḥ",
+          "right": "api",
+          "context": {
+            "ash_following": true
+          },
+          "expected": "devayapi"
+        }
+      ],
+      "source": "8.3.17 भोभगोअघोअपूर्वस्य योऽशि",
+      "status": "executable_tested",
+      "note": "Visarga after a/ā becomes y before aś."
+    },
+    "6.1.107": {
+      "kind": "sandhi_substitution",
+      "mode": "a_before_am_purvarupa",
+      "examples": [
+        {
+          "left": "deva",
+          "right": "am",
+          "context": {},
+          "expected": "devam"
+        }
+      ],
+      "source": "6.1.107 अमि पूर्वः",
+      "status": "executable_tested",
+      "note": "a/ā before the affix am takes pūrvarūpa."
+    },
+    "8.2.39": {
+      "kind": "sandhi_substitution",
+      "mode": "jhal_to_jash_final",
+      "requires": {
+        "pada_final": true
+      },
+      "examples": [
+        {
+          "left": "vāk",
+          "right": "",
+          "context": {
+            "pada_final": true
+          },
+          "expected": "vāg"
+        }
+      ],
+      "source": "8.2.39 झलां जशोऽन्ते",
+      "status": "executable_tested",
+      "note": "Final jhal becomes jaś."
+    }
+  },
+  "maps": {
+    "YAN_OF": {
+      "i": "y",
+      "ī": "y",
+      "u": "v",
+      "ū": "v",
+      "ṛ": "r",
+      "ṝ": "r",
+      "ḷ": "l"
+    },
+    "GUNA_OF": {
+      "i": "e",
+      "ī": "e",
+      "u": "o",
+      "ū": "o",
+      "ṛ": "ar",
+      "ṝ": "ar",
+      "ḷ": "al"
+    },
+    "VRDDHI_OF": {
+      "e": "ai",
+      "o": "au",
+      "ai": "ai",
+      "au": "au"
+    },
+    "DIRGHA_OF": {
+      "a": "ā",
+      "ā": "ā",
+      "i": "ī",
+      "ī": "ī",
+      "u": "ū",
+      "ū": "ū",
+      "ṛ": "ṝ",
+      "ṝ": "ṝ"
+    }
+  }
+}

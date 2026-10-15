@@ -1,0 +1,12 @@
+{
+  "name": "pushkalavati-compiler",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "compile": "node src/cli.js",
+    "test": "node tests/compiler.test.js && node tests/two-way.test.js",
+    "inverse": "node src/inverse-cli.js"
+  }
+}

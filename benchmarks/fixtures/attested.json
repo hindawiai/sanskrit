@@ -1,0 +1,39 @@
+{
+  "purpose": "Shared fixtures for cross-system comparison. Each row names the job. A generator is not scored on analysis, and an analyzer is not scored on generation.",
+  "analysis": [
+    {
+      "id": "upendro",
+      "surface": "उपेन्द्रो",
+      "job": "inverse",
+      "expected_prefix": "उप",
+      "expected_candidates": ["इन्द्रो", "ईन्द्रो"],
+      "note": "Project target. Inverse 6.1.87 at the prefix boundary. Ending not yet licensed."
+    },
+    {
+      "id": "kitaba",
+      "surface": "किताब",
+      "job": "inverse",
+      "expected_status": "NO_MATCH",
+      "note": "No pradi prefix. A fallback to उप is a failure."
+    },
+    {
+      "id": "caiva",
+      "surface": "चैव",
+      "job": "sandhi-split",
+      "expected_splits": [["च", "एव"]],
+      "note": "Vidyut documents this as a sandhi example. It is not a prakriya."
+    }
+  ],
+  "generation": [
+    {
+      "id": "bhavati",
+      "dhatu": "BU",
+      "gana": "bhvadi",
+      "lakara": "lat",
+      "purusha": "prathama",
+      "vacana": "eka",
+      "expected_surface": "Bavati",
+      "note": "Vidyut's published derivation. Forward only."
+    }
+  ]
+}

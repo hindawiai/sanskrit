@@ -1,0 +1,21 @@
+{
+  "name": "hindawiai-sanskrit",
+  "private": true,
+  "description": "Sanskrit parser and Sūtram rule-rewrite language",
+  "scripts": {
+    "test:sutram": "node lang/js/test_shivasutras.js && node lang/js/test_padartha.js && node lang/js/demo.js && node lang/js/test_interpreter.js && node lang/js/test_bootstrap.js && node lang/js/test_convert.js && node lang/js/test_engine_precedence.js && node lang/js/test_oop.js && node lang/js/test_paradigms.js",
+    "test:compiler": "npm --prefix tools/pushkalavati-compiler test",
+    "compile:rules": "npm --prefix tools/pushkalavati-compiler run compile",
+    "test": "npm run test:sutram && npm run test:compiler && npm run test:python && npm run test:backend && npm run test:suktam && npm run test:transliteration",
+    "test:python": "python3 -m unittest discover -s tests -p \"test_*.py\" -v && cd tools/pushkalavati-compiler && python3 python/execute.py",
+    "bootstrap:observed": "python3 scripts/nirgundi/observed_form_bootstrap.py",
+    "compile:c": "node lang/js/backend.js lang/examples/ganana.su c mula > /tmp/ganana.c && gcc -std=c11 -Wall -Wextra -Werror /tmp/ganana.c -o /tmp/ganana",
+    "compile:rust": "node lang/js/backend.js lang/examples/ganana.su rust mula > /tmp/ganana.rs",
+    "test:backend": "node lang/js/test_backend.js",
+    "test:suktam": "node lang/suktam/test/suktam.test.js",
+    "compile:suktam": "node lang/suktam/suktam.js",
+    "test:logo-static": "node tests/test_shaili_robot.js",
+    "test:hindawi-ports": "python3 lang/hindawi/test_ports.py && python3 lang/hindawi/test_sanchalan_ports.py",
+    "test:transliteration": "PYTHONPATH=tools:third_party/indic_transliteration python3 tools/transliteration/compare.py && python3 tests/test_transliteration.py"
+  }
+}

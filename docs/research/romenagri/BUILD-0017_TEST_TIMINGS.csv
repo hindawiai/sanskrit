@@ -1,0 +1,16 @@
+stage,status,elapsed_seconds,measurement,notes
+javascript_sutram_and_sanchalan_runtime,PASS,0.465,independent timed stage,Node tests plus GCC C runtime compile/run
+romenagri_integration_contract,PASS,0.009,independent timed stage,Static wrapper/vendoring contract; not native C parity
+transliteration_attested_fixtures,PASS,0.830,independent timed stage,13/13 Rahnuma output fixtures; one run of existing compare harness
+hindawi_keyword_table_integrity,PASS,0.769,independent timed stage,68 profiles; zero failures
+sanchalan_hindawi_port_profiles,PASS_WITH_INCOMPLETE_PROFILES,0.668,independent timed stage,Exit 0; eight profiles explicitly incomplete
+pushkalavati_rule_compilation,PASS,8.907,independent timed stage,"3,983 source records; generated status artifacts"
+pushkalavati_compiler_tests,PASS,13.830,fresh final check,Compiler tests and two-way 6.1.94
+python_unit_tests,PASS_WITH_ONE_SKIP,7.910,fresh final check,46 tests; 45 passed; one external-data skip
+python_rule_ir_parity,PASS,0.950,independent timed stage,"3,983 records"
+python_sutram_smoke,PASS,0.630,independent timed stage,ganana.su -> 13
+shaili_robot_static_tests,PASS,0.165,independent timed stage,Six static-runner cases
+pages_browser_and_http_tests,PASS,2.810,fresh final check,"29 HTML files, 12 HTTP URLs, browser tests"
+romenagri_lossless_frontend_coverage,PASS_100_PERCENT_MODULE_BRANCH_COVERAGE,2.100,fresh final check,"107 statements, 44 branches, 100% statement/branch"
+transliteration_timing_benchmark,PASS,11.640,fresh after decoder cache,"21 rounds, 200 repeats per attested case; synthetic 2,000 records"
+monolithic_scripts_test_all_sh,NOT_COMPLETED_WITHIN_EXECUTION_WINDOW,,observed limitation,Component stages were run independently; do not claim monolithic exit 0

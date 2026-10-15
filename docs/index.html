@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pushkalāvatī · Hindawi language laboratory</title>
+<meta name="description" content="Browser-based laboratory for Pushkalāvatī, Sūtram, and the Hindawi/Romenagri compilation model.">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="hero">
+  <p class="eyebrow">HINDAWI · ROMENAGRI · PUSHKALĀVATĪ</p>
+  <h1>Language laboratory</h1>
+  <p>Explore the historical Hindawi source-to-source compilation model and the current Sanskrit rule-engine prototype. This static site runs without a server.</p>
+  <nav><a href="specifications/index.html">Language specifications</a><a href="shaili-robot.html">Shaili Robot lab</a><a href="hindawi-history.html">Hindawi history</a><a href="pipeline.html">Compilation pipeline</a><a href="validation.html">Validation and status</a><a href="tasks.html">Tasks and features</a><a href="tests.html">Test register</a><a href="sutram-compiler.html">Sūtram C/Rust compiler</a><a href="sanchalan-suktam.html">Sanchalan Suktam</a><a href="reference.html">Handoff documents</a><a href="documentation.html">Docs and code index</a><a href="documentation-catalog.html">Complete documentation</a><a href="research/romenagri/index.html">Romenagri research</a><a href="COLLISIONS.md">Transliteration collision audit</a><a href="TRANSLITERATION_RESEARCH_STRATEGY.md">Transliteration research strategy</a><a href="HINDAWI-CHATGPT-PROJECT-NARRATIVE.md">Project narrative v1.0.0</a><a href="https://github.com/project-ilm/romenagri">Romenagri source</a></nav>
+</header>
+<main>
+<section class="panel">
+<h2>1 · Sūtram browser runner</h2>
+<p class="notice">Browser implementation of the documented subset only. It is not a full Aṣṭādhyāyī interpreter.</p>
+<label for="sutram">Sūtram source</label>
+<textarea id="sutram" spellcheck="false">adhyaya ganana:
+pada mula:
+adhikara ganana():
+  karta: 5
+  yoga 7
+  likh
+  yoga 1
+  phala
+iti
+iti
+iti</textarea>
+<div class="actions"><button id="run-sutram">Run program</button><button id="load-sample" class="secondary">Restore sample</button></div>
+<pre id="sutram-output" aria-live="polite">Ready. Press Run program.</pre>
+</section>
+<section class="panel">
+<h2>2 · Sanskrit sound-token audit</h2>
+<p>Tokenization is a rule-engine representation, not a claim that the legacy ACII bytes are phoneme IDs. Unsupported mappings are reported, never guessed.</p>
+<label for="sound-input">IAST / Sanskrit sound string</label>
+<input id="sound-input" value="upendra" spellcheck="false">
+<div class="actions"><button id="audit-sounds">Tokenize and audit table keys</button></div>
+<pre id="sound-output" aria-live="polite">Enter a sound string and audit it.</pre>
+</section>
+<section class="panel">
+<h2>3 · Rule-operation demonstrator</h2>
+<p>Run a small, explicit set of vowel sandhi examples using the current rule-operation definitions.</p>
+<label for="rule-choice">Rule</label>
+<select id="rule-choice"><option value="6.1.77">6.1.77 · yaṇ</option><option value="6.1.87">6.1.87 · guṇa</option><option value="6.1.88">6.1.88 · vṛddhi</option><option value="6.1.101">6.1.101 · savarṇadīrgha</option></select>
+<div class="inputs"><div><label for="left">Left input</label><input id="left" value="upa"></div><div><label for="right">Right input</label><input id="right" value="indra"></div></div>
+<div class="actions"><button id="run-rule">Apply demonstration</button></div>
+<pre id="rule-output" aria-live="polite">Example: upa + indra → upendra (6.1.87).</pre>
+</section>
+<section class="panel">
+<h2>4 · Compiler and Sanchalan frontend</h2>
+<p>Use the <a href="sutram-compiler.html">Sūtram C/Rust compiler</a> to generate native source and raise the documented C/Rust subset. Use the <a href="sanchalan-suktam.html">Sanchalan Suktam frontend</a> to inspect lexical IR and generate C/Rust reporting programs.</p>
+<p>Track status in the <a href="tasks.html">task and feature inventory</a> and <a href="tests.html">test register</a>.</p>
+</section>
+<section class="panel">
+<h2>Execution boundaries</h2>
+<ul>
+<li>Available in this page: Sūtram subset runner, Sanskrit sound-tokenization/table-key audit, selected rule-operation demonstrations.</li>
+<li>Requires a native toolchain or a future verified WebAssembly build: the original Romenagri C utilities, GCC-backed HPS compilers, sed filters, and native code generation.</li>
+<li>The complete Romenagri upstream source and original Perso-Arabic filter must be vendored and parity-tested before claiming that the browser reproduces them.</li>
+</ul>
+</section>
+</main>
+<footer>Pushkalāvatī / Hindawi documentation · GitHub Pages root: <code>/docs</code></footer>
+<script type="module" src="app.js"></script>
+</body></html>

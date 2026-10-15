@@ -1,0 +1,19 @@
+{
+  "artifact": "Pushkalavati Romenagri integration increment",
+  "created": "2026-10-12",
+  "baseline": "pushkalavati-rule-12-6.1.94-2026-10-11.zip",
+  "upstream_repository": "https://github.com/project-ilm/romenagri",
+  "perso_arabic_filter": "Upstream fltr_ur_hi sed program is discovered and invoked unchanged after vendor bootstrap",
+  "network_clone_completed_in_build_environment": false,
+  "reason": "Outbound DNS/network access unavailable; do not fabricate source or sed rules",
+  "complete_source_delivery": "Run scripts/vendor_romenagri.sh in a networked environment",
+  "tests_added": [
+    "tests/test_romenagri_integration.sh"
+  ],
+  "static_pages_root": "docs",
+  "static_pages_workflow": ".github/workflows/pages.yml",
+  "browser_smoke_test": "tests/test_static_pages.sh",
+  "native_build_script": "scripts/build_romenagri.sh",
+  "native_romenagri_compile_verified": false,
+  "upstream_filter_execution_verified": false
+}

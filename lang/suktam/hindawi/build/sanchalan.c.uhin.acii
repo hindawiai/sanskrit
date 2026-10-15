@@ -1,0 +1,59 @@
+#×ÌÚÔáÕ "sanchalan.h"
+#×ÌÚÔáÕ <ÌÚÆ³ÈÆ.×>
+#×ÌÚÔáÕ <ÌÚÑÚ.×>
+
+ÔèÍåÌ sanchalan_init(Sanchalan *m) ¤Áİ
+    m->pid = -1;
+    m->memory_pages = 0;
+    m->pipes = 0;
+    m->sends = 0;
+    m->steps = 0;
+    m->deferred = 0;
+ÈŞÏèÁ
+
+¤½Ñ ÈŞÏèÁÚ¢³ same(×èÃÛÏ ¤³èÖÏ *a, ×èÃÛÏ ¤³èÖÏ *b) ¤Áİ ÔÚÈ× Ì_ËáÄ(a, b) == 0; ÈŞÏèÁ
+
+¤½Ñ ÈŞÏèÁÚ¢³ is_deferred(×èÃÛÏ ¤³èÖÏ *op) ¤Áİ
+    ¤½Ñ ×èÃÛÏ ¤³èÖÏ *names[] = ¤Áİ
+        "address-board","all-items","begin","bound","characters","command-store",
+        "communicator","complete","configure","control","destroyed","door-board",
+        "empty-location","enter","fill","first-process","group","index","initialize",
+        "initialize-runtime","input","input-location","location","machine","machine-board",
+        "measure-memory","message","native","ordered","ordered-procedure","orphan-process",
+        "page-board","particle","partition","pause","process","process-id","prompt",
+        "protect-machine","result","root","root-command","root-location","run","sanitize",
+        "scope","send-buffer","signal","start","state","store","terminal","terminated",
+        "trap-board","user-mode","validate","validate-memory","violation","virtual-memory",
+        "visarga-ca","wait","watchdog","work","work-board"
+    ÈŞÏèÁ;
+    ³èÏÌ (ÌÚÈ_ÈèÏ³ÚÏ i = 0; i < ÌÚÈ(names)/ÌÚÈ(names[0]); i++) ¤µÏ (same(op, names[i])) ÔÚÈ× 1;
+    ÔÚÈ× 0;
+ÈŞÏèÁ
+
+ÈŞÏèÁÚ¢³ sanchalan_call(Sanchalan *m, ×èÃÛÏ ¤³èÖÏ *op) ¤Áİ
+    ¤µÏ (!op || !*op) ÔÚÈ× 0;
+    ¤µÏ (same(op, "pid-zero") || same(op, "zero-fill")) ¤Áİ
+        m->pid = 0;
+    ÈŞÏèÁ ¤ÆèÍÃÚ ¤µÏ (same(op, "partition-memory") || same(op, "memory-reference") || same(op, "protect-memory")) ¤Áİ
+        m->memory_pages += 1;
+    ÈŞÏèÁ ¤ÆèÍÃÚ ¤µÏ (same(op, "command-pipe")) ¤Áİ
+        m->pipes += 1;
+    ÈŞÏèÁ ¤ÆèÍÃÚ ¤µÏ (same(op, "send") || same(op, "communicate") || same(op, "forward")) ¤Áİ
+        m->sends += 1;
+    ÈŞÏèÁ ¤ÆèÍÃÚ ¤µÏ (same(op, "spawn-pair")) ¤Áİ
+        ¤µÏ (m->pid < 0) m->pid = 0;
+        m->pid += 1;
+    ÈŞÏèÁ ¤ÆèÍÃÚ ¤µÏ (is_deferred(op)) ¤Áİ
+        m->deferred += 1;
+    ÈŞÏèÁ ¤ÆèÍÃÚ ¤Áİ
+        ´_ÑÛ´å(ÌÚÆ³_ÂèÏİ½Û, "sanchalan: unknown operation '%s'\n", op);
+        ÔÚÈ× 1;
+    ÈŞÏèÁ
+    m->steps += 1;
+    ÔÚÈ× 0;
+ÈŞÏèÁ
+
+ÔèÍåÌ sanchalan_report(×èÃÛÏ Sanchalan *m, ÈŞÏèÁÚ¢³ verse) ¤Áİ
+    Ì_ÑÛ´å("verse=%d pid=%d mem=%d pipe=%d send=%d deferred=%d\n",
+        verse, m->pid, m->memory_pages, m->pipes, m->sends, m->deferred);
+ÈŞÏèÁ

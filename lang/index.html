@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sūtram — browser playground</title>
+<style>
+:root{font-family:system-ui,sans-serif;color-scheme:light dark}body{max-width:900px;margin:2rem auto;padding:0 1rem;line-height:1.5}textarea{width:100%;min-height:8rem;font:1rem ui-monospace,monospace}button{padding:.6rem 1rem;margin:.4rem .4rem .4rem 0;cursor:pointer}pre{padding:1rem;background:Canvas;color:CanvasText;border:1px solid #888;border-radius:.5rem;white-space:pre-wrap;overflow-wrap:anywhere}.note{opacity:.8}
+</style>
+</head>
+<body>
+<h1>Sūtram browser playground</h1>
+<p class="note">Static-file demo of the rule-rewrite engine and Shiva-Sutra/type-system modules. Serve this directory over HTTP; JavaScript modules are not guaranteed to load from <code>file://</code>.</p>
+<h2>Rule-rewrite demo</h2>
+<label for="value">Input vowel</label>
+<input id="value" value="a" maxlength="2">
+<button id="run">Run classification</button>
+<button id="tests">Run built-in checks</button>
+<pre id="output" aria-live="polite">Ready.</pre>
+<script src="js/engine.js"></script>
+<script src="js/shivasutras.js"></script>
+<script src="js/padartha.js"></script>
+<script>
+(() => {
+ const out = document.getElementById('output');
+ function classify(value) {
+  const engine = new SutramEngine.Engine();
+  engine.define({name:'1.1.1 vrddhi-samjna',adhikara:'classify',hetu:v=>['a','ai','au'].includes(v),nigamana:v=>({vowel:v,class:'vrddhi'}),specificity:1,udaharana:{input:'ai',output:{vowel:'ai',class:'vrddhi'}}});
+  engine.define({name:'1.1.2 guna-samjna',adhikara:'classify',hetu:v=>['a','e','o'].includes(v),nigamana:v=>({vowel:v,class:'guna'}),specificity:1,udaharana:{input:'e',output:{vowel:'e',class:'guna'}}});
+  engine.define({name:'general case',adhikara:'classify',hetu:v=>typeof v==='string',nigamana:v=>({vowel:v,class:'neither'}),specificity:0,udaharana:{input:'i',output:{vowel:'i',class:'neither'}}});
+  return engine.run(value,'classify');
+ }
+ document.getElementById('run').addEventListener('click',()=>{try{const r=classify(document.getElementById('value').value.trim());out.textContent=JSON.stringify(r,null,2)}catch(e){out.textContent='ERROR: '+e.message}});
+ document.getElementById('tests').addEventListener('click',()=>{try{
+  const rows=[]; for(const v of ['ai','e','i','a']) rows.push(`${v} -> ${classify(v).state.class}`);
+  rows.push('aC -> '+SutramShivaSutras.pratyahara('a','C').join(' '));
+  const {Dravya,SamanyaRegistry}=SutramPadartha; const d=new Dravya('sankhya',5); d.attachKarma('double',x=>x.value*2); rows.push('padartha karma 5×2 -> '+d.invoke('double'));
+  out.textContent=rows.join('\n')+'\nAll browser checks completed.';
+ }catch(e){out.textContent='ERROR: '+e.message}});
+})();
+</script>
+</body></html>

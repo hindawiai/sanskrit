@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Project Pushkalāvatī / Nirgundi: the Sanskrit parser, its data-driven rule compiler and the Sūtram rule-rewrite language"
+doi: 10.5281/zenodo.23382730
 version: BUILD-0027
 license: MIT
 repository-code: "https://github.com/hindawiai/sanskrit"

@@ -1,5 +1,7 @@
 # Project Pushkalāvatī / Nirgundi
 
+DOI: [10.5281/zenodo.23382730](https://doi.org/10.5281/zenodo.23382730)
+
 Integrated research repository for the Sanskrit source inventory, data-driven rule compiler, observed-form bootstrap, Sūtram rule-rewrite language, and Sanskrit analysis pipeline.
 
 **Core architectural decision:** grammatical rules are data; the meta-grammar defines functional categories and interprets rule records; the runtime supplies generic operation handlers. Functional categories overlap and are not sequential compiler passes.
